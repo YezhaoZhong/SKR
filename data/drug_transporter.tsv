@@ -1,0 +1,3445 @@
+0	1
+GRAMICIDIN D	P-glycoprotein 1
+SOMATOTROPIN	P-glycoprotein 1
+VASOPRESSIN	Canalicular multispecific organic anion transporter 1
+DAPTOMYCIN	P-glycoprotein 1
+CYCLOSPORINE	P-glycoprotein 1
+CYCLOSPORINE	Bile salt export pump
+CYCLOSPORINE	Ileal sodium/bile acid cotransporter
+CYCLOSPORINE	Sodium/bile acid cotransporter
+CYCLOSPORINE	Solute carrier family 22 member 6
+CYCLOSPORINE	Multidrug resistance-associated protein 7
+CYCLOSPORINE	Canalicular multispecific organic anion transporter 1
+CYCLOSPORINE	ATP-binding cassette sub-family G member 2
+CYCLOSPORINE	Solute carrier organic anion transporter family member 1B1
+CYCLOSPORINE	Solute carrier organic anion transporter family member 1B3
+AGALSIDASE BETA	Cation-dependent mannose-6-phosphate receptor
+OCTREOTIDE	P-glycoprotein 1
+OCTREOTIDE	Canalicular multispecific organic anion transporter 1
+OXYTOCIN	Advanced glycosylation end product-specific receptor
+CYANOCOBALAMIN	Protein amnionless
+CYANOCOBALAMIN	Transcobalamin-1
+CYANOCOBALAMIN	Transcobalamin-2
+CYANOCOBALAMIN	Gastric intrinsic factor
+CYANOCOBALAMIN	Cubilin
+CYANOCOBALAMIN	Low-density lipoprotein receptor-related protein 2
+CYANOCOBALAMIN	Multidrug resistance-associated protein 1
+TETRAHYDROFOLIC ACID	Canalicular multispecific organic anion transporter 1
+HISTIDINE	Monocarboxylate transporter 10
+PYRUVIC ACID	Monocarboxylate transporter 2
+PYRUVIC ACID	Monocarboxylate transporter 1
+PYRUVIC ACID	Monocarboxylate transporter 10
+PYRUVIC ACID	Solute carrier organic anion transporter family member 2A1
+PYRUVIC ACID	Monocarboxylate transporter 4
+PHENYLALANINE	Monocarboxylate transporter 10
+BIOTIN	Sodium-dependent multivitamin transporter
+BIOTIN	Sodium-coupled monocarboxylate transporter 1
+CHOLINE	Solute carrier family 22 member 2
+CHOLINE	Solute carrier family 22 member 1
+CHOLINE	Solute carrier family 22 member 3
+CHOLINE	Solute carrier family 22 member 5
+CHOLINE	Solute carrier family 22 member 4
+CHOLINE	Choline transporter-like protein 1
+CHOLINE	Choline transporter-like protein 4
+CHOLINE	Choline transporter-like protein 2
+CHOLINE	Choline transporter-like protein 3
+CHOLINE	High affinity choline transporter 1
+LYSINE	Monocarboxylate transporter 10
+LYSINE	Solute carrier family 22 member 4
+ARGININE	Solute carrier family 22 member 5
+ARGININE	Monocarboxylate transporter 10
+ARGININE	Solute carrier family 22 member 4
+ASCORBIC ACID	Solute carrier family 23 member 1
+ASCORBIC ACID	Solute carrier family 23 member 2
+ASCORBIC ACID	Solute carrier family 2, facilitated glucose transporter member 1
+ASCORBIC ACID	Solute carrier family 2, facilitated glucose transporter member 3
+ASCORBIC ACID	Solute carrier family 2, facilitated glucose transporter member 4
+SPERMINE	Solute carrier family 22 member 4
+SPERMINE	Solute carrier family 22 member 1
+ASPARTIC ACID	Monocarboxylate transporter 10
+L-GLUTAMINE	Sodium-coupled neutral amino acid transporter 1
+L-GLUTAMINE	Sodium-coupled neutral amino acid transporter 2
+L-GLUTAMINE	Sodium-coupled neutral amino acid transporter 3
+L-GLUTAMINE	Neutral amino acid transporter B(0)
+L-GLUTAMINE	Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+)
+L-GLUTAMINE	Y+L amino acid transporter 1
+L-GLUTAMINE	Y+L amino acid transporter 2
+L-GLUTAMINE	Large neutral amino acids transporter small subunit 1
+L-GLUTAMINE	Large neutral amino acids transporter small subunit 2
+L-GLUTAMINE	B(0,+)-type amino acid transporter 1
+L-GLUTAMINE	Monocarboxylate transporter 10
+SERINE	Monocarboxylate transporter 10
+METHIONINE	Monocarboxylate transporter 10
+TYROSINE	Monocarboxylate transporter 8
+TYROSINE	Monocarboxylate transporter 10
+CYSTINE	Monocarboxylate transporter 10
+CYSTINE	B(0,+)-type amino acid transporter 1
+CYSTINE	Neutral and basic amino acid transport protein rBAT
+SUCCINIC ACID	Solute carrier family 22 member 8
+SUCCINIC ACID	Mitochondrial dicarboxylate carrier
+SUCCINIC ACID	Solute carrier family 13 member 1
+SUCCINIC ACID	Solute carrier family 13 member 2
+SUCCINIC ACID	Solute carrier family 13 member 3
+RIBOFLAVIN	Solute carrier family 22 member 6
+GLUTAMIC ACID	Monocarboxylate transporter 10
+GLUTAMIC ACID	Monocarboxylate transporter 1
+GLUTAMIC ACID	Mitochondrial glutamate carrier 2
+GLUTAMIC ACID	Mitochondrial glutamate carrier 1
+GLUTATHIONE	Multidrug resistance-associated protein 1
+GLUTATHIONE	Canalicular multispecific organic anion transporter 1
+GLUTATHIONE	Canalicular multispecific organic anion transporter 2
+GLUTATHIONE	Multidrug resistance-associated protein 4
+GLUTATHIONE	Multidrug resistance-associated protein 5
+GLYCINE	Monocarboxylate transporter 10
+GLYCINE	Proton-coupled amino acid transporter 1
+GLYCINE	Vesicular inhibitory amino acid transporter
+GLYCINE	Sodium- and chloride-dependent glycine transporter 2
+GLYCINE	Sodium- and chloride-dependent glycine transporter 1
+CREATINE	Solute carrier family 22 member 5
+LEUCINE	Monocarboxylate transporter 10
+LEUCINE	Monocarboxylate transporter 8
+TRYPTOPHAN	Monocarboxylate transporter 8
+TRYPTOPHAN	Monocarboxylate transporter 10
+CYSTEINE	Monocarboxylate transporter 10
+THIAMINE	Solute carrier family 22 member 2
+THIAMINE	Solute carrier family 22 member 1
+THIAMINE	Solute carrier family 22 member 5
+THIAMINE	Thiamine transporter 1
+THIAMINE	Thiamine transporter 2
+CITRULLINE	Solute carrier family 22 member 6
+THREONINE	Monocarboxylate transporter 10
+FOLIC ACID	ATP-binding cassette sub-family C member 11
+FOLIC ACID	Canalicular multispecific organic anion transporter 2
+FOLIC ACID	Solute carrier family 22 member 6
+FOLIC ACID	Multidrug resistance-associated protein 4
+FOLIC ACID	ATP-binding cassette sub-family G member 2
+FOLIC ACID	Proton-coupled folate transporter
+FOLIC ACID	Mitochondrial folate transporter/carrier
+ALANINE	Monocarboxylate transporter 10
+VALINE	Monocarboxylate transporter 10
+VITAMIN A	Receptor for retinol uptake STRA6
+VITAMIN E	Scavenger receptor class B member 1
+VITAMIN E	ATP-binding cassette sub-family A member 1
+VITAMIN E	Niemann-Pick C1-like protein 1
+VITAMIN E	ATP-binding cassette sub-family G member 1
+PYRIDOXINE	Alkaline phosphatase, tissue-nonspecific isozyme
+ISOLEUCINE	Monocarboxylate transporter 10
+ASPARTAME	Solute carrier family 22 member 6
+ASPARTAME	Solute carrier family 22 member 8
+ASPARTAME	Solute carrier family 22 member 11
+PROLINE	Monocarboxylate transporter 10
+ASPARAGINE	Monocarboxylate transporter 10
+PRAVASTATIN	Solute carrier organic anion transporter family member 1B1
+PRAVASTATIN	Solute carrier organic anion transporter family member 2B1
+PRAVASTATIN	P-glycoprotein 1
+PRAVASTATIN	Solute carrier organic anion transporter family member 1A2
+PRAVASTATIN	Solute carrier family 22 member 6
+PRAVASTATIN	Solute carrier family 22 member 8
+PRAVASTATIN	Canalicular multispecific organic anion transporter 1
+PRAVASTATIN	Solute carrier family 22 member 11
+PRAVASTATIN	ATP-binding cassette sub-family G member 2
+PRAVASTATIN	Solute carrier family 22 member 7
+PRAVASTATIN	Monocarboxylate transporter 1
+PRAVASTATIN	Bile salt export pump
+PRAVASTATIN	Solute carrier organic anion transporter family member 1B3
+FLUVOXAMINE	P-glycoprotein 1
+FLUVOXAMINE	Bile salt export pump
+VALSARTAN	Solute carrier organic anion transporter family member 1B3
+VALSARTAN	Solute carrier organic anion transporter family member 1B1
+VALSARTAN	Canalicular multispecific organic anion transporter 1
+RAMIPRIL	Solute carrier family 15 member 1
+RAMIPRIL	Solute carrier family 15 member 2
+AMPHETAMINE	Solute carrier family 22 member 3
+AMPHETAMINE	Solute carrier family 22 member 5
+NICOTINE	Solute carrier family 22 member 2
+NICOTINE	Solute carrier family 22 member 1
+NICOTINE	Solute carrier family 22 member 3
+NICOTINE	Solute carrier family 22 member 5
+NICOTINE	Solute carrier family 22 member 4
+BORTEZOMIB	P-glycoprotein 1
+BORTEZOMIB	Solute carrier organic anion transporter family member 1B3
+FLUCONAZOLE	P-glycoprotein 1
+TROGLITAZONE	Bile salt export pump
+TROGLITAZONE	Solute carrier organic anion transporter family member 1B1
+OSELTAMIVIR	Multidrug resistance-associated protein 4
+OSELTAMIVIR	Solute carrier family 15 member 1
+OSELTAMIVIR	Solute carrier family 22 member 8
+ERYTHROMYCIN	Solute carrier organic anion transporter family member 1B3
+ERYTHROMYCIN	Bile salt export pump
+ERYTHROMYCIN	P-glycoprotein 1
+ERYTHROMYCIN	Solute carrier organic anion transporter family member 1B1
+ERYTHROMYCIN	Canalicular multispecific organic anion transporter 1
+ERYTHROMYCIN	Solute carrier organic anion transporter family member 1A2
+CAFFEINE	ATP-binding cassette sub-family G member 2
+SILDENAFIL	Multidrug resistance-associated protein 4
+SILDENAFIL	Multidrug resistance-associated protein 5
+SILDENAFIL	Multidrug resistance-associated protein 7
+SILDENAFIL	Solute carrier organic anion transporter family member 1B1
+SILDENAFIL	P-glycoprotein 1
+DOFETILIDE	Solute carrier family 22 member 2
+PYRIMETHAMINE	Multidrug and toxin extrusion protein 1
+PYRIMETHAMINE	Multidrug and toxin extrusion protein 2
+RESERPINE	P-glycoprotein 1
+RESERPINE	Solute carrier family 22 member 1
+RESERPINE	Bile salt export pump
+RESERPINE	Canalicular multispecific organic anion transporter 1
+RESERPINE	Solute carrier family 22 member 2
+RESERPINE	Solute carrier organic anion transporter family member 1B1
+RESERPINE	Solute carrier organic anion transporter family member 2B1
+AZITHROMYCIN	P-glycoprotein 1
+AZITHROMYCIN	Canalicular multispecific organic anion transporter 1
+MIDODRINE	Solute carrier family 15 member 1
+PANTOPRAZOLE	P-glycoprotein 1
+PANTOPRAZOLE	ATP-binding cassette sub-family G member 2
+PANTOPRAZOLE	Solute carrier family 22 member 8
+TORASEMIDE	Solute carrier organic anion transporter family member 1B1
+CITALOPRAM	P-glycoprotein 1
+ELETRIPTAN	P-glycoprotein 1
+NELFINAVIR	P-glycoprotein 1
+NELFINAVIR	Solute carrier family 22 member 1
+NELFINAVIR	Solute carrier organic anion transporter family member 1A2
+NELFINAVIR	ATP-binding cassette sub-family G member 2
+NELFINAVIR	Solute carrier organic anion transporter family member 1B1
+NELFINAVIR	Solute carrier organic anion transporter family member 1B3
+NELFINAVIR	Solute carrier organic anion transporter family member 2B1
+NELFINAVIR	Bile salt export pump
+GLIMEPIRIDE	Bile salt export pump
+INDINAVIR	P-glycoprotein 1
+INDINAVIR	Solute carrier family 22 member 1
+INDINAVIR	Multidrug resistance-associated protein 1
+INDINAVIR	Solute carrier organic anion transporter family member 1A2
+INDINAVIR	Solute carrier organic anion transporter family member 1B1
+INDINAVIR	Canalicular multispecific organic anion transporter 1
+INDINAVIR	Solute carrier organic anion transporter family member 2B1
+INDINAVIR	Bile salt export pump
+LOVASTATIN	P-glycoprotein 1
+LOVASTATIN	Solute carrier organic anion transporter family member 1A2
+LOVASTATIN	Solute carrier organic anion transporter family member 1B1
+LOVASTATIN	Canalicular multispecific organic anion transporter 1
+LOVASTATIN	Bile salt export pump
+LOVASTATIN	Solute carrier organic anion transporter family member 2B1
+LOVASTATIN	Solute carrier organic anion transporter family member 1B3
+CEFOTIAM	Solute carrier family 22 member 6
+CEFOTIAM	Solute carrier family 22 member 8
+PREGABALIN	Excitatory amino acid transporter 3
+PREGABALIN	Large neutral amino acids transporter small subunit 1
+REBOXETINE	P-glycoprotein 1
+BUTABARBITAL	Solute carrier family 2, facilitated glucose transporter member 1
+NEVIRAPINE	Solute carrier family 22 member 1
+CLADRIBINE	ATP-binding cassette sub-family G member 2
+CLADRIBINE	Solute carrier family 28 member 3
+RANOLAZINE	Bile salt export pump
+RANOLAZINE	P-glycoprotein 1
+RANOLAZINE	Multidrug and toxin extrusion protein 1
+RANOLAZINE	Multidrug and toxin extrusion protein 2
+MESALAZINE	Solute carrier organic anion transporter family member 1B1
+MESALAZINE	Solute carrier organic anion transporter family member 1B3
+MESALAZINE	Solute carrier organic anion transporter family member 2B1
+ZIPRASIDONE	P-glycoprotein 1
+CABERGOLINE	P-glycoprotein 1
+PHENYTOIN	Solute carrier organic anion transporter family member 1C1
+PHENYTOIN	P-glycoprotein 1
+PHENYTOIN	Canalicular multispecific organic anion transporter 1
+MEDRYSONE	Solute carrier organic anion transporter family member 1A2
+MEDRYSONE	P-glycoprotein 1
+MEDRYSONE	Solute carrier family 22 member 8
+DOXYCYCLINE	Solute carrier family 22 member 6
+DOXYCYCLINE	ATP-binding cassette sub-family B member 5
+DIETHYLSTILBESTROL	ATP-binding cassette sub-family G member 2
+DIETHYLSTILBESTROL	P-glycoprotein 1
+DIETHYLSTILBESTROL	Solute carrier organic anion transporter family member 1B1
+DIETHYLSTILBESTROL	Solute carrier organic anion transporter family member 2B1
+DIETHYLSTILBESTROL	Bile salt export pump
+CLOTRIMAZOLE	P-glycoprotein 1
+CLOTRIMAZOLE	Bile salt export pump
+CLOTRIMAZOLE	Solute carrier organic anion transporter family member 1B1
+CLOTRIMAZOLE	Solute carrier organic anion transporter family member 1B3
+CYCLOSERINE	Proton-coupled amino acid transporter 2
+METOPROLOL	Solute carrier family 22 member 2
+ISRADIPINE	Bile salt export pump
+TOPIRAMATE	P-glycoprotein 1
+TOPIRAMATE	5'-AMP-activated protein kinase
+CEFMETAZOLE	Solute carrier family 15 member 1
+CEFMETAZOLE	Solute carrier family 15 member 2
+OLMESARTAN	Canalicular multispecific organic anion transporter 1
+OLMESARTAN	Solute carrier organic anion transporter family member 1B3
+OLMESARTAN	Solute carrier organic anion transporter family member 1B1
+OLMESARTAN	Bile salt export pump
+AMSACRINE	P-glycoprotein 1
+THEOPHYLLINE	Solute carrier family 22 member 7
+LIOTHYRONINE	Solute carrier organic anion transporter family member 1A2
+LIOTHYRONINE	Solute carrier organic anion transporter family member 1B1
+LIOTHYRONINE	Solute carrier organic anion transporter family member 1B3
+LIOTHYRONINE	Solute carrier organic anion transporter family member 4C1
+LIOTHYRONINE	Sodium/bile acid cotransporter
+LIOTHYRONINE	Solute carrier organic anion transporter family member 1C1
+LIOTHYRONINE	Solute carrier organic anion transporter family member 4A1
+LIOTHYRONINE	Solute carrier family 22 member 8
+LIOTHYRONINE	Monocarboxylate transporter 10
+LIOTHYRONINE	P-glycoprotein 1
+LIOTHYRONINE	Large neutral amino acids transporter small subunit 1
+DISOPYRAMIDE	Solute carrier family 22 member 1
+DISOPYRAMIDE	Solute carrier family 22 member 2
+LIDOCAINE	Solute carrier family 22 member 5
+LIDOCAINE	P-glycoprotein 1
+VENLAFAXINE	P-glycoprotein 1
+VENLAFAXINE	ATP-binding cassette sub-family G member 2
+CONJUGATED ESTROGENS	Canalicular multispecific organic anion transporter 2
+CONJUGATED ESTROGENS	Multidrug resistance-associated protein 4
+CONJUGATED ESTROGENS	Multidrug resistance-associated protein 1
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 1A2
+CONJUGATED ESTROGENS	Sodium/bile acid cotransporter
+CONJUGATED ESTROGENS	Solute carrier family 22 member 10
+CONJUGATED ESTROGENS	Solute carrier family 22 member 8
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 1C1
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 1B1
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 2B1
+CONJUGATED ESTROGENS	P-glycoprotein 1
+CONJUGATED ESTROGENS	Solute carrier family 22 member 6
+CONJUGATED ESTROGENS	Organic solute transporter subunit alpha
+CONJUGATED ESTROGENS	Organic solute transporter subunit beta
+CONJUGATED ESTROGENS	Canalicular multispecific organic anion transporter 1
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 4A1
+CONJUGATED ESTROGENS	ATP-binding cassette sub-family C member 11
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 1B3
+CONJUGATED ESTROGENS	Solute carrier family 22 member 11
+CONJUGATED ESTROGENS	Solute carrier organic anion transporter family member 3A1
+CONJUGATED ESTROGENS	ATP-binding cassette sub-family G member 2
+CHLORAMBUCIL	Solute carrier organic anion transporter family member 1A2
+MORPHINE	P-glycoprotein 1
+TENOFOVIR DISOPROXIL	Solute carrier family 22 member 6
+TENOFOVIR DISOPROXIL	Solute carrier family 22 member 8
+TENOFOVIR DISOPROXIL	Multidrug resistance-associated protein 7
+TENOFOVIR DISOPROXIL	Multidrug resistance-associated protein 4
+TENOFOVIR DISOPROXIL	Canalicular multispecific organic anion transporter 1
+TENOFOVIR DISOPROXIL	P-glycoprotein 1
+FLUCLOXACILLIN	Bile salt export pump
+ETHOXZOLAMIDE	Solute carrier family 22 member 6
+VALPROIC ACID	Solute carrier family 22 member 6
+VALPROIC ACID	Solute carrier family 22 member 8
+VALPROIC ACID	Solute carrier family 22 member 5
+VALPROIC ACID	Monocarboxylate transporter 1
+VALPROIC ACID	Solute carrier family 22 member 7
+VALPROIC ACID	Solute carrier organic anion transporter family member 2B1
+ZOLMITRIPTAN	P-glycoprotein 1
+ACETAMINOPHEN	P-glycoprotein 1
+GEFITINIB	P-glycoprotein 1
+GEFITINIB	ATP-binding cassette sub-family G member 2
+CODEINE	Solute carrier family 22 member 1
+PIPERACILLIN	Solute carrier family 22 member 6
+PIPERACILLIN	Solute carrier family 22 member 8
+DIHYDROERGOTAMINE	P-glycoprotein 1
+AMITRIPTYLINE	P-glycoprotein 1
+INDOMETHACIN	Canalicular multispecific organic anion transporter 2
+INDOMETHACIN	Multidrug resistance-associated protein 4
+INDOMETHACIN	Multidrug resistance-associated protein 6
+INDOMETHACIN	P-glycoprotein 1
+INDOMETHACIN	Multidrug resistance-associated protein 1
+INDOMETHACIN	Solute carrier organic anion transporter family member 1A2
+INDOMETHACIN	Solute carrier family 22 member 6
+INDOMETHACIN	Solute carrier family 22 member 8
+INDOMETHACIN	Canalicular multispecific organic anion transporter 1
+INDOMETHACIN	ATP-binding cassette sub-family C member 11
+INDOMETHACIN	Solute carrier family 22 member 11
+INDOMETHACIN	Sodium/bile acid cotransporter
+INDOMETHACIN	Solute carrier family 22 member 7
+INDOMETHACIN	Solute carrier organic anion transporter family member 1B1
+INDOMETHACIN	Bile salt export pump
+METFORMIN	Solute carrier family 22 member 1
+METFORMIN	Solute carrier family 22 member 2
+METFORMIN	Solute carrier family 22 member 3
+METFORMIN	Multidrug and toxin extrusion protein 1
+METFORMIN	Equilibrative nucleoside transporter 4
+METFORMIN	Multidrug and toxin extrusion protein 2
+IPRATROPIUM	Solute carrier family 22 member 5
+IPRATROPIUM	Solute carrier family 22 member 4
+METHADONE	P-glycoprotein 1
+OLANZAPINE	P-glycoprotein 1
+ATENOLOL	Bile salt export pump
+OMEPRAZOLE	ATP-binding cassette sub-family G member 2
+OMEPRAZOLE	Canalicular multispecific organic anion transporter 2
+OMEPRAZOLE	P-glycoprotein 1
+CETIRIZINE	P-glycoprotein 1
+TERFENADINE	P-glycoprotein 1
+TERFENADINE	Bile salt export pump
+DILTIAZEM	P-glycoprotein 1
+PROTRIPTYLINE	P-glycoprotein 1
+AMINOHIPPURIC ACID	Solute carrier family 22 member 2
+AMINOHIPPURIC ACID	Solute carrier family 22 member 5
+AMINOHIPPURIC ACID	Solute carrier family 22 member 6
+AMINOHIPPURIC ACID	Solute carrier family 22 member 8
+AMINOHIPPURIC ACID	Canalicular multispecific organic anion transporter 1
+AMINOHIPPURIC ACID	Solute carrier family 22 member 4
+AMINOHIPPURIC ACID	Solute carrier family 22 member 11
+AMINOHIPPURIC ACID	Solute carrier organic anion transporter family member 3A1
+AMINOHIPPURIC ACID	Multidrug resistance-associated protein 1
+AMINOHIPPURIC ACID	Monocarboxylate transporter 1
+AMINOHIPPURIC ACID	Solute carrier family 22 member 7
+ALFUZOSIN	P-glycoprotein 1
+CLOBAZAM	P-glycoprotein 1
+MEGESTROL ACETATE	P-glycoprotein 1
+TIOGUANINE	Multidrug resistance-associated protein 4
+MEFLOQUINE	P-glycoprotein 1
+SAPROPTERIN	P-glycoprotein 1
+CLOZAPINE	P-glycoprotein 1
+CLOZAPINE	Solute carrier family 22 member 1
+CLOZAPINE	Solute carrier family 22 member 2
+CLOZAPINE	Solute carrier family 22 member 3
+GREPAFLOXACIN	P-glycoprotein 1
+GREPAFLOXACIN	Multidrug resistance-associated protein 1
+GREPAFLOXACIN	Solute carrier family 22 member 6
+GREPAFLOXACIN	Solute carrier family 22 member 2
+GREPAFLOXACIN	Solute carrier family 22 member 5
+GREPAFLOXACIN	Canalicular multispecific organic anion transporter 1
+NOREPINEPHRINE	Sodium-dependent noradrenaline transporter
+NOREPINEPHRINE	Solute carrier family 22 member 2
+NOREPINEPHRINE	Solute carrier family 22 member 3
+NOREPINEPHRINE	Solute carrier family 22 member 5
+NOREPINEPHRINE	Solute carrier family 22 member 1
+NOREPINEPHRINE	POU domain, class 5, transcription factor 1
+CIDOFOVIR	Solute carrier family 22 member 6
+MIRTAZAPINE	Sodium-dependent serotonin transporter
+TIMOLOL	P-glycoprotein 1
+AMLODIPINE	P-glycoprotein 1
+TACRINE	P-glycoprotein 1
+DIGOXIN	P-glycoprotein 1
+DIGOXIN	Solute carrier organic anion transporter family member 4C1
+DIGOXIN	Bile salt export pump
+DIGOXIN	Solute carrier organic anion transporter family member 1A2
+DIGOXIN	Organic solute transporter subunit alpha
+DIGOXIN	Organic solute transporter subunit beta
+DIGOXIN	Solute carrier organic anion transporter family member 1B1
+SULPIRIDE	Solute carrier family 22 member 1
+SULPIRIDE	Solute carrier family 22 member 2
+SULPIRIDE	Multidrug and toxin extrusion protein 1
+SULPIRIDE	Multidrug and toxin extrusion protein 2
+SULPIRIDE	Solute carrier family 22 member 3
+SULPIRIDE	P-glycoprotein 1
+SULPIRIDE	ATP-binding cassette sub-family G member 2
+BECLOMETHASONE DIPROPIONATE	P-glycoprotein 1
+BECLOMETHASONE DIPROPIONATE	ATP-binding cassette sub-family G member 2
+BECLOMETHASONE DIPROPIONATE	Solute carrier organic anion transporter family member 1B1
+BECLOMETHASONE DIPROPIONATE	Solute carrier organic anion transporter family member 1B3
+PROGESTERONE	P-glycoprotein 1
+PROGESTERONE	Solute carrier family 22 member 2
+PROGESTERONE	Solute carrier family 22 member 1
+PROGESTERONE	Solute carrier family 22 member 3
+PROGESTERONE	Bile salt export pump
+PROGESTERONE	Multidrug resistance-associated protein 1
+PROGESTERONE	Sodium/bile acid cotransporter
+PROGESTERONE	Solute carrier organic anion transporter family member 1B1
+PROGESTERONE	ATP-binding cassette sub-family G member 2
+PROGESTERONE	Solute carrier organic anion transporter family member 1B3
+SORAFENIB	P-glycoprotein 1
+SORAFENIB	ATP-binding cassette sub-family G member 2
+SORAFENIB	Multidrug resistance-associated protein 4
+SORAFENIB	Canalicular multispecific organic anion transporter 1
+SORAFENIB	RalA-binding protein 1
+SORAFENIB	Solute carrier organic anion transporter family member 1B1
+ZOLEDRONIC ACID	Multidrug resistance-associated protein 1
+NISOLDIPINE	P-glycoprotein 1
+GENTIAN VIOLET CATION	Solute carrier family 22 member 1
+ROSIGLITAZONE	Solute carrier organic anion transporter family member 1B1
+ROSIGLITAZONE	Bile salt export pump
+ROSIGLITAZONE	Sodium/bile acid cotransporter
+PRAMIPEXOLE	Solute carrier family 22 member 2
+PRAMIPEXOLE	Solute carrier family 22 member 1
+PRAMIPEXOLE	Solute carrier family 22 member 3
+AMPICILLIN	Solute carrier family 22 member 5
+AMPICILLIN	Solute carrier family 15 member 1
+AMPICILLIN	Solute carrier family 15 member 2
+AMPICILLIN	Monocarboxylate transporter 1
+SPIRONOLACTONE	Canalicular multispecific organic anion transporter 1
+SPIRONOLACTONE	P-glycoprotein 1
+SPIRONOLACTONE	Solute carrier organic anion transporter family member 1A2
+SPIRONOLACTONE	Bile salt export pump
+STREPTOZOCIN	P-glycoprotein 1
+TRIFLURIDINE	Solute carrier family 22 member 6
+TRIFLURIDINE	Sodium/nucleoside cotransporter 1
+TRIFLURIDINE	Equilibrative nucleoside transporter 1
+TRIFLURIDINE	Equilibrative nucleoside transporter 2
+CYPROHEPTADINE	Solute carrier family 22 member 1
+ALLOPURINOL	Solute carrier family 22 member 8
+ALLOPURINOL	Solute carrier family 22 member 7
+ALLOPURINOL	ATP-binding cassette sub-family G member 2
+ALLOPURINOL	Solute carrier family 22 member 2
+CEFTAZIDIME	Solute carrier family 22 member 6
+CERIVASTATIN	P-glycoprotein 1
+CERIVASTATIN	Canalicular multispecific organic anion transporter 1
+CERIVASTATIN	ATP-binding cassette sub-family G member 2
+CERIVASTATIN	Solute carrier organic anion transporter family member 1B1
+CERIVASTATIN	Bile salt export pump
+TRIMETHOPRIM	P-glycoprotein 1
+TRIMETHOPRIM	Multidrug and toxin extrusion protein 1
+TRIMETHOPRIM	Multidrug and toxin extrusion protein 2
+GEMCITABINE	P-glycoprotein 1
+GEMCITABINE	Multidrug resistance-associated protein 7
+GEMCITABINE	Equilibrative nucleoside transporter 1
+GEMCITABINE	Sodium/nucleoside cotransporter 1
+GEMCITABINE	Equilibrative nucleoside transporter 2
+GEMCITABINE	Solute carrier family 28 member 3
+BETAMETHASONE	P-glycoprotein 1
+TENIPOSIDE	Multidrug resistance-associated protein 6
+TENIPOSIDE	ATP-binding cassette sub-family G member 2
+EPIRUBICIN	Multidrug resistance-associated protein 1
+CHLORAMPHENICOL	Solute carrier family 22 member 6
+LORACARBEF	Solute carrier family 15 member 1
+LORACARBEF	Solute carrier family 15 member 2
+LANSOPRAZOLE	ATP-binding cassette sub-family G member 2
+LANSOPRAZOLE	P-glycoprotein 1
+LANSOPRAZOLE	Solute carrier family 22 member 8
+LANSOPRAZOLE	Solute carrier family 22 member 1
+LANSOPRAZOLE	Solute carrier family 22 member 2
+LANSOPRAZOLE	Solute carrier family 22 member 3
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 1C1
+LEVOTHYROXINE	Monocarboxylate transporter 8
+LEVOTHYROXINE	P-glycoprotein 1
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 1A2
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 1B1
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 1B3
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 4A1
+LEVOTHYROXINE	Large neutral amino acids transporter small subunit 1
+LEVOTHYROXINE	Solute carrier organic anion transporter family member 2B1
+MEPERIDINE	P-glycoprotein 1
+LORATADINE	P-glycoprotein 1
+LORATADINE	Bile salt export pump
+CEFALOTIN	Solute carrier family 22 member 5
+CEFALOTIN	Solute carrier family 15 member 1
+CEFALOTIN	Solute carrier family 15 member 2
+CEFALOTIN	Solute carrier family 22 member 6
+CEFALOTIN	Solute carrier family 22 member 8
+CEFALOTIN	Solute carrier family 22 member 11
+CEFALOTIN	Solute carrier family 22 member 7
+PRAZOSIN	Solute carrier family 22 member 1
+PRAZOSIN	Solute carrier family 22 member 3
+PRAZOSIN	P-glycoprotein 1
+PRAZOSIN	ATP-binding cassette sub-family G member 2
+IMIPRAMINE	P-glycoprotein 1
+IMIPRAMINE	Solute carrier family 22 member 2
+IMIPRAMINE	Solute carrier family 22 member 3
+IMIPRAMINE	Solute carrier family 22 member 4
+QUININE	Solute carrier family 22 member 2
+QUININE	Solute carrier family 22 member 1
+QUININE	Solute carrier family 22 member 5
+QUININE	P-glycoprotein 1
+QUININE	Solute carrier organic anion transporter family member 1A2
+QUININE	Solute carrier family 22 member 4
+QUININE	Solute carrier organic anion transporter family member 1B1
+TENOXICAM	Solute carrier family 22 member 8
+DRONABINOL	ATP-binding cassette sub-family G member 2
+DRONABINOL	P-glycoprotein 1
+DRONABINOL	Multidrug resistance-associated protein 1
+MONTELUKAST	Solute carrier organic anion transporter family member 2B1
+FLUOXETINE	P-glycoprotein 1
+DULOXETINE	P-glycoprotein 1
+CHLORPROMAZINE	P-glycoprotein 1
+CHLORPROMAZINE	Bile salt export pump
+LENALIDOMIDE	P-glycoprotein 1
+RALOXIFENE	Solute carrier organic anion transporter family member 1B1
+RALOXIFENE	Solute carrier organic anion transporter family member 1B3
+RALOXIFENE	P-glycoprotein 1
+RALOXIFENE	ATP-binding cassette sub-family G member 2
+RALOXIFENE	Canalicular multispecific organic anion transporter 1
+RALOXIFENE	Canalicular multispecific organic anion transporter 2
+RALOXIFENE	Multidrug resistance-associated protein 4
+CELECOXIB	Multidrug resistance-associated protein 4
+CELECOXIB	Bile salt export pump
+CELECOXIB	P-glycoprotein 1
+CELECOXIB	ATP-binding cassette sub-family G member 2
+DICLOXACILLIN	Solute carrier family 15 member 1
+DICLOXACILLIN	Solute carrier family 15 member 2
+BUSPIRONE	P-glycoprotein 1
+FOSINOPRIL	Solute carrier family 15 member 1
+FOSINOPRIL	Solute carrier family 15 member 2
+CEFOTAXIME	Solute carrier family 15 member 1
+CEFOTAXIME	Solute carrier family 15 member 2
+CEFOTAXIME	Solute carrier family 22 member 6
+CEFOTAXIME	Solute carrier family 22 member 8
+CEFOTAXIME	Solute carrier family 22 member 11
+CEFOTAXIME	Solute carrier family 22 member 7
+ZIDOVUDINE	Solute carrier family 22 member 2
+ZIDOVUDINE	Solute carrier family 22 member 6
+ZIDOVUDINE	Solute carrier family 22 member 7
+ZIDOVUDINE	Solute carrier family 22 member 8
+ZIDOVUDINE	Solute carrier family 22 member 11
+ZIDOVUDINE	Sodium/nucleoside cotransporter 1
+ZIDOVUDINE	Equilibrative nucleoside transporter 2
+ZIDOVUDINE	P-glycoprotein 1
+ZIDOVUDINE	Multidrug resistance-associated protein 4
+ZIDOVUDINE	Multidrug resistance-associated protein 5
+ZIDOVUDINE	ATP-binding cassette sub-family G member 2
+FLUTAMIDE	Multidrug resistance-associated protein 1
+TOLMETIN	Solute carrier family 22 member 6
+CIMETIDINE	P-glycoprotein 1
+CIMETIDINE	Solute carrier family 22 member 2
+CIMETIDINE	Solute carrier family 22 member 1
+CIMETIDINE	Solute carrier family 22 member 3
+CIMETIDINE	Solute carrier family 22 member 5
+CIMETIDINE	Solute carrier family 22 member 6
+CIMETIDINE	Solute carrier family 22 member 8
+CIMETIDINE	Multidrug and toxin extrusion protein 1
+CIMETIDINE	Solute carrier family 22 member 4
+CIMETIDINE	Solute carrier family 22 member 11
+CIMETIDINE	Solute carrier family 22 member 7
+CIMETIDINE	Bile salt export pump
+CIMETIDINE	Multidrug and toxin extrusion protein 2
+HALOPERIDOL	P-glycoprotein 1
+RITONAVIR	P-glycoprotein 1
+RITONAVIR	Multidrug resistance-associated protein 1
+RITONAVIR	Solute carrier organic anion transporter family member 1A2
+RITONAVIR	Canalicular multispecific organic anion transporter 1
+RITONAVIR	ATP-binding cassette sub-family G member 2
+RITONAVIR	Solute carrier organic anion transporter family member 1B1
+RITONAVIR	Solute carrier organic anion transporter family member 2B1
+RITONAVIR	Bile salt export pump
+RITONAVIR	Solute carrier organic anion transporter family member 1B3
+TRIFLUPROMAZINE	P-glycoprotein 1
+DEXTROTHYROXINE	Solute carrier organic anion transporter family member 1B1
+DEXTROTHYROXINE	Solute carrier organic anion transporter family member 1C1
+DEXTROTHYROXINE	Solute carrier organic anion transporter family member 4A1
+DEXTROTHYROXINE	Solute carrier organic anion transporter family member 4C1
+DEXTROTHYROXINE	Large neutral amino acids transporter small subunit 1
+CISPLATIN	Canalicular multispecific organic anion transporter 2
+CISPLATIN	Multidrug resistance-associated protein 5
+CISPLATIN	Canalicular multispecific organic anion transporter 1
+CISPLATIN	Solute carrier family 22 member 2
+CISPLATIN	High affinity copper uptake protein 1
+CISPLATIN	Probable low affinity copper uptake protein 2
+CISPLATIN	Multidrug resistance-associated protein 6
+CISPLATIN	Copper-transporting ATPase 2
+CISPLATIN	Copper-transporting ATPase 1
+CISPLATIN	ATP-binding cassette sub-family G member 2
+ALBENDAZOLE	P-glycoprotein 1
+TRANDOLAPRIL	Solute carrier family 15 member 1
+TRANDOLAPRIL	Solute carrier family 15 member 2
+CASPOFUNGIN	Solute carrier family 22 member 1
+CASPOFUNGIN	P-glycoprotein 1
+CASPOFUNGIN	Solute carrier family 22 member 6
+CASPOFUNGIN	Solute carrier organic anion transporter family member 1B1
+CASPOFUNGIN	Solute carrier organic anion transporter family member 1B3
+ALITRETINOIN	P-glycoprotein 1
+OXALIPLATIN	Solute carrier family 22 member 2
+OXALIPLATIN	High affinity copper uptake protein 1
+OXALIPLATIN	Solute carrier family 22 member 3
+OXALIPLATIN	ATP-binding cassette sub-family G member 2
+OXALIPLATIN	Canalicular multispecific organic anion transporter 1
+OXALIPLATIN	Copper-transporting ATPase 2
+OXALIPLATIN	Copper-transporting ATPase 1
+FOSCARNET	Solute carrier family 22 member 6
+FOSCARNET	Monocarboxylate transporter 1
+ERLOTINIB	ATP-binding cassette sub-family G member 2
+ERLOTINIB	P-glycoprotein 1
+ERLOTINIB	Solute carrier organic anion transporter family member 2B1
+ROFECOXIB	Multidrug resistance-associated protein 4
+CEFDINIR	Solute carrier family 22 member 5
+CEFDINIR	Solute carrier family 15 member 1
+CEFDINIR	Solute carrier family 15 member 2
+CEFDINIR	Solute carrier family 22 member 6
+CEFDINIR	Solute carrier family 22 member 8
+GUANIDINE	Solute carrier family 22 member 2
+GUANIDINE	Solute carrier family 22 member 1
+GUANIDINE	Solute carrier family 22 member 3
+GUANIDINE	Solute carrier family 22 member 5
+GUANIDINE	Solute carrier family 22 member 8
+GUANIDINE	Solute carrier family 22 member 4
+GUANIDINE	Multidrug and toxin extrusion protein 1
+GUANIDINE	Multidrug and toxin extrusion protein 2
+CIPROFLOXACIN	P-glycoprotein 1
+CIPROFLOXACIN	Multidrug and toxin extrusion protein 1
+CIPROFLOXACIN	Multidrug and toxin extrusion protein 2
+TOREMIFENE	P-glycoprotein 1
+NORTRIPTYLINE	Sodium-dependent noradrenaline transporter
+NORTRIPTYLINE	P-glycoprotein 1
+VINCRISTINE	P-glycoprotein 1
+VINCRISTINE	Canalicular multispecific organic anion transporter 2
+VINCRISTINE	Solute carrier family 22 member 3
+VINCRISTINE	Multidrug resistance-associated protein 1
+VINCRISTINE	Multidrug resistance-associated protein 7
+VINCRISTINE	Canalicular multispecific organic anion transporter 1
+VINCRISTINE	Bile salt export pump
+VINCRISTINE	ATP-binding cassette sub-family G member 2
+VINCRISTINE	RalA-binding protein 1
+VINCRISTINE	Solute carrier organic anion transporter family member 1B1
+VINCRISTINE	Solute carrier organic anion transporter family member 1B3
+BENAZEPRIL	Solute carrier family 15 member 1
+BENAZEPRIL	Solute carrier family 15 member 2
+FLUOROURACIL	Solute carrier family 22 member 7
+FLUOROURACIL	Equilibrative nucleoside transporter 1
+FLUOROURACIL	ATP-binding cassette sub-family G member 2
+FLUOROURACIL	Canalicular multispecific organic anion transporter 2
+FLUOROURACIL	Multidrug resistance-associated protein 4
+FLUOROURACIL	Multidrug resistance-associated protein 5
+ZAFIRLUKAST	ATP-binding cassette sub-family G member 2
+ZAFIRLUKAST	Sodium/bile acid cotransporter
+PIROXICAM	Solute carrier family 22 member 6
+PIROXICAM	Solute carrier family 22 member 8
+PIROXICAM	Solute carrier family 22 member 11
+PIROXICAM	Solute carrier organic anion transporter family member 2B1
+LAMOTRIGINE	P-glycoprotein 1
+LAMOTRIGINE	Solute carrier family 22 member 2
+LAMOTRIGINE	Solute carrier family 22 member 1
+HYDROXYZINE	P-glycoprotein 1
+BOSENTAN	Bile salt export pump
+METHOTREXATE	Canalicular multispecific organic anion transporter 2
+METHOTREXATE	Multidrug resistance-associated protein 4
+METHOTREXATE	Multidrug resistance-associated protein 1
+METHOTREXATE	Solute carrier family 22 member 6
+METHOTREXATE	Multidrug resistance-associated protein 7
+METHOTREXATE	Solute carrier family 22 member 8
+METHOTREXATE	Canalicular multispecific organic anion transporter 1
+METHOTREXATE	P-glycoprotein 1
+METHOTREXATE	Solute carrier organic anion transporter family member 1A2
+METHOTREXATE	Monocarboxylate transporter 1
+METHOTREXATE	ATP-binding cassette sub-family C member 11
+METHOTREXATE	Solute carrier organic anion transporter family member 1B3
+METHOTREXATE	Solute carrier family 22 member 11
+METHOTREXATE	Solute carrier organic anion transporter family member 1C1
+METHOTREXATE	Solute carrier organic anion transporter family member 3A1
+METHOTREXATE	ATP-binding cassette sub-family G member 2
+METHOTREXATE	Solute carrier family 22 member 7
+METHOTREXATE	Proton-coupled folate transporter
+METHOTREXATE	Solute carrier organic anion transporter family member 1B1
+METHOTREXATE	Solute carrier organic anion transporter family member 4C1
+METHOTREXATE	Folate transporter 1
+METHOTREXATE	Folate receptor alpha
+METHOTREXATE	Folate receptor beta
+METHOTREXATE	Solute carrier family 15 member 1
+METHOTREXATE	Proton-coupled amino acid transporter 1
+CARBAMAZEPINE	P-glycoprotein 1
+CARBAMAZEPINE	RalA-binding protein 1
+CARBAMAZEPINE	Canalicular multispecific organic anion transporter 1
+CEPHALEXIN	Solute carrier family 22 member 5
+CEPHALEXIN	Solute carrier family 15 member 1
+CEPHALEXIN	Solute carrier family 15 member 2
+CEPHALEXIN	Solute carrier family 22 member 6
+CEPHALEXIN	Multidrug and toxin extrusion protein 1
+CEPHALEXIN	Solute carrier family 22 member 8
+VINBLASTINE	P-glycoprotein 1
+VINBLASTINE	Multidrug resistance-associated protein 1
+VINBLASTINE	Canalicular multispecific organic anion transporter 1
+VINBLASTINE	Multidrug resistance-associated protein 6
+VINBLASTINE	Bile salt export pump
+VINBLASTINE	Solute carrier organic anion transporter family member 1B1
+PROPRANOLOL	Solute carrier family 22 member 2
+PROPRANOLOL	P-glycoprotein 1
+ATROPINE	Bile salt export pump
+CLONIDINE	Solute carrier family 22 member 3
+CLONIDINE	Solute carrier family 22 member 5
+CLONIDINE	Solute carrier family 22 member 4
+VALACICLOVIR	Solute carrier family 15 member 1
+VALACICLOVIR	Solute carrier family 15 member 2
+VALACICLOVIR	Solute carrier family 22 member 8
+VALACICLOVIR	Solute carrier family 22 member 6
+VALACICLOVIR	Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+)
+VALACICLOVIR	Ileal sodium/bile acid cotransporter
+CARBENICILLIN	Solute carrier family 22 member 6
+LEVOCARNITINE	Solute carrier family 22 member 4
+LEVOCARNITINE	Solute carrier organic anion transporter family member 1B1
+LEVOCARNITINE	Solute carrier family 22 member 5
+LEVOCARNITINE	Solute carrier family 22 member 16
+LEVOCARNITINE	Solute carrier family 22 member 8
+ENALAPRIL	P-glycoprotein 1
+ENALAPRIL	Solute carrier family 15 member 1
+ENALAPRIL	Solute carrier family 22 member 6
+ENALAPRIL	Solute carrier family 22 member 8
+ENALAPRIL	Solute carrier family 22 member 7
+ENALAPRIL	Solute carrier organic anion transporter family member 1A2
+NIZATIDINE	P-glycoprotein 1
+DICLOFENAC	Solute carrier family 22 member 6
+DICLOFENAC	Multidrug resistance-associated protein 4
+DICLOFENAC	Multidrug resistance-associated protein 1
+DICLOFENAC	Solute carrier family 22 member 8
+DICLOFENAC	Solute carrier family 22 member 11
+DICLOFENAC	Solute carrier organic anion transporter family member 1C1
+DICLOFENAC	Solute carrier organic anion transporter family member 1B1
+DICLOFENAC	Bile salt export pump
+DICLOFENAC	Sodium channel protein type 4 subunit alpha
+DICLOFENAC	Acid-sensing ion channel 1
+DICLOFENAC	Potassium voltage-gated channel subfamily KQT member 2
+DICLOFENAC	Potassium voltage-gated channel subfamily KQT member 3
+DICLOFENAC	P-glycoprotein 1
+FLUTICASONE PROPIONATE	P-glycoprotein 1
+FLUTICASONE PROPIONATE	Solute carrier organic anion transporter family member 1B1
+DOXAZOSIN	P-glycoprotein 1
+DOXAZOSIN	Solute carrier family 22 member 1
+AMILORIDE	Solute carrier family 22 member 2
+AMILORIDE	Solute carrier family 22 member 4
+OXYTETRACYCLINE	Solute carrier family 22 member 6
+OXYTETRACYCLINE	Solute carrier family 22 member 8
+OXYTETRACYCLINE	Solute carrier family 22 member 11
+OXYTETRACYCLINE	Solute carrier family 22 member 7
+LABETALOL	ATP-binding cassette sub-family B member 5
+LINEZOLID	Solute carrier family 22 member 6
+LINEZOLID	Solute carrier family 22 member 8
+IVERMECTIN	P-glycoprotein 1
+IVERMECTIN	Multidrug resistance-associated protein 1
+IVERMECTIN	Canalicular multispecific organic anion transporter 1
+IVERMECTIN	ATP-binding cassette sub-family G member 2
+IVERMECTIN	Solute carrier organic anion transporter family member 1B1
+IVERMECTIN	Solute carrier organic anion transporter family member 1B3
+MEDROXYPROGESTERONE ACETATE	P-glycoprotein 1
+SULINDAC	Solute carrier family 22 member 6
+CYCLOTHIAZIDE	Solute carrier family 22 member 6
+NAFCILLIN	Solute carrier family 22 member 6
+CHLOROQUINE	P-glycoprotein 1
+BISOPROLOL	P-glycoprotein 1
+AMODIAQUINE	P-glycoprotein 1
+RIFABUTIN	P-glycoprotein 1
+IMATINIB	Solute carrier family 22 member 1
+IMATINIB	P-glycoprotein 1
+IMATINIB	Solute carrier family 22 member 2
+IMATINIB	ATP-binding cassette sub-family G member 2
+IMATINIB	ATP-binding cassette sub-family A member 3
+IMATINIB	Bile salt export pump
+IMATINIB	Canalicular multispecific organic anion transporter 1
+IMATINIB	Multidrug resistance-associated protein 1
+IMATINIB	Solute carrier family 22 member 5
+IMATINIB	Solute carrier organic anion transporter family member 1B3
+IMATINIB	Multidrug resistance-associated protein 4
+IMATINIB	Solute carrier organic anion transporter family member 1A2
+NICARDIPINE	P-glycoprotein 1
+NICARDIPINE	Solute carrier organic anion transporter family member 1B1
+NICARDIPINE	Bile salt export pump
+FLUPHENAZINE	P-glycoprotein 1
+TESTOSTERONE	Solute carrier family 22 member 8
+TESTOSTERONE	Solute carrier family 22 member 7
+TESTOSTERONE	Sodium/bile acid cotransporter
+TESTOSTERONE	ATP-binding cassette sub-family G member 2
+TESTOSTERONE	Solute carrier organic anion transporter family member 1B3
+EFAVIRENZ	Bile salt export pump
+EFAVIRENZ	Solute carrier family 22 member 1
+BACITRACIN	Bacitracin transport ATP-binding protein BcrA
+BACITRACIN	Bacitracin transport permease protein BCRB
+BACITRACIN	Bacitracin transport permease protein BcrC
+NIACIN	Solute carrier family 22 member 5
+NIACIN	Solute carrier organic anion transporter family member 2B1
+NIACIN	Monocarboxylate transporter 1
+NIACIN	Sodium-coupled monocarboxylate transporter 1
+NIACIN	Monocarboxylate transporter 4
+CLOFARABINE	ATP-binding cassette sub-family G member 2
+PREDNISONE	P-glycoprotein 1
+PREDNISONE	Solute carrier organic anion transporter family member 1A2
+ASTEMIZOLE	P-glycoprotein 1
+ASTEMIZOLE	Bile salt export pump
+ADENOSINE	Equilibrative nucleoside transporter 1
+ADENOSINE	Equilibrative nucleoside transporter 2
+ADENOSINE	Equilibrative nucleoside transporter 3
+ADENOSINE	Equilibrative nucleoside transporter 4
+ADENOSINE	Sodium/nucleoside cotransporter 1
+ADENOSINE	Sodium/nucleoside cotransporter 2
+ADENOSINE	Gap junction alpha-1 protein
+ADENOSINE	Solute carrier family 28 member 3
+SIMVASTATIN	P-glycoprotein 1
+SIMVASTATIN	Solute carrier organic anion transporter family member 1A2
+SIMVASTATIN	Solute carrier organic anion transporter family member 1B1
+SIMVASTATIN	Canalicular multispecific organic anion transporter 1
+SIMVASTATIN	Bile salt export pump
+SIMVASTATIN	Solute carrier organic anion transporter family member 2B1
+SIMVASTATIN	Solute carrier organic anion transporter family member 1B3
+PEMETREXED	Solute carrier family 22 member 8
+PEMETREXED	Folate transporter 1
+PEMETREXED	Proton-coupled folate transporter
+PEMETREXED	ATP-binding cassette sub-family G member 2
+PEMETREXED	Multidrug resistance-associated protein 5
+PEMETREXED	Solute carrier family 22 member 6
+PEMETREXED	Solute carrier family 22 member 11
+NYSTATIN	Solute carrier organic anion transporter family member 1B1
+NYSTATIN	Solute carrier organic anion transporter family member 1B3
+MITOTANE	P-glycoprotein 1
+STAVUDINE	Solute carrier family 22 member 6
+STAVUDINE	Sodium/nucleoside cotransporter 1
+LEUCOVORIN	Solute carrier family 22 member 8
+PENTAZOCINE	P-glycoprotein 1
+LATANOPROST	Solute carrier organic anion transporter family member 2A1
+LATANOPROST	Solute carrier family 22 member 6
+LATANOPROST	Solute carrier family 22 member 8
+ESTRONE	Solute carrier organic anion transporter family member 2B1
+ESTRONE	P-glycoprotein 1
+ESTRONE	Solute carrier organic anion transporter family member 1A2
+ESTRONE	ATP-binding cassette sub-family G member 2
+ESTRONE	Solute carrier organic anion transporter family member 1B1
+ESTRONE	Solute carrier family 22 member 8
+TRAZODONE	P-glycoprotein 1
+ACAMPROSATE	Solute carrier family 22 member 6
+VERAPAMIL	P-glycoprotein 1
+VERAPAMIL	Solute carrier family 22 member 1
+VERAPAMIL	Solute carrier family 22 member 4
+VERAPAMIL	Solute carrier family 22 member 5
+VERAPAMIL	Canalicular multispecific organic anion transporter 2
+VERAPAMIL	Solute carrier organic anion transporter family member 1B1
+VERAPAMIL	Solute carrier organic anion transporter family member 1A2
+VERAPAMIL	Multidrug resistance-associated protein 1
+VERAPAMIL	Multidrug resistance-associated protein 4
+VERAPAMIL	Multidrug resistance-associated protein 7
+VERAPAMIL	Multidrug and toxin extrusion protein 1
+VERAPAMIL	Multidrug and toxin extrusion protein 2
+EPINEPHRINE	Solute carrier family 22 member 2
+EPINEPHRINE	Solute carrier family 22 member 1
+SUMATRIPTAN	Solute carrier organic anion transporter family member 1A2
+SUMATRIPTAN	P-glycoprotein 1
+SUMATRIPTAN	ATP-binding cassette sub-family G member 2
+SUMATRIPTAN	Solute carrier organic anion transporter family member 1B1
+CEFIXIME	Solute carrier family 22 member 5
+CEFIXIME	Solute carrier family 15 member 1
+CEFIXIME	Solute carrier family 15 member 2
+CHLORPROPAMIDE	Solute carrier family 15 member 1
+CHLORPROPAMIDE	Solute carrier family 15 member 2
+CHLORPROPAMIDE	Solute carrier family 22 member 6
+GALANTAMINE	P-glycoprotein 1
+TAMOXIFEN	P-glycoprotein 1
+TAMOXIFEN	ATP-binding cassette sub-family G member 2
+TAMOXIFEN	Canalicular multispecific organic anion transporter 1
+TAMOXIFEN	Bile salt export pump
+TAMOXIFEN	ATP-binding cassette sub-family A member 1
+LOSARTAN	P-glycoprotein 1
+LOSARTAN	Solute carrier family 22 member 6
+LOSARTAN	Solute carrier family 22 member 12
+LOSARTAN	Solute carrier family 2, facilitated glucose transporter member 9
+LOSARTAN	Bile salt export pump
+MIDAZOLAM	P-glycoprotein 1
+MIDAZOLAM	Excitatory amino acid transporter 2
+MYCOPHENOLATE MOFETIL	Solute carrier organic anion transporter family member 1B1
+MYCOPHENOLATE MOFETIL	Solute carrier organic anion transporter family member 1B3
+MYCOPHENOLATE MOFETIL	ATP-binding cassette sub-family G member 2
+MYCOPHENOLATE MOFETIL	P-glycoprotein 1
+MYCOPHENOLATE MOFETIL	Canalicular multispecific organic anion transporter 1
+CEPHALOGLYCIN	Solute carrier family 22 member 5
+FLURAZEPAM	P-glycoprotein 1
+FLURAZEPAM	Solute carrier family 22 member 2
+MOEXIPRIL	Solute carrier family 15 member 1
+MOEXIPRIL	Solute carrier family 15 member 2
+FLUORESCEIN	Solute carrier family 22 member 6
+FLUORESCEIN	Bile salt export pump
+FLUORESCEIN	Multidrug resistance-associated protein 1
+DAUNORUBICIN	P-glycoprotein 1
+DAUNORUBICIN	Multidrug resistance-associated protein 1
+DAUNORUBICIN	Multidrug resistance-associated protein 7
+DAUNORUBICIN	ATP-binding cassette sub-family G member 2
+DAUNORUBICIN	Multidrug resistance-associated protein 6
+FUROSEMIDE	Solute carrier family 22 member 6
+FUROSEMIDE	Solute carrier family 22 member 5
+FUROSEMIDE	Solute carrier family 22 member 8
+FUROSEMIDE	Canalicular multispecific organic anion transporter 1
+FUROSEMIDE	Solute carrier organic anion transporter family member 2A1
+FUROSEMIDE	Solute carrier family 22 member 11
+ERGOTAMINE	P-glycoprotein 1
+NITROFURANTOIN	ATP-binding cassette sub-family G member 2
+NITROFURANTOIN	Bile salt export pump
+NITROFURANTOIN	P-glycoprotein 1
+NITROFURANTOIN	Canalicular multispecific organic anion transporter 1
+AMPRENAVIR	P-glycoprotein 1
+AMPRENAVIR	Multidrug resistance-associated protein 1
+AMPRENAVIR	Solute carrier organic anion transporter family member 1B1
+METHAZOLAMIDE	Solute carrier family 22 member 6
+LAMIVUDINE	Multidrug resistance-associated protein 1
+LAMIVUDINE	Solute carrier family 22 member 6
+LAMIVUDINE	ATP-binding cassette sub-family G member 2
+LAMIVUDINE	Solute carrier family 22 member 1
+LAMIVUDINE	Solute carrier family 22 member 2
+LAMIVUDINE	Solute carrier family 22 member 3
+LAMIVUDINE	P-glycoprotein 1
+LAMIVUDINE	Multidrug resistance-associated protein 4
+LAMIVUDINE	Canalicular multispecific organic anion transporter 2
+LAMIVUDINE	Canalicular multispecific organic anion transporter 1
+FLURBIPROFEN	Multidrug resistance-associated protein 4
+FLURBIPROFEN	Solute carrier family 22 member 6
+OXACILLIN	Solute carrier family 15 member 1
+OXACILLIN	Solute carrier family 15 member 2
+APOMORPHINE	Synaptic vesicular amine transporter
+PAROXETINE	P-glycoprotein 1
+NORETHISTERONE	P-glycoprotein 1
+ADEFOVIR DIPIVOXIL	Solute carrier family 22 member 6
+ADEFOVIR DIPIVOXIL	Multidrug resistance-associated protein 4
+ADEFOVIR DIPIVOXIL	Multidrug resistance-associated protein 5
+ADEFOVIR DIPIVOXIL	Solute carrier family 22 member 3
+PROCAINE	Sodium-dependent dopamine transporter
+PROCAINE	Sodium-dependent noradrenaline transporter
+PROCAINE	Sodium-dependent serotonin transporter
+LISINOPRIL	Solute carrier family 15 member 1
+LISINOPRIL	Solute carrier family 15 member 2
+TRIMIPRAMINE	P-glycoprotein 1
+ROCURONIUM	Solute carrier family 22 member 1
+ROCURONIUM	Solute carrier organic anion transporter family member 1A2
+NATEGLINIDE	Multidrug resistance-associated protein 4
+NATEGLINIDE	Monocarboxylate transporter 1
+NATEGLINIDE	Solute carrier family 15 member 1
+NATEGLINIDE	Solute carrier family 15 member 2
+NATEGLINIDE	Solute carrier family 22 member 6
+RISPERIDONE	P-glycoprotein 1
+ESOMEPRAZOLE	P-glycoprotein 1
+ESOMEPRAZOLE	Solute carrier family 22 member 8
+RILUZOLE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE	P-glycoprotein 1
+HYDROCORTISONE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE	Solute carrier family 22 member 8
+GADOBENIC ACID	Canalicular multispecific organic anion transporter 1
+ETODOLAC	Solute carrier family 22 member 6
+EPINASTINE	P-glycoprotein 1
+TRETINOIN	Cellular retinoic acid-binding protein 1
+TRETINOIN	Cellular retinoic acid-binding protein 2
+CLOPIDOGREL	P-glycoprotein 1
+CLOPIDOGREL	Solute carrier family 22 member 1
+CLOPIDOGREL	Solute carrier family 22 member 2
+TETRACYCLINE	Solute carrier family 22 member 6
+TETRACYCLINE	Solute carrier family 22 member 8
+TETRACYCLINE	Solute carrier family 22 member 11
+TETRACYCLINE	Solute carrier family 22 member 7
+TETRACYCLINE	Solute carrier organic anion transporter family member 2B1
+POTASSIUM CHLORIDE	Solute carrier family 12 member 2
+POTASSIUM CHLORIDE	Solute carrier family 12 member 1
+POTASSIUM CHLORIDE	Solute carrier family 12 member 5
+POTASSIUM CHLORIDE	Solute carrier family 12 member 6
+POTASSIUM CHLORIDE	Solute carrier family 12 member 7
+POTASSIUM CHLORIDE	Solute carrier family 12 member 4
+IRINOTECAN	Solute carrier family 22 member 3
+IRINOTECAN	Solute carrier organic anion transporter family member 1B1
+IRINOTECAN	Multidrug resistance-associated protein 1
+IRINOTECAN	ATP-binding cassette sub-family G member 2
+IRINOTECAN	P-glycoprotein 1
+IRINOTECAN	Canalicular multispecific organic anion transporter 1
+CLAVULANIC ACID	Sodium/glucose cotransporter 1
+OLOPATADINE	P-glycoprotein 1
+ALPROSTADIL	Multidrug resistance-associated protein 4
+ALPROSTADIL	Multidrug resistance-associated protein 5
+ALPROSTADIL	Solute carrier organic anion transporter family member 2A1
+ALPROSTADIL	Solute carrier organic anion transporter family member 3A1
+ALPROSTADIL	Solute carrier organic anion transporter family member 2B1
+ALPROSTADIL	Solute carrier family 22 member 6
+ETOPOSIDE	Canalicular multispecific organic anion transporter 2
+ETOPOSIDE	Multidrug resistance-associated protein 6
+ETOPOSIDE	P-glycoprotein 1
+ETOPOSIDE	Multidrug resistance-associated protein 1
+ETOPOSIDE	Multidrug resistance-associated protein 7
+ETOPOSIDE	Canalicular multispecific organic anion transporter 1
+ETOPOSIDE	ATP-binding cassette sub-family G member 2
+HYDROFLUMETHIAZIDE	Solute carrier family 22 member 6
+HYDROFLUMETHIAZIDE	Solute carrier family 22 member 8
+OXCARBAZEPINE	P-glycoprotein 1
+NALIDIXIC ACID	Solute carrier family 22 member 6
+ESTRADIOL	Solute carrier family 22 member 2
+ESTRADIOL	Solute carrier family 22 member 3
+ESTRADIOL	Multidrug resistance-associated protein 7
+ESTRADIOL	Solute carrier family 22 member 11
+ESTRADIOL	ATP-binding cassette sub-family G member 2
+ESTRADIOL	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL	P-glycoprotein 1
+ESTRADIOL	Solute carrier family 22 member 8
+ESTRADIOL	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL	Solute carrier organic anion transporter family member 1C1
+ACYCLOVIR	Solute carrier family 22 member 1
+ACYCLOVIR	Solute carrier family 22 member 6
+ACYCLOVIR	Solute carrier family 22 member 8
+ACYCLOVIR	Ileal sodium/bile acid cotransporter
+ACYCLOVIR	Multidrug and toxin extrusion protein 1
+ACYCLOVIR	Multidrug and toxin extrusion protein 2
+NAPROXEN	Solute carrier organic anion transporter family member 1A2
+NAPROXEN	Solute carrier family 22 member 6
+NAPROXEN	Bile salt export pump
+NAPROXEN	P-glycoprotein 1
+NAPROXEN	Solute carrier family 22 member 8
+PERINDOPRIL	Solute carrier family 15 member 1
+PERINDOPRIL	Solute carrier family 15 member 2
+PRIMIDONE	Transient receptor potential cation channel subfamily M member 3
+SULFASALAZINE	ATP-binding cassette sub-family G member 2
+SULFASALAZINE	Canalicular multispecific organic anion transporter 1
+SULFASALAZINE	Proton-coupled folate transporter
+SULFASALAZINE	Solute carrier organic anion transporter family member 1B1
+SULFASALAZINE	Solute carrier organic anion transporter family member 1B3
+SULFASALAZINE	Solute carrier organic anion transporter family member 2B1
+SULFASALAZINE	Sodium/bile acid cotransporter
+CANDESARTAN CILEXETIL	P-glycoprotein 1
+GENTAMICIN	Solute carrier family 22 member 2
+GENTAMICIN	Low-density lipoprotein receptor-related protein 2
+GENTAMICIN	Canalicular multispecific organic anion transporter 1
+ALFENTANIL	P-glycoprotein 1
+RIBAVIRIN	Solute carrier family 28 member 3
+RIBAVIRIN	Equilibrative nucleoside transporter 1
+PHENYLBUTAZONE	Solute carrier family 22 member 6
+PHENYLBUTAZONE	Solute carrier family 22 member 8
+PHENYLBUTAZONE	Solute carrier family 22 member 11
+FENTANYL	P-glycoprotein 1
+MELOXICAM	Multidrug resistance-associated protein 4
+MELOXICAM	Human vesicular glutamate transporters
+PROPOFOL	P-glycoprotein 1
+ACETAZOLAMIDE	Solute carrier family 22 member 6
+CARPROFEN	Solute carrier family 22 member 6
+DISULFIRAM	Bile salt export pump
+CINOXACIN	Solute carrier family 22 member 6
+DIAZEPAM	P-glycoprotein 1
+TRIFLUOPERAZINE	P-glycoprotein 1
+CEFACLOR	Solute carrier family 15 member 1
+CEFACLOR	Solute carrier family 15 member 2
+CEFACLOR	Solute carrier family 22 member 8
+CEFACLOR	Bile salt export pump
+MIFEPRISTONE	P-glycoprotein 1
+MIFEPRISTONE	Multidrug resistance-associated protein 1
+MIFEPRISTONE	Bile salt export pump
+MIFEPRISTONE	Solute carrier organic anion transporter family member 1B1
+MIFEPRISTONE	Solute carrier organic anion transporter family member 1B3
+LOPERAMIDE	P-glycoprotein 1
+DONEPEZIL	ATP-binding cassette sub-family G member 2
+CLOFAZIMINE	P-glycoprotein 1
+CLOFAZIMINE	ATP-binding cassette sub-family G member 2
+CLOFAZIMINE	Multidrug resistance-associated protein 1
+PSEUDOEPHEDRINE	Sodium-dependent noradrenaline transporter
+PSEUDOEPHEDRINE	Sodium-dependent dopamine transporter
+PSEUDOEPHEDRINE	Sodium-dependent serotonin transporter
+TEMOZOLOMIDE	P-glycoprotein 1
+TEMOZOLOMIDE	ATP-binding cassette sub-family G member 2
+AMINOLEVULINIC ACID	Solute carrier family 15 member 1
+AMINOLEVULINIC ACID	Solute carrier family 15 member 2
+TERBINAFINE	ABC multidrug transporter MDR2
+PENICILLAMINE	Solute carrier organic anion transporter family member 1B1
+PREDNISOLONE	Solute carrier organic anion transporter family member 1A2
+PREDNISOLONE	P-glycoprotein 1
+DIFLUNISAL	Solute carrier family 22 member 6
+VARDENAFIL	P-glycoprotein 1
+RANITIDINE	Solute carrier family 22 member 1
+RANITIDINE	P-glycoprotein 1
+RANITIDINE	Solute carrier family 22 member 8
+RANITIDINE	Solute carrier family 22 member 2
+TACROLIMUS	P-glycoprotein 1
+TACROLIMUS	ATP-binding cassette sub-family A member 5
+TACROLIMUS	Solute carrier organic anion transporter family member 1B1
+SUPROFEN	Solute carrier family 22 member 12
+TERBUTALINE	Solute carrier family 22 member 5
+TERBUTALINE	Solute carrier family 22 member 2
+CONIVAPTAN	P-glycoprotein 1
+FLUPENTIXOL	P-glycoprotein 1
+EPROSARTAN	Canalicular multispecific organic anion transporter 1
+SIROLIMUS	P-glycoprotein 1
+SIROLIMUS	Solute carrier organic anion transporter family member 1B1
+SIROLIMUS	Multidrug and toxin extrusion protein 1
+EMTRICITABINE	Multidrug and toxin extrusion protein 1
+CHLOROTHIAZIDE	Solute carrier family 22 member 6
+QUINAPRIL	Solute carrier family 15 member 1
+QUINAPRIL	Solute carrier family 15 member 2
+QUINAPRIL	Solute carrier family 22 member 8
+CLOMIFENE	P-glycoprotein 1
+BUMETANIDE	Sodium/bile acid cotransporter
+BUMETANIDE	Solute carrier family 22 member 6
+BUMETANIDE	Solute carrier family 22 member 8
+BUMETANIDE	Solute carrier family 22 member 11
+BUMETANIDE	Solute carrier family 22 member 7
+BUMETANIDE	Solute carrier organic anion transporter family member 1A2
+DIDANOSINE	Solute carrier family 22 member 6
+DIDANOSINE	Equilibrative nucleoside transporter 1
+DIDANOSINE	Equilibrative nucleoside transporter 2
+ETACRYNIC ACID	Solute carrier family 22 member 6
+COCAINE	Solute carrier family 22 member 2
+COCAINE	Sodium-dependent dopamine transporter
+QUINIDINE	Solute carrier family 22 member 2
+QUINIDINE	Solute carrier family 22 member 1
+QUINIDINE	Solute carrier family 22 member 5
+QUINIDINE	P-glycoprotein 1
+QUINIDINE	Solute carrier organic anion transporter family member 1A2
+QUINIDINE	Solute carrier family 22 member 8
+QUINIDINE	Canalicular multispecific organic anion transporter 1
+QUINIDINE	Solute carrier family 22 member 4
+QUINIDINE	Solute carrier organic anion transporter family member 1B1
+QUINIDINE	Bile salt export pump
+ZONISAMIDE	P-glycoprotein 1
+TINIDAZOLE	Bile salt export pump
+REPAGLINIDE	Solute carrier organic anion transporter family member 1B1
+REPAGLINIDE	Bile salt export pump
+PHENFORMIN	Solute carrier family 22 member 2
+PHENFORMIN	Solute carrier family 22 member 1
+AMANTADINE	Solute carrier family 22 member 2
+AMANTADINE	Solute carrier family 22 member 1
+METRONIDAZOLE	P-glycoprotein 1
+DINOPROSTONE	Solute carrier family 22 member 2
+DINOPROSTONE	Multidrug resistance-associated protein 5
+DINOPROSTONE	Solute carrier family 22 member 6
+DINOPROSTONE	Solute carrier family 22 member 8
+DINOPROSTONE	Solute carrier family 22 member 11
+DINOPROSTONE	Solute carrier family 22 member 7
+DINOPROSTONE	Multidrug resistance-associated protein 4
+DINOPROSTONE	Solute carrier organic anion transporter family member 2B1
+DINOPROSTONE	Solute carrier organic anion transporter family member 1A2
+DINOPROSTONE	Organic solute transporter subunit alpha
+DINOPROSTONE	Organic solute transporter subunit beta
+DINOPROSTONE	Solute carrier organic anion transporter family member 2A1
+DINOPROSTONE	Solute carrier organic anion transporter family member 4A1
+DINOPROSTONE	Solute carrier organic anion transporter family member 1C1
+DINOPROSTONE	Solute carrier organic anion transporter family member 3A1
+DINOPROSTONE	Solute carrier organic anion transporter family member 1B1
+BUPRENORPHINE	P-glycoprotein 1
+BUPRENORPHINE	ATP-binding cassette sub-family G member 2
+PHENOXYBENZAMINE	Solute carrier family 22 member 2
+PHENOXYBENZAMINE	Solute carrier family 22 member 1
+PHENOXYBENZAMINE	Solute carrier family 22 member 3
+FAMOTIDINE	Solute carrier family 22 member 6
+FAMOTIDINE	Solute carrier family 22 member 8
+FAMOTIDINE	Solute carrier family 22 member 2
+FAMOTIDINE	Multidrug and toxin extrusion protein 1
+TIPRANAVIR	Bile salt export pump
+TIPRANAVIR	Solute carrier organic anion transporter family member 2B1
+TIPRANAVIR	Solute carrier organic anion transporter family member 1B1
+TIPRANAVIR	Solute carrier organic anion transporter family member 1B3
+TIPRANAVIR	P-glycoprotein 1
+SALICYLIC ACID	Solute carrier family 22 member 6
+SALICYLIC ACID	Solute carrier family 22 member 10
+SALICYLIC ACID	Solute carrier family 22 member 8
+SALICYLIC ACID	Solute carrier family 22 member 11
+SALICYLIC ACID	Solute carrier organic anion transporter family member 2B1
+SALICYLIC ACID	Monocarboxylate transporter 1
+SALICYLIC ACID	Solute carrier family 22 member 7
+SALMETEROL	Solute carrier family 22 member 1
+SALMETEROL	Solute carrier family 22 member 3
+SALMETEROL	Solute carrier family 22 member 2
+MECLOFENAMIC ACID	Solute carrier family 22 member 6
+MECLOFENAMIC ACID	Solute carrier organic anion transporter family member 1C1
+ZALCITABINE	Solute carrier family 22 member 6
+ZALCITABINE	Solute carrier family 22 member 7
+ZALCITABINE	Equilibrative nucleoside transporter 1
+ZALCITABINE	Equilibrative nucleoside transporter 2
+ACETYLSALICYLIC ACID	Solute carrier family 22 member 6
+ACETYLSALICYLIC ACID	P-glycoprotein 1
+ACETYLSALICYLIC ACID	Solute carrier family 22 member 8
+FEXOFENADINE	P-glycoprotein 1
+FEXOFENADINE	Solute carrier organic anion transporter family member 1B1
+FEXOFENADINE	Solute carrier organic anion transporter family member 1B3
+FEXOFENADINE	Solute carrier organic anion transporter family member 2B1
+FEXOFENADINE	Solute carrier organic anion transporter family member 1A2
+FEXOFENADINE	Canalicular multispecific organic anion transporter 1
+FEXOFENADINE	Canalicular multispecific organic anion transporter 2
+FEXOFENADINE	Solute carrier family 22 member 8
+NORGESTIMATE	Canalicular multispecific organic anion transporter 1
+NORGESTIMATE	P-glycoprotein 1
+CARBOPLATIN	High affinity copper uptake protein 1
+CARBOPLATIN	Probable low affinity copper uptake protein 2
+CARBOPLATIN	Copper-transporting ATPase 1
+CARBOPLATIN	Copper-transporting ATPase 2
+CARBOPLATIN	ATP-binding cassette sub-family G member 2
+CARBOPLATIN	Canalicular multispecific organic anion transporter 1
+METHYLPREDNISOLONE	P-glycoprotein 1
+PINDOLOL	Solute carrier family 22 member 2
+TELMISARTAN	P-glycoprotein 1
+TELMISARTAN	Canalicular multispecific organic anion transporter 1
+TELMISARTAN	ATP-binding cassette sub-family G member 2
+TELMISARTAN	Bile salt export pump
+DESLORATADINE	P-glycoprotein 1
+METHYLDOPA	Solute carrier family 15 member 1
+DACTINOMYCIN	Solute carrier family 22 member 5
+DACTINOMYCIN	P-glycoprotein 1
+DACTINOMYCIN	Multidrug resistance-associated protein 6
+DACTINOMYCIN	Multidrug resistance-associated protein 1
+DACTINOMYCIN	ATP-binding cassette sub-family G member 2
+AZELASTINE	P-glycoprotein 1
+EZETIMIBE	P-glycoprotein 1
+EZETIMIBE	Canalicular multispecific organic anion transporter 1
+EZETIMIBE	Canalicular multispecific organic anion transporter 2
+EZETIMIBE	Solute carrier organic anion transporter family member 1B1
+EZETIMIBE	ATP-binding cassette sub-family G member 2
+EZETIMIBE	Bile salt export pump
+DIPYRIDAMOLE	Multidrug resistance-associated protein 4
+DIPYRIDAMOLE	Multidrug resistance-associated protein 5
+DIPYRIDAMOLE	P-glycoprotein 1
+DIPYRIDAMOLE	Solute carrier organic anion transporter family member 1B1
+DIPYRIDAMOLE	Solute carrier organic anion transporter family member 1B3
+DIPYRIDAMOLE	Solute carrier organic anion transporter family member 2B1
+DIPYRIDAMOLE	Bile salt export pump
+TELITHROMYCIN	Solute carrier organic anion transporter family member 1B1
+TELITHROMYCIN	Solute carrier organic anion transporter family member 1B3
+ETHINYLESTRADIOL	Bile salt export pump
+ETHINYLESTRADIOL	Sodium/bile acid cotransporter
+ETHINYLESTRADIOL	Canalicular multispecific organic anion transporter 1
+ETHINYLESTRADIOL	P-glycoprotein 1
+ETHINYLESTRADIOL	Solute carrier organic anion transporter family member 1A2
+LOMEFLOXACIN	Solute carrier family 22 member 5
+LOMEFLOXACIN	Canalicular multispecific organic anion transporter 1
+FORMOTEROL	Solute carrier family 22 member 1
+FORMOTEROL	Solute carrier family 22 member 3
+FORMOTEROL	Solute carrier family 22 member 4
+FORMOTEROL	Solute carrier family 22 member 5
+GLYCOPYRRONIUM	Solute carrier family 22 member 2
+GLYCOPYRRONIUM	Multidrug and toxin extrusion protein 1
+CYTARABINE	Solute carrier family 22 member 4
+CYTARABINE	Multidrug resistance-associated protein 7
+CYTARABINE	Equilibrative nucleoside transporter 1
+DOPAMINE	Solute carrier family 22 member 2
+DOPAMINE	Solute carrier family 22 member 1
+DOPAMINE	Solute carrier family 22 member 3
+DOPAMINE	Solute carrier family 22 member 5
+DOPAMINE	POU domain, class 5, transcription factor 1
+AZATHIOPRINE	Equilibrative nucleoside transporter 2
+AZATHIOPRINE	Solute carrier family 28 member 3
+AZATHIOPRINE	P-glycoprotein 1
+AZATHIOPRINE	Solute carrier family 43 member 3
+GABAPENTIN	Large neutral amino acids transporter small subunit 1
+DOXORUBICIN	P-glycoprotein 1
+DOXORUBICIN	Multidrug resistance-associated protein 1
+DOXORUBICIN	Canalicular multispecific organic anion transporter 2
+DOXORUBICIN	Multidrug resistance-associated protein 6
+DOXORUBICIN	ATP-binding cassette sub-family G member 2
+DOXORUBICIN	Solute carrier family 22 member 16
+DOXORUBICIN	Multidrug resistance-associated protein 7
+DOXORUBICIN	ATP-binding cassette sub-family B member 8, mitochondrial
+DOXORUBICIN	Bile salt export pump
+DOXORUBICIN	RalA-binding protein 1
+DOXORUBICIN	Canalicular multispecific organic anion transporter 1
+HYDROCHLOROTHIAZIDE	Solute carrier family 22 member 6
+HYDROCHLOROTHIAZIDE	Solute carrier family 22 member 8
+HYDROCHLOROTHIAZIDE	Solute carrier family 22 member 11
+HYDROCHLOROTHIAZIDE	Multidrug resistance-associated protein 4
+CYCLACILLIN	Solute carrier family 22 member 5
+CYCLACILLIN	Solute carrier family 15 member 1
+CYCLACILLIN	Solute carrier family 15 member 2
+GANCICLOVIR	Solute carrier family 22 member 1
+GANCICLOVIR	Solute carrier family 22 member 6
+GANCICLOVIR	Solute carrier family 22 member 8
+GANCICLOVIR	Solute carrier family 22 member 7
+GANCICLOVIR	Multidrug and toxin extrusion protein 1
+GANCICLOVIR	Multidrug and toxin extrusion protein 2
+HYDROXYUREA	Solute carrier organic anion transporter family member 1A2
+HYDROXYUREA	Solute carrier organic anion transporter family member 1B1
+HYDROXYUREA	Solute carrier organic anion transporter family member 1B3
+HYDROXYUREA	Urea transporter 2
+HYDROXYUREA	Urea transporter 1
+HYDROXYUREA	Solute carrier family 22 member 4
+HYDROXYUREA	Solute carrier family 22 member 5
+LETROZOLE	P-glycoprotein 1
+KETOPROFEN	Multidrug resistance-associated protein 4
+KETOPROFEN	Solute carrier organic anion transporter family member 1A2
+KETOPROFEN	Solute carrier family 22 member 6
+KETOPROFEN	Solute carrier family 22 member 8
+KETOPROFEN	Solute carrier family 22 member 11
+KETOPROFEN	Solute carrier family 22 member 7
+METYRAPONE	Canalicular multispecific organic anion transporter 2
+SULFAMETHOXAZOLE	Bile salt export pump
+GLYBURIDE	Canalicular multispecific organic anion transporter 2
+GLYBURIDE	Bile salt export pump
+GLYBURIDE	P-glycoprotein 1
+GLYBURIDE	Multidrug resistance-associated protein 1
+GLYBURIDE	Solute carrier family 15 member 1
+GLYBURIDE	Solute carrier organic anion transporter family member 1A2
+GLYBURIDE	Solute carrier family 15 member 2
+GLYBURIDE	Solute carrier family 22 member 6
+GLYBURIDE	Canalicular multispecific organic anion transporter 1
+GLYBURIDE	ATP-binding cassette sub-family G member 2
+GLYBURIDE	Solute carrier family 22 member 7
+GLYBURIDE	Solute carrier organic anion transporter family member 2B1
+MINOCYCLINE	Outer membrane protein F
+MINOCYCLINE	Outer membrane porin C
+MINOCYCLINE	Solute carrier family 22 member 6
+MINOCYCLINE	Solute carrier family 22 member 7
+GUANFACINE	Multidrug and toxin extrusion protein 1
+GUANFACINE	Solute carrier family 22 member 1
+GUANFACINE	Solute carrier family 22 member 2
+FELODIPINE	P-glycoprotein 1
+FELODIPINE	Bile salt export pump
+KETOCONAZOLE	P-glycoprotein 1
+KETOCONAZOLE	Solute carrier organic anion transporter family member 1B1
+KETOCONAZOLE	Bile salt export pump
+TOPOTECAN	ATP-binding cassette sub-family G member 2
+TOPOTECAN	P-glycoprotein 1
+TOPOTECAN	Multidrug and toxin extrusion protein 1
+TOPOTECAN	Multidrug and toxin extrusion protein 2
+PROBENECID	Solute carrier family 22 member 2
+PROBENECID	Solute carrier family 22 member 1
+PROBENECID	Canalicular multispecific organic anion transporter 2
+PROBENECID	Multidrug resistance-associated protein 4
+PROBENECID	Multidrug resistance-associated protein 5
+PROBENECID	Monocarboxylate transporter 2
+PROBENECID	Solute carrier family 22 member 5
+PROBENECID	Multidrug resistance-associated protein 6
+PROBENECID	Multidrug resistance-associated protein 1
+PROBENECID	Solute carrier organic anion transporter family member 1A2
+PROBENECID	Monocarboxylate transporter 1
+PROBENECID	Sodium/bile acid cotransporter
+PROBENECID	Solute carrier family 22 member 6
+PROBENECID	Solute carrier family 22 member 10
+PROBENECID	Solute carrier family 22 member 8
+PROBENECID	Canalicular multispecific organic anion transporter 1
+PROBENECID	ATP-binding cassette sub-family C member 11
+PROBENECID	Solute carrier family 22 member 11
+PROBENECID	Solute carrier organic anion transporter family member 1C1
+PROBENECID	Solute carrier family 22 member 7
+PROBENECID	Solute carrier family 22 member 12
+PROBENECID	Solute carrier family 2, facilitated glucose transporter member 9
+MERCAPTOPURINE	Solute carrier family 22 member 8
+MERCAPTOPURINE	Multidrug resistance-associated protein 4
+MERCAPTOPURINE	Multidrug resistance-associated protein 5
+MERCAPTOPURINE	Sodium/nucleoside cotransporter 2
+MERCAPTOPURINE	Solute carrier family 28 member 3
+MERCAPTOPURINE	Equilibrative nucleoside transporter 1
+MERCAPTOPURINE	Equilibrative nucleoside transporter 2
+PROCAINAMIDE	Solute carrier family 22 member 2
+PROCAINAMIDE	Solute carrier family 22 member 1
+PROCAINAMIDE	Solute carrier family 22 member 3
+PROCAINAMIDE	Solute carrier family 22 member 5
+PROCAINAMIDE	Solute carrier family 22 member 4
+PROCAINAMIDE	Multidrug and toxin extrusion protein 1
+PROCAINAMIDE	Multidrug and toxin extrusion protein 2
+SELEGILINE	P-glycoprotein 1
+FENOFIBRATE	Bile salt export pump
+MELPHALAN	Solute carrier family 22 member 3
+MELPHALAN	Large neutral amino acids transporter small subunit 1
+MELPHALAN	Asc-type amino acid transporter 1
+MEMANTINE	Solute carrier family 22 member 2
+MEMANTINE	Sodium/hydrogen exchanger 1
+MEMANTINE	Solute carrier family 22 member 4
+MEMANTINE	Multidrug and toxin extrusion protein 1
+RIFAMPICIN	P-glycoprotein 1
+RIFAMPICIN	Solute carrier organic anion transporter family member 1B3
+RIFAMPICIN	Multidrug resistance-associated protein 1
+RIFAMPICIN	Solute carrier family 22 member 7
+RIFAMPICIN	Solute carrier organic anion transporter family member 1B1
+RIFAMPICIN	Canalicular multispecific organic anion transporter 2
+RIFAMPICIN	Multidrug resistance-associated protein 5
+RIFAMPICIN	Solute carrier organic anion transporter family member 2B1
+RIFAMPICIN	Solute carrier organic anion transporter family member 1A2
+RIFAMPICIN	Bile salt export pump
+RIFAMPICIN	Canalicular multispecific organic anion transporter 1
+RIFAMPICIN	Solute carrier family 22 member 6
+RIFAMPICIN	Solute carrier family 22 member 8
+IBUPROFEN	Solute carrier organic anion transporter family member 2B1
+IBUPROFEN	P-glycoprotein 1
+IBUPROFEN	Multidrug resistance-associated protein 4
+IBUPROFEN	Multidrug resistance-associated protein 1
+IBUPROFEN	Solute carrier organic anion transporter family member 1A2
+IBUPROFEN	Solute carrier family 22 member 6
+IBUPROFEN	Solute carrier family 22 member 8
+IBUPROFEN	Solute carrier family 22 member 11
+NOVOBIOCIN	Solute carrier family 22 member 6
+NOVOBIOCIN	Solute carrier family 22 member 8
+NOVOBIOCIN	Solute carrier family 22 member 11
+NOVOBIOCIN	ATP-binding cassette sub-family G member 2
+NOVOBIOCIN	Solute carrier organic anion transporter family member 1B1
+NOVOBIOCIN	Solute carrier organic anion transporter family member 1B3
+NOVOBIOCIN	Solute carrier organic anion transporter family member 2B1
+BENZYLPENICILLIN	Solute carrier family 22 member 5
+BENZYLPENICILLIN	Solute carrier family 15 member 1
+BENZYLPENICILLIN	Solute carrier family 15 member 2
+BENZYLPENICILLIN	Solute carrier family 22 member 6
+BENZYLPENICILLIN	Solute carrier family 22 member 8
+BENZYLPENICILLIN	Solute carrier family 22 member 4
+BENZYLPENICILLIN	Solute carrier family 22 member 11
+BENZYLPENICILLIN	Solute carrier organic anion transporter family member 2B1
+BENZYLPENICILLIN	Solute carrier organic anion transporter family member 4A1
+BENZYLPENICILLIN	Solute carrier organic anion transporter family member 3A1
+BENZYLPENICILLIN	Solute carrier organic anion transporter family member 1B1
+NITRENDIPINE	P-glycoprotein 1
+NITRENDIPINE	Bile salt export pump
+NORFLOXACIN	Solute carrier family 22 member 5
+NORFLOXACIN	Solute carrier family 22 member 6
+AMOXICILLIN	Solute carrier family 15 member 1
+AMOXICILLIN	Solute carrier family 15 member 2
+AMOXICILLIN	Solute carrier family 22 member 6
+MELATONIN	Solute carrier family 22 member 8
+GLIPIZIDE	Bile salt export pump
+PROMETHAZINE	P-glycoprotein 1
+PROMETHAZINE	Canalicular multispecific organic anion transporter 2
+PROMETHAZINE	Multidrug resistance-associated protein 4
+ATAZANAVIR	P-glycoprotein 1
+ATAZANAVIR	Multidrug resistance-associated protein 1
+ATAZANAVIR	Solute carrier organic anion transporter family member 1B1
+ATAZANAVIR	Solute carrier organic anion transporter family member 1B3
+ATAZANAVIR	Bile salt export pump
+ATAZANAVIR	Solute carrier organic anion transporter family member 2B1
+FLUDARABINE	Equilibrative nucleoside transporter 1
+FLUDARABINE	Solute carrier family 28 member 3
+DIPHENHYDRAMINE	Solute carrier family 22 member 2
+DIPHENHYDRAMINE	Solute carrier family 22 member 5
+ATORVASTATIN	P-glycoprotein 1
+ATORVASTATIN	Solute carrier organic anion transporter family member 1A2
+ATORVASTATIN	Solute carrier organic anion transporter family member 1B1
+ATORVASTATIN	Multidrug resistance-associated protein 4
+ATORVASTATIN	Multidrug resistance-associated protein 5
+ATORVASTATIN	Multidrug resistance-associated protein 1
+ATORVASTATIN	Solute carrier organic anion transporter family member 2B1
+ATORVASTATIN	Solute carrier organic anion transporter family member 1B3
+ATORVASTATIN	Canalicular multispecific organic anion transporter 1
+ATORVASTATIN	Bile salt export pump
+TEGASEROD	Sodium-dependent serotonin transporter
+TEGASEROD	ATP-binding cassette sub-family G member 2
+TEGASEROD	P-glycoprotein 1
+VIGABATRIN	Proton-coupled amino acid transporter 1
+BENZOCAINE	P-glycoprotein 1
+PRIMAQUINE	P-glycoprotein 1
+ILOPROST	Solute carrier organic anion transporter family member 2B1
+ILOPROST	Solute carrier organic anion transporter family member 2A1
+ILOPROST	Solute carrier organic anion transporter family member 3A1
+OUABAIN	Solute carrier organic anion transporter family member 1A2
+OUABAIN	Solute carrier family 22 member 8
+OUABAIN	Solute carrier organic anion transporter family member 4C1
+OUABAIN	Solute carrier organic anion transporter family member 1B3
+OUABAIN	Solute carrier organic anion transporter family member 1C1
+OUABAIN	Solute carrier organic anion transporter family member 1B1
+HESPERETIN	ATP-binding cassette sub-family G member 2
+FLUVASTATIN	Solute carrier organic anion transporter family member 1B1
+FLUVASTATIN	Solute carrier organic anion transporter family member 1B3
+FLUVASTATIN	Solute carrier organic anion transporter family member 2B1
+FLUVASTATIN	Solute carrier family 15 member 1
+FLUVASTATIN	Canalicular multispecific organic anion transporter 1
+LEFLUNOMIDE	ATP-binding cassette sub-family G member 2
+ROSUVASTATIN	Multidrug resistance-associated protein 4
+ROSUVASTATIN	Solute carrier organic anion transporter family member 1A2
+ROSUVASTATIN	Solute carrier organic anion transporter family member 1B1
+ROSUVASTATIN	Solute carrier organic anion transporter family member 1B3
+ROSUVASTATIN	Solute carrier organic anion transporter family member 2B1
+ROSUVASTATIN	Cystine/glutamate transporter
+ROSUVASTATIN	Bile salt export pump
+ROSUVASTATIN	ATP-binding cassette sub-family G member 2
+ROSUVASTATIN	Canalicular multispecific organic anion transporter 1
+ROSUVASTATIN	Solute carrier family 22 member 8
+ROSUVASTATIN	Sodium/bile acid cotransporter
+PIMOZIDE	P-glycoprotein 1
+QUINACRINE	Solute carrier family 22 member 2
+QUINACRINE	P-glycoprotein 1
+SERTRALINE	P-glycoprotein 1
+MICONAZOLE	P-glycoprotein 1
+CEFUROXIME	Solute carrier family 15 member 1
+CEFUROXIME	Solute carrier family 15 member 2
+CHLORPHENIRAMINE	Solute carrier family 22 member 2
+CHLORPHENIRAMINE	Solute carrier family 22 member 1
+NIFEDIPINE	Canalicular multispecific organic anion transporter 2
+NIFEDIPINE	P-glycoprotein 1
+NIFEDIPINE	Canalicular multispecific organic anion transporter 1
+NIFEDIPINE	Solute carrier organic anion transporter family member 1B1
+NIFEDIPINE	Bile salt export pump
+ATOVAQUONE	P-glycoprotein 1
+AMIODARONE	P-glycoprotein 1
+AMIODARONE	Bile salt export pump
+AMIODARONE	Solute carrier family 22 member 2
+TOLBUTAMIDE	Solute carrier family 15 member 1
+TOLBUTAMIDE	Solute carrier organic anion transporter family member 1A2
+TOLBUTAMIDE	Solute carrier family 22 member 6
+TOLBUTAMIDE	Solute carrier family 15 member 2
+TOLBUTAMIDE	Solute carrier organic anion transporter family member 2B1
+DUTASTERIDE	Sodium-dependent dopamine transporter
+DUTASTERIDE	Synaptic vesicular amine transporter
+BICALUTAMIDE	P-glycoprotein 1
+RABEPRAZOLE	ATP-binding cassette sub-family G member 2
+PIOGLITAZONE	Solute carrier organic anion transporter family member 1B3
+PIOGLITAZONE	Solute carrier organic anion transporter family member 1B1
+CARVEDILOL	P-glycoprotein 1
+LEVOFLOXACIN	P-glycoprotein 1
+LEVOFLOXACIN	Multidrug and toxin extrusion protein 1
+LEVOFLOXACIN	Multidrug and toxin extrusion protein 2
+LEVOFLOXACIN	Solute carrier family 22 member 1
+LEVOFLOXACIN	Solute carrier family 22 member 2
+LEVOFLOXACIN	Solute carrier family 22 member 4
+LEVOFLOXACIN	Solute carrier organic anion transporter family member 1A2
+LEVOFLOXACIN	Solute carrier organic anion transporter family member 4C1
+SULFINPYRAZONE	Canalicular multispecific organic anion transporter 2
+SULFINPYRAZONE	Multidrug resistance-associated protein 4
+SULFINPYRAZONE	Multidrug resistance-associated protein 5
+SULFINPYRAZONE	Multidrug resistance-associated protein 6
+SULFINPYRAZONE	Multidrug resistance-associated protein 1
+SULFINPYRAZONE	Canalicular multispecific organic anion transporter 1
+SULFINPYRAZONE	Bile salt export pump
+CEFADROXIL	Solute carrier family 15 member 1
+CEFADROXIL	Solute carrier family 22 member 5
+CEFADROXIL	Solute carrier family 22 member 6
+CEFADROXIL	Solute carrier family 15 member 2
+CEFADROXIL	Solute carrier family 22 member 8
+DOXEPIN	P-glycoprotein 1
+CLOXACILLIN	Solute carrier family 22 member 8
+CLOXACILLIN	Solute carrier family 15 member 1
+CLOXACILLIN	Solute carrier family 15 member 2
+NEFAZODONE	P-glycoprotein 1
+NEFAZODONE	Solute carrier organic anion transporter family member 1B3
+NEFAZODONE	Solute carrier organic anion transporter family member 2B1
+NEFAZODONE	Bile salt export pump
+DESIPRAMINE	P-glycoprotein 1
+DESIPRAMINE	Solute carrier family 22 member 1
+DESIPRAMINE	Solute carrier family 22 member 3
+DESIPRAMINE	Solute carrier family 22 member 2
+DESIPRAMINE	Solute carrier family 22 member 5
+DESIPRAMINE	Solute carrier family 22 member 4
+BUPROPION	Solute carrier family 22 member 2
+TRIMETREXATE	Folate transporter 1
+DINOPROST TROMETHAMINE	Solute carrier family 22 member 2
+DINOPROST TROMETHAMINE	Solute carrier family 22 member 6
+DINOPROST TROMETHAMINE	Solute carrier family 22 member 7
+DINOPROST TROMETHAMINE	Solute carrier family 22 member 8
+DINOPROST TROMETHAMINE	Solute carrier family 22 member 11
+DINOPROST TROMETHAMINE	Solute carrier organic anion transporter family member 2A1
+DINOPROST TROMETHAMINE	Solute carrier organic anion transporter family member 3A1
+TERAZOSIN	P-glycoprotein 1
+OFLOXACIN	Solute carrier family 22 member 5
+OFLOXACIN	Multidrug resistance-associated protein 1
+OFLOXACIN	Solute carrier family 22 member 6
+OFLOXACIN	Canalicular multispecific organic anion transporter 1
+OFLOXACIN	Solute carrier family 22 member 4
+OFLOXACIN	Bile salt export pump
+ITRACONAZOLE	P-glycoprotein 1
+ITRACONAZOLE	ATP-binding cassette sub-family G member 2
+ITRACONAZOLE	Solute carrier organic anion transporter family member 2B1
+ARSENIC TRIOXIDE	Canalicular multispecific organic anion transporter 1
+ARSENIC TRIOXIDE	P-glycoprotein 1
+PHENOBARBITAL	P-glycoprotein 1
+PHENOBARBITAL	Canalicular multispecific organic anion transporter 2
+PHENOBARBITAL	Bile salt export pump
+PHENOBARBITAL	Multidrug resistance-associated protein 1
+PHENOBARBITAL	Solute carrier organic anion transporter family member 2A1
+PHENOBARBITAL	Canalicular multispecific organic anion transporter 1
+ESCITALOPRAM	P-glycoprotein 1
+IDARUBICIN	Multidrug resistance-associated protein 1
+PROPAFENONE	P-glycoprotein 1
+NALOXONE	Solute carrier organic anion transporter family member 1A2
+NALOXONE	P-glycoprotein 1
+DOMPERIDONE	P-glycoprotein 1
+CLINDAMYCIN	P-glycoprotein 1
+ACEBUTOLOL	P-glycoprotein 1
+FLECAINIDE	P-glycoprotein 1
+FLECAINIDE	Multidrug and toxin extrusion protein 1
+ESTRAMUSTINE	P-glycoprotein 1
+CAPTOPRIL	P-glycoprotein 1
+CAPTOPRIL	Solute carrier family 15 member 1
+CAPTOPRIL	Solute carrier family 22 member 6
+TUBOCURARINE	Solute carrier family 22 member 1
+TUBOCURARINE	Solute carrier family 22 member 2
+BROMOCRIPTINE	P-glycoprotein 1
+LEVETIRACETAM	P-glycoprotein 1
+NADOLOL	P-glycoprotein 1
+NADOLOL	POU domain, class 2, transcription factor 1
+NADOLOL	POU domain, class 2, transcription factor 2
+NADOLOL	Multidrug and toxin extrusion protein 1
+NADOLOL	Multidrug and toxin extrusion protein 2
+MITOXANTRONE	P-glycoprotein 1
+MITOXANTRONE	Multidrug resistance-associated protein 1
+MITOXANTRONE	ATP-binding cassette sub-family G member 2
+SPARFLOXACIN	Solute carrier family 22 member 5
+SPARFLOXACIN	Canalicular multispecific organic anion transporter 1
+SPARFLOXACIN	P-glycoprotein 1
+CLARITHROMYCIN	Solute carrier family 22 member 7
+CLARITHROMYCIN	P-glycoprotein 1
+CLARITHROMYCIN	Bile salt export pump
+CLARITHROMYCIN	Solute carrier organic anion transporter family member 1B1
+CLARITHROMYCIN	Solute carrier organic anion transporter family member 1B3
+CEFTRIAXONE	Solute carrier family 15 member 1
+CEFTRIAXONE	Solute carrier family 15 member 2
+CEFTRIAXONE	Solute carrier family 22 member 6
+CEFTRIAXONE	Solute carrier family 22 member 8
+CEFTRIAXONE	Solute carrier family 22 member 11
+CEFTRIAXONE	P-glycoprotein 1
+FINASTERIDE	Solute carrier family 12 member 5
+ANASTROZOLE	P-glycoprotein 1
+BUDESONIDE	Bile salt export pump
+BUDESONIDE	P-glycoprotein 1
+BUDESONIDE	Solute carrier organic anion transporter family member 1A2
+BUDESONIDE	Solute carrier family 22 member 8
+QUETIAPINE	P-glycoprotein 1
+PACLITAXEL	Bile salt export pump
+PACLITAXEL	P-glycoprotein 1
+PACLITAXEL	Multidrug resistance-associated protein 1
+PACLITAXEL	Multidrug resistance-associated protein 7
+PACLITAXEL	Solute carrier organic anion transporter family member 1B3
+PACLITAXEL	Canalicular multispecific organic anion transporter 1
+SAQUINAVIR	P-glycoprotein 1
+SAQUINAVIR	Solute carrier family 22 member 1
+SAQUINAVIR	Solute carrier organic anion transporter family member 1A2
+SAQUINAVIR	ATP-binding cassette sub-family G member 2
+SAQUINAVIR	Solute carrier organic anion transporter family member 1B1
+SAQUINAVIR	Multidrug resistance-associated protein 1
+SAQUINAVIR	Canalicular multispecific organic anion transporter 1
+SAQUINAVIR	Solute carrier organic anion transporter family member 2B1
+SAQUINAVIR	Bile salt export pump
+METOCLOPRAMIDE	P-glycoprotein 1
+DEXAMETHASONE	P-glycoprotein 1
+DEXAMETHASONE	Solute carrier family 22 member 8
+DEXAMETHASONE	Bile salt export pump
+DEXAMETHASONE	Canalicular multispecific organic anion transporter 1
+DEXAMETHASONE	ATP-binding cassette sub-family G member 2
+DEXAMETHASONE	Solute carrier organic anion transporter family member 1A2
+LEVODOPA	Solute carrier family 15 member 1
+LEVODOPA	Monocarboxylate transporter 10
+LEVODOPA	Large neutral amino acids transporter small subunit 1
+LEVODOPA	Large neutral amino acids transporter small subunit 2
+BROMODIPHENHYDRAMINE	Solute carrier family 22 member 6
+ARIPIPRAZOLE	P-glycoprotein 1
+ARIPIPRAZOLE	ATP-binding cassette sub-family G member 2
+CHLORPROTHIXENE	P-glycoprotein 1
+CLOMIPRAMINE	P-glycoprotein 1
+BEPRIDIL	P-glycoprotein 1
+DOCETAXEL	P-glycoprotein 1
+DOCETAXEL	Multidrug resistance-associated protein 7
+DOCETAXEL	Solute carrier organic anion transporter family member 1B3
+DOCETAXEL	Solute carrier family 22 member 7
+DOCETAXEL	ATP-binding cassette sub-family G member 2
+DOCETAXEL	Canalicular multispecific organic anion transporter 1
+DOCETAXEL	Multidrug resistance-associated protein 1
+OLSALAZINE	Solute carrier family 2, facilitated glucose transporter member 9
+OLSALAZINE	Solute carrier family 22 member 6
+OLSALAZINE	Solute carrier family 22 member 8
+OLSALAZINE	Sodium-dependent phosphate transporter 1
+OLSALAZINE	Sodium/Potassium Transporting ATPase
+ERGOMETRINE	P-glycoprotein 1
+DASATINIB	P-glycoprotein 1
+DASATINIB	ATP-binding cassette sub-family G member 2
+LISDEXAMFETAMINE	Solute carrier family 15 member 1
+LAPATINIB	P-glycoprotein 1
+LAPATINIB	Antigen peptide transporter 1
+SITAGLIPTIN	P-glycoprotein 1
+SITAGLIPTIN	Solute carrier family 22 member 8
+DECITABINE	Sodium/nucleoside cotransporter 1
+POSACONAZOLE	P-glycoprotein 1
+DARUNAVIR	Solute carrier organic anion transporter family member 1B1
+DARUNAVIR	P-glycoprotein 1
+PALIPERIDONE	P-glycoprotein 1
+SUNITINIB	Multidrug resistance-associated protein 4
+SUNITINIB	P-glycoprotein 1
+SUNITINIB	Canalicular multispecific organic anion transporter 1
+SUNITINIB	ATP-binding cassette sub-family G member 2
+VARENICLINE	Solute carrier family 22 member 2
+GLUCOSAMINE	Solute carrier family 2, facilitated glucose transporter member 2
+GLUCOSAMINE	Solute carrier family 2, facilitated glucose transporter member 1
+GLUCOSAMINE	Solute carrier family 2, facilitated glucose transporter member 4
+GLUCOSAMINE	Solute carrier family 2, facilitated glucose transporter member 3
+OXTRIPHYLLINE	Solute carrier family 22 member 7
+ST. JOHN'S WORT	P-glycoprotein 1
+POLYTHIAZIDE	Solute carrier family 22 member 6
+POLYTHIAZIDE	Solute carrier family 22 member 8
+CEFAMANDOLE	Solute carrier family 22 member 6
+CEFAMANDOLE	Solute carrier family 22 member 8
+CEFAMANDOLE	Solute carrier family 22 member 11
+CEFAMANDOLE	Solute carrier family 22 member 7
+CEFAZOLIN	Multidrug resistance-associated protein 4
+CEFAZOLIN	Solute carrier family 22 member 6
+CEFAZOLIN	Solute carrier family 22 member 8
+CEFAZOLIN	Solute carrier family 22 member 11
+CEFOPERAZONE	Solute carrier family 22 member 6
+CEFOPERAZONE	Solute carrier family 22 member 8
+CEFOPERAZONE	Solute carrier family 22 member 11
+CEFOPERAZONE	Solute carrier family 22 member 7
+CEFTIZOXIME	Solute carrier family 15 member 1
+CEFTIZOXIME	Solute carrier family 22 member 6
+CEFTIZOXIME	Solute carrier family 22 member 8
+CEFRADINE	Solute carrier family 22 member 5
+CEFRADINE	Solute carrier family 15 member 1
+CEFRADINE	Solute carrier family 15 member 2
+CEFRADINE	Solute carrier family 22 member 6
+CEFRADINE	Multidrug and toxin extrusion protein 1
+PANCURONIUM	Solute carrier family 22 member 1
+PANCURONIUM	Solute carrier family 22 member 2
+VECURONIUM	P-glycoprotein 1
+CILAZAPRIL	P-glycoprotein 1
+CILAZAPRIL	Solute carrier family 15 member 1
+CILAZAPRIL	Solute carrier family 15 member 2
+SPIRAPRIL	Solute carrier family 15 member 1
+SPIRAPRIL	Solute carrier family 15 member 2
+EPHEDRINE	Synaptic vesicular amine transporter
+CORTISONE ACETATE	Solute carrier organic anion transporter family member 1A2
+CORTISONE ACETATE	P-glycoprotein 1
+CORTISONE ACETATE	Solute carrier family 22 member 8
+MIBEFRADIL	P-glycoprotein 1
+SODIUM BICARBONATE	Electrogenic sodium bicarbonate cotransporter 1
+SODIUM BICARBONATE	Sodium bicarbonate cotransporter 3
+SODIUM BICARBONATE	Electroneutral sodium bicarbonate exchanger 1
+SODIUM BICARBONATE	Electrogenic sodium bicarbonate cotransporter 4
+SODIUM BICARBONATE	Sodium-driven chloride bicarbonate exchanger
+BEZAFIBRATE	Solute carrier organic anion transporter family member 1B1
+COLCHICINE	P-glycoprotein 1
+DIGITOXIN	Solute carrier organic anion transporter family member 1A2
+DIGITOXIN	Solute carrier organic anion transporter family member 4C1
+DIGITOXIN	P-glycoprotein 1
+TIOTROPIUM	Solute carrier family 22 member 5
+TIOTROPIUM	Solute carrier family 22 member 4
+PRANLUKAST	Canalicular multispecific organic anion transporter 1
+CEFEPIME	Solute carrier family 22 member 5
+CEFEPIME	Solute carrier family 15 member 1
+CEFEPIME	Solute carrier family 15 member 2
+CEFACETRILE	Solute carrier family 22 member 6
+CEFACETRILE	Solute carrier family 22 member 8
+CEFTIBUTEN	Solute carrier family 15 member 1
+CEFTIBUTEN	Solute carrier family 15 member 2
+CEFTIBUTEN	Solute carrier family 22 member 6
+CEFTIBUTEN	Solute carrier family 22 member 8
+ACENOCOUMAROL	P-glycoprotein 1
+TESTOSTERONE PROPIONATE	P-glycoprotein 1
+AMINOPHENAZONE	Solute carrier family 22 member 6
+ANTIPYRINE	Solute carrier family 22 member 6
+GAMMA-HYDROXYBUTYRIC ACID	Monocarboxylate transporter 2
+GAMMA-HYDROXYBUTYRIC ACID	Monocarboxylate transporter 1
+GAMMA-HYDROXYBUTYRIC ACID	Monocarboxylate transporter 4
+MIDOMAFETAMINE	Sodium-dependent noradrenaline transporter
+MIDOMAFETAMINE	Sodium-dependent dopamine transporter
+MIDOMAFETAMINE	Sodium-dependent serotonin transporter
+DEXTROAMPHETAMINE	Sodium-dependent dopamine transporter
+METAMFETAMINE	Solute carrier family 22 member 3
+METAMFETAMINE	Solute carrier family 22 member 5
+OXPRENOLOL	Solute carrier family 22 member 2
+LIOTRIX	Solute carrier organic anion transporter family member 1A2
+LIOTRIX	Solute carrier organic anion transporter family member 1B1
+LIOTRIX	Solute carrier organic anion transporter family member 1B3
+LIOTRIX	Solute carrier organic anion transporter family member 4C1
+LIOTRIX	Sodium/bile acid cotransporter
+LIOTRIX	Solute carrier organic anion transporter family member 1C1
+LIOTRIX	Solute carrier organic anion transporter family member 4A1
+LIOTRIX	Solute carrier family 22 member 8
+LIOTRIX	Monocarboxylate transporter 8
+LIOTRIX	Monocarboxylate transporter 10
+LIOTRIX	P-glycoprotein 1
+URSODEOXYCHOLIC ACID	Bile salt export pump
+URSODEOXYCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+URSODEOXYCHOLIC ACID	Canalicular multispecific organic anion transporter 1
+URSODEOXYCHOLIC ACID	Multidrug resistance-associated protein 4
+URSODEOXYCHOLIC ACID	Ileal sodium/bile acid cotransporter
+URSODEOXYCHOLIC ACID	Sodium/bile acid cotransporter
+URSODEOXYCHOLIC ACID	Chloride anion exchanger
+KETAZOLAM	P-glycoprotein 1
+EVEROLIMUS	Solute carrier organic anion transporter family member 1B1
+EVEROLIMUS	Solute carrier organic anion transporter family member 1B3
+EVEROLIMUS	Solute carrier organic anion transporter family member 1A2
+EVEROLIMUS	P-glycoprotein 1
+CILASTATIN	Solute carrier family 22 member 6
+CILASTATIN	Solute carrier family 22 member 8
+LOPINAVIR	P-glycoprotein 1
+LOPINAVIR	Solute carrier organic anion transporter family member 1B1
+LOPINAVIR	Solute carrier organic anion transporter family member 1B3
+LOPINAVIR	Bile salt export pump
+TAZOBACTAM	Solute carrier family 22 member 6
+TAZOBACTAM	Solute carrier family 22 member 8
+VALGANCICLOVIR	Solute carrier family 15 member 1
+VALGANCICLOVIR	Solute carrier family 15 member 2
+VALGANCICLOVIR	Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+)
+HYDROXYCHLOROQUINE	P-glycoprotein 1
+HYDROXYCHLOROQUINE	Solute carrier organic anion transporter family member 1A2
+PIPOTIAZINE	Solute carrier family 22 member 1
+THIOTHIXENE	Solute carrier family 22 member 1
+GENISTEIN	P-glycoprotein 1
+GENISTEIN	Multidrug resistance-associated protein 1
+GENISTEIN	ATP-binding cassette sub-family G member 2
+GENISTEIN	Solute carrier organic anion transporter family member 1B1
+GENISTEIN	Solute carrier organic anion transporter family member 2B1
+TRANS-2-HYDROXYCINNAMIC ACID	Solute carrier family 22 member 8
+TOPIROXOSTAT	ATP-binding cassette sub-family G member 2
+TOPIROXOSTAT	Solute carrier family 22 member 8
+TOPIROXOSTAT	Solute carrier family 22 member 6
+PRASTERONE	Solute carrier organic anion transporter family member 1B3
+PRASTERONE	Solute carrier organic anion transporter family member 2B1
+PRASTERONE	Solute carrier organic anion transporter family member 1B1
+PRASTERONE	Solute carrier organic anion transporter family member 1A2
+PRASTERONE	Multidrug resistance-associated protein 1
+PRASTERONE	ATP-binding cassette sub-family G member 2
+PRASTERONE	Multidrug resistance-associated protein 4
+D-LEUCINE	Monocarboxylate transporter 10
+D-LEUCINE	Large neutral amino acids transporter small subunit 1
+ACETOACETIC ACID	Monocarboxylate transporter 2
+ACETOACETIC ACID	Monocarboxylate transporter 1
+ACETOACETIC ACID	Monocarboxylate transporter 4
+ACETOACETIC ACID	Sodium-coupled monocarboxylate transporter 1
+D-ALANINE	Monocarboxylate transporter 10
+PHOSPHOENOLPYRUVATE	Solute carrier organic anion transporter family member 2A1
+HYPERFORIN	Canalicular multispecific organic anion transporter 1
+HYPERFORIN	Solute carrier organic anion transporter family member 1B1
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 1
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 2
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 3
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 4
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 5
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 6
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 7
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 8
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 9
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 10
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 11
+D-GLUCOSE	Solute carrier family 2, facilitated glucose transporter member 12
+D-GLUCOSE	Sodium/glucose cotransporter 1
+D-GLUCOSE	Sodium/glucose cotransporter 2
+PUTRESCINE	Solute carrier family 22 member 4
+FORMIC ACID	Monocarboxylate transporter 4
+TAURINE	Proton-coupled amino acid transporter 1
+TAURINE	Sodium- and chloride-dependent taurine transporter
+TAURINE	Solute carrier family 15 member 1
+STAUROSPORINE	P-glycoprotein 1
+PROSTAGLANDIN D2	Solute carrier organic anion transporter family member 2A1
+DAIDZIN	ATP-binding cassette sub-family G member 2
+GLYCOCHENODEOXYCHOLIC ACID	Bile salt export pump
+GLYCOCHENODEOXYCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+GLYCOCHENODEOXYCHOLIC ACID	Ileal sodium/bile acid cotransporter
+GLYCOCHENODEOXYCHOLIC ACID	Sodium/bile acid cotransporter
+PLATELET ACTIVATING FACTOR	P-glycoprotein 1
+D-GLYCERALDEHYDE 3-PHOSPHATE	Solute carrier organic anion transporter family member 2A1
+FLUFENAMIC ACID	Solute carrier family 22 member 6
+CYCLIC GMP	Solute carrier family 22 member 6
+MYRICETIN	Multidrug resistance-associated protein 1
+CYCLIC ADENOSINE MONOPHOSPHATE	Multidrug resistance-associated protein 4
+CYCLIC ADENOSINE MONOPHOSPHATE	Multidrug resistance-associated protein 5
+CYCLIC ADENOSINE MONOPHOSPHATE	ATP-binding cassette sub-family C member 11
+CYCLIC ADENOSINE MONOPHOSPHATE	Solute carrier family 22 member 6
+CYCLIC ADENOSINE MONOPHOSPHATE	Solute carrier family 22 member 8
+CYCLIC ADENOSINE MONOPHOSPHATE	Solute carrier family 22 member 7
+GAMMA-AMINOBUTYRIC ACID	Proton-coupled amino acid transporter 1
+D-PHENYLALANINE	Monocarboxylate transporter 10
+D-PHENYLALANINE	Large neutral amino acids transporter small subunit 1
+COLFORSIN	P-glycoprotein 1
+CHOLIC ACID	Bile salt export pump
+CHOLIC ACID	P-glycoprotein 1
+CHOLIC ACID	Multidrug resistance-associated protein 1
+CHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+CHOLIC ACID	Ileal sodium/bile acid cotransporter
+CHOLIC ACID	Canalicular multispecific organic anion transporter 1
+CHOLIC ACID	Solute carrier organic anion transporter family member 1B1
+CHOLIC ACID	Canalicular multispecific organic anion transporter 2
+CHOLIC ACID	Multidrug resistance-associated protein 4
+CHOLIC ACID	Sodium/bile acid cotransporter
+CHOLIC ACID	Solute carrier family 22 member 8
+CHOLIC ACID	Solute carrier family 22 member 7
+CHOLIC ACID	Solute carrier organic anion transporter family member 1B3
+GLYCOCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+GLYCOCHOLIC ACID	Solute carrier organic anion transporter family member 1B1
+GLYCOCHOLIC ACID	Solute carrier organic anion transporter family member 1B3
+FUSIDIC ACID	Bile salt export pump
+FUSIDIC ACID	Canalicular multispecific organic anion transporter 1
+FUSIDIC ACID	ATP-binding cassette sub-family G member 2
+FUSIDIC ACID	Solute carrier organic anion transporter family member 1B1
+URIDINE	Equilibrative nucleoside transporter 1
+PHTHALIC ACID	Solute carrier organic anion transporter family member 2B1
+S-(METHYLMERCURY)-L-CYSTEINE	Large neutral amino acids transporter small subunit 1
+S-(METHYLMERCURY)-L-CYSTEINE	Large neutral amino acids transporter small subunit 2
+PREGNENOLONE	Solute carrier family 10 member 6
+D-PROLINE	Proton-coupled amino acid transporter 1
+STANOLONE	P-glycoprotein 1
+2-AMINOISOBUTYRIC ACID	Monocarboxylate transporter 10
+D-LACTIC ACID	Monocarboxylate transporter 2
+D-LACTIC ACID	Monocarboxylate transporter 1
+D-LACTIC ACID	Monocarboxylate transporter 4
+BETA-ALANINE	Monocarboxylate transporter 10
+ACETYLCHOLINE	Solute carrier family 22 member 5
+ACETYLCHOLINE	Solute carrier family 22 member 1
+ACETIC ACID	Solute carrier organic anion transporter family member 2B1
+ACETIC ACID	Monocarboxylate transporter 1
+SPHINGOSINE	P-glycoprotein 1
+D-TRYPTOPHAN	Monocarboxylate transporter 10
+UBENIMEX	Solute carrier family 15 member 1
+UBENIMEX	Solute carrier family 15 member 2
+NARINGENIN	Solute carrier organic anion transporter family member 2B1
+NARINGENIN	P-glycoprotein 1
+NARINGENIN	Multidrug resistance-associated protein 1
+NARINGENIN	ATP-binding cassette sub-family G member 2
+ALVOCIDIB	ATP-binding cassette sub-family G member 2
+GLUTARIC ACID	Solute carrier family 22 member 6
+GLUTARIC ACID	Solute carrier family 22 member 8
+GLUTARIC ACID	Solute carrier family 22 member 11
+GLUTARIC ACID	Solute carrier family 22 member 7
+SPERMIDINE	Solute carrier family 22 member 4
+SPERMIDINE	Solute carrier family 22 member 1
+GLUCOSE-6-PHOSPHATE	Solute carrier organic anion transporter family member 2A1
+OXYPHENBUTAZONE	Solute carrier family 22 member 6
+TIRATRICOL	Sodium/bile acid cotransporter
+DEOXYCHOLIC ACID	Bile salt export pump
+DEOXYCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+DEOXYCHOLIC ACID	Ileal sodium/bile acid cotransporter
+DEOXYCHOLIC ACID	Sodium/bile acid cotransporter
+ALPHA-D-QUINOVOPYRANOSE	Monocarboxylate transporter 2
+ALPHA-D-QUINOVOPYRANOSE	Monocarboxylate transporter 1
+PHENACETIN	Solute carrier family 22 member 6
+BENZOIC ACID	Solute carrier organic anion transporter family member 2B1
+BENZOIC ACID	Solute carrier family 22 member 8
+BENZOIC ACID	Monocarboxylate transporter 1
+RHODAMINE 6G	Multidrug resistance-associated protein 1
+RHODAMINE 6G	P-glycoprotein 1
+D-TYROSINE	Monocarboxylate transporter 10
+PHENYLPYRUVIC ACID	Monocarboxylate transporter 4
+OXALIC ACID	Solute carrier organic anion transporter family member 2B1
+OXALIC ACID	Solute carrier family 22 member 8
+UREA	Urea transporter 2
+UREA	Urea transporter 1
+D-SERINE	Monocarboxylate transporter 10
+D-SERINE	Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+)
+OXAMIC ACID	Monocarboxylate transporter 4
+ALPHA-KETOISOVALERATE	Monocarboxylate transporter 2
+ALPHA-KETOISOVALERATE	Monocarboxylate transporter 1
+ALPHA-KETOISOVALERATE	Monocarboxylate transporter 4
+TRICARBONYL(1,10-PHENANTHROLINE)RHENIUM(1+)	Canalicular multispecific organic anion transporter 1
+DEGRADED CEPHALORIDINE	Solute carrier family 22 member 5
+DEGRADED CEPHALORIDINE	Solute carrier family 22 member 6
+DEGRADED CEPHALORIDINE	Solute carrier family 22 member 8
+DEGRADED CEPHALORIDINE	Solute carrier family 22 member 11
+DEQUALINIUM	Acriflavine resistance protein B
+QUERCETIN	Multidrug resistance-associated protein 1
+QUERCETIN	Canalicular multispecific organic anion transporter 1
+QUERCETIN	Monocarboxylate transporter 2
+QUERCETIN	Solute carrier organic anion transporter family member 2B1
+QUERCETIN	P-glycoprotein 1
+QUERCETIN	Monocarboxylate transporter 1
+QUERCETIN	ATP-binding cassette sub-family G member 2
+QUERCETIN	Solute carrier organic anion transporter family member 1B1
+CITRIC ACID	Solute carrier organic anion transporter family member 2B1
+INOSINE	Solute carrier family 28 member 3
+GLYOXYLIC ACID	Monocarboxylate transporter 4
+TAUROCHOLIC ACID	Bile salt export pump
+TAUROCHOLIC ACID	Multidrug resistance-associated protein 1
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+TAUROCHOLIC ACID	Ileal sodium/bile acid cotransporter
+TAUROCHOLIC ACID	Canalicular multispecific organic anion transporter 1
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 1B1
+TAUROCHOLIC ACID	Canalicular multispecific organic anion transporter 2
+TAUROCHOLIC ACID	Multidrug resistance-associated protein 4
+TAUROCHOLIC ACID	P-glycoprotein 1
+TAUROCHOLIC ACID	Solute carrier family 22 member 6
+TAUROCHOLIC ACID	Multidrug resistance-associated protein 7
+TAUROCHOLIC ACID	Solute carrier family 22 member 8
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 4A1
+TAUROCHOLIC ACID	ATP-binding cassette sub-family C member 11
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 1C1
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 3A1
+TAUROCHOLIC ACID	ATP-binding cassette sub-family G member 2
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 2B1
+TAUROCHOLIC ACID	Monocarboxylate transporter 1
+TAUROCHOLIC ACID	Sodium/bile acid cotransporter
+TAUROCHOLIC ACID	Organic solute transporter subunit alpha
+TAUROCHOLIC ACID	Organic solute transporter subunit beta
+TAUROCHOLIC ACID	Solute carrier organic anion transporter family member 1B3
+TAUROCHOLIC ACID	Cystine/glutamate transporter
+LACTIC ACID	Monocarboxylate transporter 2
+LACTIC ACID	Solute carrier organic anion transporter family member 2B1
+LACTIC ACID	Monocarboxylate transporter 1
+LACTIC ACID	Monocarboxylate transporter 10
+LACTIC ACID	Solute carrier organic anion transporter family member 2A1
+LACTIC ACID	Monocarboxylate transporter 4
+THYMIDINE	Solute carrier family 28 member 3
+CAPRYLIC ACID	Solute carrier family 22 member 6
+CAPRYLIC ACID	Solute carrier family 22 member 8
+CAPRYLIC ACID	Solute carrier family 22 member 11
+CHOLESTEROL	P-glycoprotein 1
+CHOLESTEROL	ATP-binding cassette sub-family G member 2
+BETA-D-FRUCTOFURANOSE 1,6-BISPHOSPHATE	Solute carrier organic anion transporter family member 2A1
+NIFLUMIC ACID	Monocarboxylate transporter 2
+NIFLUMIC ACID	Monocarboxylate transporter 1
+ARACHIDONIC ACID	Solute carrier organic anion transporter family member 2A1
+ESTRIOL	Solute carrier organic anion transporter family member 1A2
+ESTRIOL	P-glycoprotein 1
+ESTRONE SULFATE	Multidrug and toxin extrusion protein 1
+ESTRONE SULFATE	Multidrug and toxin extrusion protein 2
+ESTRONE SULFATE	Sodium/bile acid cotransporter
+ALDOSTERONE	P-glycoprotein 1
+ALDOSTERONE	Solute carrier family 22 member 5
+ALDOSTERONE	Solute carrier organic anion transporter family member 1A2
+CAMPTOTHECIN	P-glycoprotein 1
+CAMPTOTHECIN	ATP-binding cassette sub-family G member 2
+5-METHYLTETRAHYDROFOLIC ACID	Canalicular multispecific organic anion transporter 1
+BUFORMIN	Solute carrier family 22 member 1
+ZIMELIDINE	P-glycoprotein 1
+DEBRISOQUINE	P-glycoprotein 1
+IXABEPILONE	P-glycoprotein 1
+ROXADUSTAT	ATP-binding cassette sub-family G member 2
+ROXADUSTAT	Solute carrier organic anion transporter family member 1B1
+ROXADUSTAT	Solute carrier family 22 member 6
+ROXADUSTAT	Solute carrier family 22 member 8
+POSIZOLID	Solute carrier organic anion transporter family member 1B1
+BIRICODAR	P-glycoprotein 1
+BIRICODAR	Multidrug resistance-associated protein 1
+FEBUXOSTAT	ATP-binding cassette sub-family G member 2
+DRONEDARONE	P-glycoprotein 1
+DRONEDARONE	Solute carrier family 22 member 2
+DRONEDARONE	Solute carrier family 22 member 1
+DRONEDARONE	Solute carrier organic anion transporter family member 1B1
+DRONEDARONE	Solute carrier organic anion transporter family member 1B3
+DRONEDARONE	Solute carrier family 22 member 8
+NILOTINIB	P-glycoprotein 1
+NILOTINIB	ATP-binding cassette sub-family G member 2
+NILOTINIB	UDP-glucuronosyltransferase 1-1
+NILOTINIB	Solute carrier organic anion transporter family member 1B1
+VILDAGLIPTIN	P-glycoprotein 1
+VOACAMINE	P-glycoprotein 1
+ELACRIDAR	ATP-binding cassette sub-family G member 2
+ELACRIDAR	P-glycoprotein 1
+FLIBANSERIN	P-glycoprotein 1
+LOFEXIDINE	ATP-binding cassette sub-family B member 5
+LOFEXIDINE	Multidrug and toxin extrusion protein 1
+PIRFENIDONE	P-glycoprotein 1
+TIPIFARNIB	P-glycoprotein 1
+BELINOSTAT	P-glycoprotein 1
+MIGALASTAT	Sodium/glucose cotransporter 1
+INDACATEROL	P-glycoprotein 1
+PRETOMANID	Solute carrier family 22 member 8
+COBIMETINIB	Solute carrier organic anion transporter family member 1B1
+COBIMETINIB	Solute carrier organic anion transporter family member 1B3
+COBIMETINIB	ATP-binding cassette sub-family G member 2
+COBIMETINIB	P-glycoprotein 1
+VANDETANIB	Multidrug resistance-associated protein 1
+VANDETANIB	ATP-binding cassette sub-family G member 2
+VANDETANIB	Solute carrier family 22 member 2
+VANDETANIB	P-glycoprotein 1
+HISTAMINE	Solute carrier family 22 member 2
+HISTAMINE	Solute carrier family 22 member 1
+HISTAMINE	Solute carrier family 22 member 3
+HISTAMINE	Solute carrier family 22 member 5
+IODINE	Sodium/iodide cotransporter
+IODINE	Pendrin
+PIMAGEDINE	Solute carrier family 22 member 2
+PALOVAROTENE	ATP-binding cassette sub-family G member 2
+PALOVAROTENE	Solute carrier organic anion transporter family member 1B1
+PALOVAROTENE	Solute carrier organic anion transporter family member 1B3
+PALOVAROTENE	Solute carrier family 22 member 1
+PALOVAROTENE	Bile salt export pump
+TELAPREVIR	P-glycoprotein 1
+ALANOSINE	Cystine/glutamate transporter
+LEVOKETOCONAZOLE	P-glycoprotein 1
+LEVOKETOCONAZOLE	Multidrug and toxin extrusion protein 1
+LEVOKETOCONAZOLE	Solute carrier family 22 member 2
+APREMILAST	P-glycoprotein 1
+TRASTUZUMAB EMTANSINE	P-glycoprotein 1
+PRASTERONE SULFATE	Solute carrier family 22 member 8
+PRASTERONE SULFATE	Solute carrier organic anion transporter family member 1A2
+PRASTERONE SULFATE	Solute carrier organic anion transporter family member 1B1
+PRASTERONE SULFATE	Solute carrier organic anion transporter family member 1B3
+PRASTERONE SULFATE	Solute carrier organic anion transporter family member 2B1
+PRASTERONE SULFATE	Solute carrier family 10 member 6
+PRASTERONE SULFATE	Bile salt export pump
+ABIRATERONE	Multidrug resistance-associated protein 1
+ABIRATERONE	Solute carrier organic anion transporter family member 1B1
+INOTUZUMAB OZOGAMICIN	P-glycoprotein 1
+DOVITINIB	Canalicular multispecific organic anion transporter 2
+DOVITINIB	ATP-binding cassette sub-family G member 2
+DOVITINIB	Solute carrier organic anion transporter family member 1B1
+DOVITINIB	Solute carrier organic anion transporter family member 2B1
+DOVITINIB	Solute carrier organic anion transporter family member 1B3
+DOVITINIB	P-glycoprotein 1
+OBETICHOLIC ACID	Bile salt export pump
+CARIPRAZINE	P-glycoprotein 1
+TROFINETIDE	Solute carrier organic anion transporter family member 1B1
+TROFINETIDE	Solute carrier organic anion transporter family member 1B3
+TIRBANIBULIN	Multidrug and toxin extrusion protein 1
+TIRBANIBULIN	Multidrug and toxin extrusion protein 2
+TIRBANIBULIN	Solute carrier organic anion transporter family member 1B1
+TIRBANIBULIN	Solute carrier organic anion transporter family member 1B3
+TIRBANIBULIN	Solute carrier family 22 member 1
+TIRBANIBULIN	Solute carrier family 22 member 2
+ACETYLCYSTEINE	Solute carrier organic anion transporter family member 1B1
+ACETYLCYSTEINE	Solute carrier family 22 member 6
+ROMIDEPSIN	P-glycoprotein 1
+ROMIDEPSIN	Solute carrier organic anion transporter family member 1B3
+ROMIDEPSIN	Bile salt export pump
+ROMIDEPSIN	Solute carrier organic anion transporter family member 1B1
+ROMIDEPSIN	Solute carrier family 22 member 6
+ROMIDEPSIN	Solute carrier family 22 member 2
+SILODOSIN	P-glycoprotein 1
+SILODOSIN	Multidrug resistance protein 3
+ELTROMBOPAG	Solute carrier organic anion transporter family member 1B1
+ELTROMBOPAG	ATP-binding cassette sub-family G member 2
+DORIPENEM	Solute carrier family 22 member 8
+TOLVAPTAN	P-glycoprotein 1
+RIVAROXABAN	P-glycoprotein 1
+RIVAROXABAN	ATP-binding cassette sub-family G member 2
+MARIBAVIR	ATP-binding cassette sub-family G member 2
+MARIBAVIR	P-glycoprotein 1
+AVANAFIL	P-glycoprotein 1
+AVANAFIL	ATP-binding cassette sub-family G member 2
+TARIQUIDAR	P-glycoprotein 1
+DROXIDOPA	Sodium-dependent noradrenaline transporter
+DROXIDOPA	Monocarboxylate transporter 10
+AMRUBICIN	ATP-binding cassette sub-family B member 5
+LEVOCETIRIZINE	Solute carrier family 22 member 11
+TEMSIROLIMUS	P-glycoprotein 1
+AMISULPRIDE	Multidrug and toxin extrusion protein 1
+AMISULPRIDE	Multidrug and toxin extrusion protein 2
+AMISULPRIDE	P-glycoprotein 1
+AMISULPRIDE	ATP-binding cassette sub-family G member 2
+AMISULPRIDE	Solute carrier family 22 member 1
+SIMEPREVIR	P-glycoprotein 1
+SIMEPREVIR	Solute carrier organic anion transporter family member 1B1
+SIMEPREVIR	Solute carrier organic anion transporter family member 1B3
+SIMEPREVIR	Canalicular multispecific organic anion transporter 1
+SIMEPREVIR	ATP-binding cassette sub-family G member 2
+SIMEPREVIR	Solute carrier organic anion transporter family member 2B1
+SIMEPREVIR	Sodium/bile acid cotransporter
+SIMEPREVIR	Bile salt export pump
+DAPAGLIFLOZIN	P-glycoprotein 1
+SAXAGLIPTIN	Multidrug resistance-associated protein 1
+SAXAGLIPTIN	Solute carrier organic anion transporter family member 4C1
+SAXAGLIPTIN	Solute carrier family 22 member 8
+ELACESTRANT	Solute carrier organic anion transporter family member 2B1
+ELACESTRANT	P-glycoprotein 1
+ELACESTRANT	ATP-binding cassette sub-family G member 2
+AMBRISENTAN	P-glycoprotein 1
+AMBRISENTAN	Solute carrier organic anion transporter family member 1B1
+AMBRISENTAN	Solute carrier organic anion transporter family member 1B3
+ETRAVIRINE	P-glycoprotein 1
+ETRAVIRINE	Multidrug resistance protein 3
+CETHROMYCIN	P-glycoprotein 1
+ANNAMYCIN	P-glycoprotein 1
+LONAFARNIB	P-glycoprotein 1
+LONAFARNIB	Solute carrier organic anion transporter family member 1B1
+LONAFARNIB	Solute carrier organic anion transporter family member 1B3
+LONAFARNIB	ATP-binding cassette sub-family G member 2
+LONAFARNIB	Canalicular multispecific organic anion transporter 1
+PRUCALOPRIDE	P-glycoprotein 1
+GABOXADOL	Proton-coupled amino acid transporter 1
+PAZOPANIB	P-glycoprotein 1
+PAZOPANIB	ATP-binding cassette sub-family G member 2
+PAZOPANIB	Solute carrier organic anion transporter family member 1B1
+PAZOPANIB	UDP-glucuronosyltransferase 1-1
+PANOBINOSTAT	P-glycoprotein 1
+APIXABAN	P-glycoprotein 1
+APIXABAN	ATP-binding cassette sub-family G member 2
+TAFENOQUINE	Solute carrier family 22 member 2
+TAFENOQUINE	Multidrug and toxin extrusion protein 1
+TAFENOQUINE	Multidrug and toxin extrusion protein 2
+BOSUTINIB	P-glycoprotein 1
+AXITINIB	P-glycoprotein 1
+AXITINIB	Solute carrier organic anion transporter family member 1B1
+ISAVUCONAZONIUM	P-glycoprotein 1
+ISAVUCONAZONIUM	ATP-binding cassette sub-family G member 2
+ISAVUCONAZONIUM	Solute carrier family 22 member 2
+DALFAMPRIDINE	Solute carrier family 22 member 2
+SAFINAMIDE	ATP-binding cassette sub-family G member 2
+SAFINAMIDE	Solute carrier organic anion transporter family member 3A1
+ODANACATIB	P-glycoprotein 1
+MEPYRAMINE	Solute carrier family 22 member 4
+MEPYRAMINE	Solute carrier family 22 member 5
+DABIGATRAN ETEXILATE	P-glycoprotein 1
+FESOTERODINE	P-glycoprotein 1
+IOBENGUANE	Sodium-dependent noradrenaline transporter
+METHACHOLINE	Solute carrier family 22 member 5
+METHYLTESTOSTERONE	Solute carrier organic anion transporter family member 1A2
+METHYLTESTOSTERONE	Solute carrier family 22 member 8
+GIMATECAN	Solute carrier organic anion transporter family member 1B1
+BETAINE	Sodium- and chloride-dependent betaine transporter
+CABAZITAXEL	P-glycoprotein 1
+CABAZITAXEL	ATP-binding cassette sub-family G member 2
+CABAZITAXEL	Solute carrier organic anion transporter family member 1B1
+CABAZITAXEL	Solute carrier organic anion transporter family member 1B3
+CUPRIC SULFATE	Serum albumin
+CUPRIC SULFATE	Ceruloplasmin
+MANGAFODIPIR	Natural resistance-associated macrophage protein 2
+PRALATREXATE	Folate transporter 1
+PRALATREXATE	Canalicular multispecific organic anion transporter 1
+PRALATREXATE	ATP-binding cassette sub-family G member 2
+PRALATREXATE	Proton-coupled folate transporter
+PRALATREXATE	Canalicular multispecific organic anion transporter 2
+PRALATREXATE	Solute carrier organic anion transporter family member 1B3
+CHLORAMPHENICOL SUCCINATE	P-glycoprotein 1
+FERULIC ACID	Monocarboxylate transporter 1
+FERULIC ACID	Monocarboxylate transporter 4
+AZIDOCILLIN	Solute carrier family 22 member 5
+AZIDOCILLIN	Solute carrier family 15 member 1
+AZIDOCILLIN	Solute carrier family 15 member 2
+TICAGRELOR	P-glycoprotein 1
+HYALURONIC ACID	Multidrug resistance-associated protein 5
+IVACAFTOR	P-glycoprotein 1
+AZILSARTAN MEDOXOMIL	P-glycoprotein 1
+IOFLUPANE I-123	Sodium-dependent dopamine transporter
+LOMITAPIDE	P-glycoprotein 1
+VISMODEGIB	ATP-binding cassette sub-family G member 2
+VISMODEGIB	P-glycoprotein 1
+DEHYDROASCORBIC ACID	Solute carrier family 2, facilitated glucose transporter member 1
+2-DEOXYGLUCOSE	Solute carrier family 2, facilitated glucose transporter member 1
+TAUROCHENODEOXYCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+TAUROCHENODEOXYCHOLIC ACID	Cystine/glutamate transporter
+TAUROURSODEOXYCHOLIC ACID	Solute carrier organic anion transporter family member 1A2
+TAUROURSODEOXYCHOLIC ACID	Cystine/glutamate transporter
+TAUROURSODEOXYCHOLIC ACID	ATP-binding cassette sub-family G member 5
+TAUROURSODEOXYCHOLIC ACID	ATP-binding cassette sub-family G member 8
+TAUROURSODEOXYCHOLIC ACID	Bile salt export pump
+SPAGLUMIC ACID	Proton-coupled amino acid transporter 1
+TEMOCAPRIL	Solute carrier family 15 member 1
+TEMOCAPRIL	Solute carrier organic anion transporter family member 1A2
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 1
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 2
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 3
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 4
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 5
+TETRAETHYLAMMONIUM	Solute carrier family 22 member 8
+TETRAETHYLAMMONIUM	Multidrug and toxin extrusion protein 1
+AGMATINE	Solute carrier family 22 member 1
+AGMATINE	Solute carrier family 22 member 2
+AGMATINE	Solute carrier family 22 member 3
+AGMATINE	Y+L amino acid transporter 1
+SEROTONIN	Solute carrier family 22 member 2
+N-METHYLNICOTINAMIDE	Solute carrier family 22 member 2
+N-METHYLNICOTINAMIDE	Multidrug and toxin extrusion protein 1
+N-METHYLNICOTINAMIDE	Multidrug and toxin extrusion protein 2
+TYRAMINE	Solute carrier family 22 member 3
+ACETYLCARNITINE	Solute carrier family 22 member 5
+ACETYLCARNITINE	Solute carrier family 22 member 21
+GS 0573	Solute carrier family 22 member 6
+URIC ACID	Solute carrier family 22 member 6
+URIC ACID	Solute carrier family 22 member 8
+URIC ACID	Solute carrier family 2, facilitated glucose transporter member 9
+ELLAGIC ACID	Solute carrier family 22 member 6
+ELLAGIC ACID	Solute carrier family 22 member 11
+HYDROXYPROLINE	Proton-coupled amino acid transporter 1
+NIPECOTIC ACID	Proton-coupled amino acid transporter 1
+LEUKOTRIENE C4	Solute carrier organic anion transporter family member 1B1
+LEUKOTRIENE C4	Solute carrier organic anion transporter family member 1B3
+DADLE	Solute carrier organic anion transporter family member 1B1
+BAMET-UD2	Solute carrier organic anion transporter family member 1B1
+CIS-DIAMMINECHLOROCHOLYLGLYCINATEPLATINUM(II)	Solute carrier organic anion transporter family member 1B1
+PITAVASTATIN	Solute carrier organic anion transporter family member 1B1
+PITAVASTATIN	Solute carrier organic anion transporter family member 1B3
+PITAVASTATIN	Solute carrier organic anion transporter family member 2B1
+PITAVASTATIN	Sodium/bile acid cotransporter
+PITAVASTATIN	ATP-binding cassette sub-family G member 2
+PITAVASTATIN	P-glycoprotein 1
+PITAVASTATIN	Canalicular multispecific organic anion transporter 1
+PITAVASTATIN	Bile salt export pump
+DPDPE	Solute carrier organic anion transporter family member 1B3
+CHOLECYSTOKININ	Solute carrier organic anion transporter family member 1B3
+CHOLECYSTOKININ	Solute carrier organic anion transporter family member 1B1
+CHOLECYSTOKININ	Solute carrier organic anion transporter family member 2B1
+RILPIVIRINE	P-glycoprotein 1
+RILPIVIRINE	ATP-binding cassette sub-family G member 2
+RILPIVIRINE	Solute carrier organic anion transporter family member 1B1
+RILPIVIRINE	Solute carrier organic anion transporter family member 1B3
+CRIZOTINIB	P-glycoprotein 1
+FINGOLIMOD	Excitatory amino acid transporter 2
+FINGOLIMOD	Excitatory amino acid transporter 1
+FINGOLIMOD	P-glycoprotein 1
+FINGOLIMOD	Multidrug resistance-associated protein 1
+BRENTUXIMAB VEDOTIN	ATP-binding cassette sub-family B member 5
+GABAPENTIN ENACARBIL	Sodium-coupled monocarboxylate transporter 1
+GABAPENTIN ENACARBIL	Sodium-dependent multivitamin transporter
+BOCEPREVIR	P-glycoprotein 1
+FIDAXOMICIN	P-glycoprotein 1
+AMINOPTERIN	Proton-coupled folate transporter
+TERIFLUNOMIDE	ATP-binding cassette sub-family G member 2
+TERIFLUNOMIDE	Solute carrier organic anion transporter family member 1B1
+VEMURAFENIB	Multidrug resistance-associated protein 1
+VEMURAFENIB	ATP-binding cassette sub-family G member 2
+VEMURAFENIB	P-glycoprotein 1
+LINAGLIPTIN	P-glycoprotein 1
+LINAGLIPTIN	Solute carrier family 22 member 1
+LINAGLIPTIN	Solute carrier family 22 member 2
+LINAGLIPTIN	Solute carrier family 22 member 3
+GADOXETIC ACID	Canalicular multispecific organic anion transporter 1
+GADOXETIC ACID	Canalicular multispecific organic anion transporter 2
+GADOXETIC ACID	Multidrug resistance-associated protein 4
+GADOXETIC ACID	Solute carrier organic anion transporter family member 1B1
+GADOXETIC ACID	Solute carrier organic anion transporter family member 1B3
+CARFILZOMIB	P-glycoprotein 1
+ARBACLOFEN PLACARBIL	Monocarboxylate transporter 1
+MIRABEGRON	P-glycoprotein 1
+MIRABEGRON	Solute carrier organic anion transporter family member 1A2
+MIRABEGRON	Solute carrier family 22 member 1
+MIRABEGRON	Solute carrier family 22 member 2
+MIRABEGRON	Solute carrier family 22 member 3
+REGORAFENIB	P-glycoprotein 1
+REGORAFENIB	ATP-binding cassette sub-family G member 2
+ENZALUTAMIDE	P-glycoprotein 1
+PONATINIB	P-glycoprotein 1
+PONATINIB	ATP-binding cassette sub-family G member 2
+FLUTICASONE FUROATE	P-glycoprotein 1
+FLUTICASONE FUROATE	Solute carrier organic anion transporter family member 1B1
+CANAGLIFLOZIN	P-glycoprotein 1
+CANAGLIFLOZIN	Canalicular multispecific organic anion transporter 1
+CANAGLIFLOZIN	ATP-binding cassette sub-family G member 2
+POMALIDOMIDE	P-glycoprotein 1
+DABRAFENIB	P-glycoprotein 1
+DABRAFENIB	ATP-binding cassette sub-family G member 2
+DABRAFENIB	Solute carrier organic anion transporter family member 1B1
+DABRAFENIB	Solute carrier organic anion transporter family member 1B3
+DABRAFENIB	Solute carrier organic anion transporter family member 1A2
+DABRAFENIB	Solute carrier family 22 member 6
+DABRAFENIB	Solute carrier family 22 member 8
+DABRAFENIB	Solute carrier family 22 member 2
+AFATINIB	P-glycoprotein 1
+AFATINIB	ATP-binding cassette sub-family G member 2
+LEVOMILNACIPRAN	P-glycoprotein 1
+DOLUTEGRAVIR	Solute carrier family 22 member 2
+DOLUTEGRAVIR	ATP-binding cassette sub-family G member 2
+DOLUTEGRAVIR	Solute carrier family 22 member 6
+DOLUTEGRAVIR	Solute carrier family 22 member 8
+DOLUTEGRAVIR	P-glycoprotein 1
+DOLUTEGRAVIR	Multidrug and toxin extrusion protein 1
+RIOCIGUAT	ATP-binding cassette sub-family G member 2
+RIOCIGUAT	P-glycoprotein 1
+SOFOSBUVIR	P-glycoprotein 1
+SOFOSBUVIR	ATP-binding cassette sub-family G member 2
+INOSITOL NICOTINATE	Sodium-coupled monocarboxylate transporter 1
+DIOSMIN	P-glycoprotein 1
+DIOSMIN	Solute carrier organic anion transporter family member 1B1
+DIOSMIN	Solute carrier organic anion transporter family member 1B3
+DIOSMIN	Solute carrier organic anion transporter family member 2B1
+CEFALORIDINE	Solute carrier family 22 member 6
+CEFALORIDINE	Solute carrier family 22 member 8
+ALISKIREN	P-glycoprotein 1
+LEDIPASVIR	P-glycoprotein 1
+LEDIPASVIR	ATP-binding cassette sub-family G member 2
+VORAPAXAR	P-glycoprotein 1
+SUVOREXANT	P-glycoprotein 1
+EMPAGLIFLOZIN	P-glycoprotein 1
+EMPAGLIFLOZIN	ATP-binding cassette sub-family G member 2
+EMPAGLIFLOZIN	Solute carrier family 22 member 8
+EMPAGLIFLOZIN	Solute carrier organic anion transporter family member 1B1
+EMPAGLIFLOZIN	Solute carrier organic anion transporter family member 1B3
+ELIGLUSTAT	P-glycoprotein 1
+NETUPITANT	P-glycoprotein 1
+IDELALISIB	ATP-binding cassette sub-family G member 2
+IDELALISIB	P-glycoprotein 1
+IDELALISIB	Solute carrier organic anion transporter family member 1B1
+IDELALISIB	Solute carrier organic anion transporter family member 1B3
+AVIBACTAM	Canalicular multispecific organic anion transporter 1
+AVIBACTAM	Solute carrier family 22 member 8
+CANNABIDIOL	Multidrug resistance-associated protein 1
+CANNABIDIOL	ATP-binding cassette sub-family G member 2
+CANNABIDIOL	Equilibrative nucleoside transporter 1
+CANNABIDIOL	P-glycoprotein 1
+CERITINIB	P-glycoprotein 1
+COBICISTAT	P-glycoprotein 1
+COBICISTAT	ATP-binding cassette sub-family G member 2
+COBICISTAT	Solute carrier organic anion transporter family member 1B1
+COBICISTAT	Solute carrier organic anion transporter family member 1B3
+PALBOCICLIB	P-glycoprotein 1
+PALBOCICLIB	ATP-binding cassette sub-family G member 2
+PALBOCICLIB	Solute carrier family 22 member 1
+OLAPARIB	P-glycoprotein 1
+OLAPARIB	ATP-binding cassette sub-family G member 2
+EDOXABAN	P-glycoprotein 1
+UMECLIDINIUM	P-glycoprotein 1
+UMECLIDINIUM	Solute carrier family 22 member 1
+UMECLIDINIUM	Solute carrier family 22 member 2
+LENVATINIB	P-glycoprotein 1
+LENVATINIB	ATP-binding cassette sub-family G member 2
+LENVATINIB	Solute carrier family 22 member 6
+LENVATINIB	Solute carrier family 22 member 8
+LENVATINIB	Solute carrier family 22 member 2
+LENVATINIB	Solute carrier organic anion transporter family member 1B1
+LENVATINIB	Bile salt export pump
+LENVATINIB	Solute carrier organic anion transporter family member 1B3
+NINTEDANIB	P-glycoprotein 1
+NINTEDANIB	Solute carrier family 22 member 1
+NINTEDANIB	ATP-binding cassette sub-family G member 2
+VILANTEROL	P-glycoprotein 1
+SOMATOSTATIN	P-glycoprotein 1
+THYROID, PORCINE	Monocarboxylate transporter 8
+THYROID, PORCINE	Solute carrier organic anion transporter family member 1C1
+THYROID, PORCINE	Solute carrier organic anion transporter family member 3A1
+THYROID, PORCINE	Solute carrier organic anion transporter family member 4A1
+THYROID, PORCINE	Large neutral amino acids transporter small subunit 1
+THYROID, PORCINE	Sodium/bile acid cotransporter
+DACLATASVIR	P-glycoprotein 1
+DACLATASVIR	Solute carrier organic anion transporter family member 1B1
+DACLATASVIR	Solute carrier organic anion transporter family member 1B3
+DACLATASVIR	ATP-binding cassette sub-family G member 2
+STIRIPENTOL	P-glycoprotein 1
+STIRIPENTOL	ATP-binding cassette sub-family G member 2
+BREXPIPRAZOLE	Multidrug and toxin extrusion protein 2
+COPPER	High affinity copper uptake protein 1
+COPPER	Natural resistance-associated macrophage protein 2
+COPPER	Copper-transporting ATPase 1
+COPPER	Copper-transporting ATPase 2
+COPPER	Probable low affinity copper uptake protein 2
+TECHNETIUM TC-99M MEBROFENIN	Solute carrier organic anion transporter family member 1B1
+TECHNETIUM TC-99M MEBROFENIN	Solute carrier organic anion transporter family member 1B3
+SINCALIDE	Solute carrier organic anion transporter family member 1B3
+SODIUM CITRATE	Mitochondrial 2-oxodicarboxylate carrier
+SODIUM CITRATE	Solute carrier family 13 member 2
+SODIUM CITRATE	Solute carrier family 13 member 5
+SODIUM CITRATE	Tricarboxylate transport protein, mitochondrial
+TECHNETIUM TC-99M SESTAMIBI	P-glycoprotein 1
+TECHNETIUM TC-99M SESTAMIBI	Multidrug resistance-associated protein 1
+DASABUVIR	ATP-binding cassette sub-family G member 2
+DASABUVIR	ATP-binding cassette sub-family B member 5
+DASABUVIR	P-glycoprotein 1
+VILOXAZINE	Multidrug and toxin extrusion protein 1
+ETOPERIDONE	Sodium-dependent serotonin transporter
+ETOPERIDONE	Sodium-dependent noradrenaline transporter
+ETOPERIDONE	Sodium-dependent dopamine transporter
+LOBEGLITAZONE	Solute carrier organic anion transporter family member 1B1
+LOBEGLITAZONE	Solute carrier organic anion transporter family member 3A1
+LOBEGLITAZONE	P-glycoprotein 1
+DEXIBUPROFEN	Multidrug resistance-associated protein 4
+DEXIBUPROFEN	Multidrug resistance-associated protein 1
+DEXIBUPROFEN	Solute carrier organic anion transporter family member 1A2
+DEXIBUPROFEN	Solute carrier family 22 member 6
+DEXIBUPROFEN	Solute carrier family 22 member 8
+DEXIBUPROFEN	Solute carrier family 22 member 11
+DEXIBUPROFEN	Solute carrier organic anion transporter family member 2B1
+DEXIBUPROFEN	P-glycoprotein 1
+LEVAMLODIPINE	P-glycoprotein 1
+LEVAMLODIPINE	Ileal sodium/bile acid cotransporter
+LEVAMLODIPINE	Solute carrier family 22 member 5
+NIGULDIPINE	P-glycoprotein 1
+METHYLENE BLUE	P-glycoprotein 1
+METHYLENE BLUE	Solute carrier family 22 member 2
+METHYLENE BLUE	Multidrug and toxin extrusion protein 2
+METHYLENE BLUE	Multidrug and toxin extrusion protein 1
+UBIDECARENONE	P-glycoprotein 1
+ELUXADOLINE	Solute carrier organic anion transporter family member 1B1
+ELUXADOLINE	Canalicular multispecific organic anion transporter 1
+ELUXADOLINE	Solute carrier family 22 member 8
+ARTESUNATE	ATP-binding cassette sub-family G member 2
+ARTESUNATE	P-glycoprotein 1
+ARTESUNATE	Solute carrier organic anion transporter family member 1B1
+ARTESUNATE	Solute carrier family 22 member 8
+FIMASARTAN	Solute carrier organic anion transporter family member 1B1
+FIMASARTAN	ATP-binding cassette sub-family G member 2
+LUMACAFTOR	P-glycoprotein 1
+POLYETHYLENE GLYCOL	P-glycoprotein 1
+ROLAPITANT	ATP-binding cassette sub-family G member 2
+ROLAPITANT	P-glycoprotein 1
+SACUBITRIL	Solute carrier organic anion transporter family member 1B1
+SACUBITRIL	Solute carrier organic anion transporter family member 1B3
+OMBITASVIR	P-glycoprotein 1
+OMBITASVIR	ATP-binding cassette sub-family G member 2
+PARITAPREVIR	ATP-binding cassette sub-family G member 2
+PARITAPREVIR	P-glycoprotein 1
+PARITAPREVIR	Solute carrier organic anion transporter family member 1B1
+PARITAPREVIR	Solute carrier organic anion transporter family member 1B3
+SILIBININ	Solute carrier family 22 member 6
+SILIBININ	Solute carrier organic anion transporter family member 1B1
+SILIBININ	Solute carrier organic anion transporter family member 1B3
+SILIBININ	Solute carrier organic anion transporter family member 2B1
+TENOFOVIR ALAFENAMIDE	P-glycoprotein 1
+TENOFOVIR ALAFENAMIDE	Multidrug resistance-associated protein 4
+TENOFOVIR ALAFENAMIDE	Solute carrier family 22 member 6
+TENOFOVIR ALAFENAMIDE	Solute carrier family 22 member 8
+TENOFOVIR ALAFENAMIDE	ATP-binding cassette sub-family G member 2
+TENOFOVIR ALAFENAMIDE	Solute carrier organic anion transporter family member 1B1
+TENOFOVIR ALAFENAMIDE	Solute carrier organic anion transporter family member 1B3
+SULBACTAM	Solute carrier family 22 member 6
+AMMONIA N-13	Ammonium transporter Rh type C
+TEGAFUR-URACIL	Solute carrier family 22 member 7
+TEGAFUR-URACIL	Equilibrative nucleoside transporter 1
+TEGAFUR-URACIL	Equilibrative nucleoside transporter 2
+TEGAFUR-URACIL	Sodium/nucleoside cotransporter 1
+TEGAFUR-URACIL	Sodium/nucleoside cotransporter 2
+TEGAFUR-URACIL	Solute carrier family 28 member 3
+OSIMERTINIB	P-glycoprotein 1
+OSIMERTINIB	ATP-binding cassette sub-family G member 2
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 1
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 2
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 3
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 4
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 6
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 7
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 8
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 9
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 10
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 11
+DEXTROSE, UNSPECIFIED FORM	Solute carrier family 2, facilitated glucose transporter member 12
+DEXTROSE, UNSPECIFIED FORM	Sodium/glucose cotransporter 1
+TIPIRACIL	Solute carrier family 22 member 2
+TIPIRACIL	Multidrug and toxin extrusion protein 1
+INVERT SUGAR	Solute carrier family 2, facilitated glucose transporter member 2
+INVERT SUGAR	Solute carrier family 2, facilitated glucose transporter member 5
+RAUWOLFIA SERPENTINA ROOT	Sodium-dependent noradrenaline transporter
+RAUWOLFIA SERPENTINA ROOT	Synaptic vesicular amine transporter
+INDOCYANINE GREEN ACID FORM	Canalicular multispecific organic anion transporter 1
+INDOCYANINE GREEN ACID FORM	Bile salt export pump
+TECHNETIUM TC-99M SUCCIMER	Sodium-dependent phosphate transporter 1
+TECHNETIUM TC-99M SUCCIMER	Sodium-dependent phosphate transporter 2
+SODIUM PHOSPHATE, MONOBASIC	Sodium-dependent phosphate transporter 1
+SODIUM PHOSPHATE, MONOBASIC	Sodium-dependent phosphate transporter 2
+SODIUM PHOSPHATE, MONOBASIC	Sodium-dependent phosphate transport protein 2A
+SODIUM PHOSPHATE, MONOBASIC	Sodium-dependent phosphate transport protein 2B
+SODIUM PHOSPHATE, MONOBASIC	Sodium-dependent phosphate transport protein 2C
+GLYCERIN	Aquaporin-7
+GLYCERIN	Aquaporin-9
+GLYCERIN	Glycerol uptake facilitator protein
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit alpha-1
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit gamma
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit beta-1
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit beta-2
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit beta-3
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit alpha-4
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit alpha-2
+RUBIDIUM RB-82	Sodium/potassium-transporting ATPase subunit alpha-3
+MAGNESIUM CARBONATE	Transient receptor potential cation channel subfamily M member 6
+MAGNESIUM CARBONATE	Solute carrier family 41 member 3
+MAGNESIUM CARBONATE	Metal transporter CNNM2
+MAGNESIUM CARBONATE	Transient receptor potential cation channel subfamily M member 7
+STRONTIUM CHLORIDE SR-89	Sodium/calcium exchanger 1
+STRONTIUM CHLORIDE SR-89	Voltage-dependent T-type calcium channel subunit alpha-1I
+THIOSULFURIC ACID	Solute carrier family 13 member 4
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 4
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 2
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 1
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 3
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 9
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 5
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 6
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 7
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 8
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 10
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 11
+FLUDEOXYGLUCOSE (18F)	Solute carrier family 2, facilitated glucose transporter member 12
+IOBENGUANE SULFATE I-123	Sodium-dependent noradrenaline transporter
+POLYETHYLENE GLYCOL 400	P-glycoprotein 1
+POTASSIUM NITRATE	Mucin-1
+CALCIUM CITRATE	Transient receptor potential cation channel subfamily V member 6
+CALCIUM CITRATE	Sodium/calcium exchanger 1
+CALCIUM CITRATE	Transient receptor potential cation channel subfamily V member 5
+CALCIUM CITRATE	Ryanodine receptor 1
+CALCIUM CITRATE	Ryanodine receptor 2
+CALCIUM CITRATE	Polycystic kidney disease 2-like 1 protein
+CALCIUM CITRATE	Ryanodine receptor 3
+CALCIUM CITRATE	Polycystic kidney disease protein 1-like 3
+CALCIUM CITRATE	Cation channel sperm-associated protein 1
+CALCIUM CITRATE	Voltage-dependent L-type calcium channel
+CALCIUM CITRATE	Voltage-dependent P/Q-type calcium channel
+CALCIUM CITRATE	Voltage-dependent T-type calcium channel
+CALCIUM CITRATE	Voltage-dependent R-type calcium channel
+POTASSIUM BICARBONATE	Solute carrier family 12 member 2
+POTASSIUM BICARBONATE	Solute carrier family 12 member 1
+SELENIOUS ACID	Selenoprotein P
+TOCOPHEROL	Alpha-tocopherol transfer protein
+TOCOPHEROL	SEC14-like protein 4
+TOCOPHEROL	SEC14-like protein 2
+TOCOPHEROL	SEC14-like protein 3
+TOCOPHEROL	Apolipoprotein B receptor
+TOCOPHEROL	Scavenger receptor class B member 1
+TOCOPHEROL	P-glycoprotein 1
+LEVOMEFOLIC ACID	Proton-coupled folate transporter
+LEVOMEFOLIC ACID	Folate transporter 1
+CALCIUM PHOSPHATE	Sodium-dependent phosphate transporter 1
+CALCIUM PHOSPHATE	Sodium-dependent phosphate transporter 2
+CALCIUM PHOSPHATE	Sodium-dependent phosphate transport protein 2A
+CALCIUM PHOSPHATE	Sodium-dependent phosphate transport protein 2B
+CALCIUM PHOSPHATE	Sodium-dependent phosphate transport protein 2C
+CALCIUM PHOSPHATE	Transient receptor potential cation channel subfamily V member 6
+CALCIUM PHOSPHATE	Sodium/calcium exchanger 1
+CALCIUM PHOSPHATE	Transient receptor potential cation channel subfamily V member 5
+CALCIUM PHOSPHATE	Ryanodine receptor 1
+CALCIUM PHOSPHATE	Ryanodine receptor 2
+CALCIUM PHOSPHATE	Polycystic kidney disease 2-like 1 protein
+CALCIUM PHOSPHATE	Ryanodine receptor 3
+CALCIUM PHOSPHATE	Polycystic kidney disease protein 1-like 3
+CALCIUM PHOSPHATE	Cation channel sperm-associated protein 1
+CALCIUM PHOSPHATE	Voltage-dependent L-type calcium channel
+CALCIUM PHOSPHATE	Voltage-dependent P/Q-type calcium channel
+CALCIUM PHOSPHATE	Voltage-dependent T-type calcium channel
+CALCIUM PHOSPHATE	Voltage-dependent R-type calcium channel
+SELEXIPAG	Solute carrier organic anion transporter family member 1B1
+SELEXIPAG	Solute carrier organic anion transporter family member 1B3
+SELEXIPAG	P-glycoprotein 1
+ALECTINIB	ATP-binding cassette sub-family G member 2
+ALECTINIB	P-glycoprotein 1
+MONENSIN	P-glycoprotein 1
+SALINOMYCIN	P-glycoprotein 1
+ELBASVIR	P-glycoprotein 1
+GRAZOPREVIR	P-glycoprotein 1
+GRAZOPREVIR	Solute carrier organic anion transporter family member 1B1
+GRAZOPREVIR	Solute carrier organic anion transporter family member 1B3
+VENETOCLAX	P-glycoprotein 1
+VENETOCLAX	ATP-binding cassette sub-family G member 2
+VENETOCLAX	Solute carrier organic anion transporter family member 1B1
+ASUNAPREVIR	Solute carrier organic anion transporter family member 1B1
+ASUNAPREVIR	Solute carrier organic anion transporter family member 1B3
+ASUNAPREVIR	Solute carrier organic anion transporter family member 2B1
+ASUNAPREVIR	P-glycoprotein 1
+THIMEROSAL	Inositol 1,4,5-trisphosphate receptor type 1
+BILASTINE	ATP-binding cassette sub-family B member 5
+BILASTINE	Solute carrier organic anion transporter family member 1A2
+BILASTINE	Solute carrier organic anion transporter family member 2B1
+LIFITEGRAST	Solute carrier organic anion transporter family member 1A2
+LIFITEGRAST	Solute carrier organic anion transporter family member 2B1
+VELPATASVIR	P-glycoprotein 1
+VELPATASVIR	ATP-binding cassette sub-family G member 2
+VELPATASVIR	Solute carrier organic anion transporter family member 1B1
+VELPATASVIR	Solute carrier organic anion transporter family member 1B3
+VELPATASVIR	Solute carrier organic anion transporter family member 2B1
+OPICAPONE	P-glycoprotein 1
+OPICAPONE	ATP-binding cassette sub-family G member 2
+OPICAPONE	Solute carrier organic anion transporter family member 1B3
+OPICAPONE	Solute carrier organic anion transporter family member 2B1
+OPICAPONE	Solute carrier organic anion transporter family member 1B1
+ISAVUCONAZOLE	P-glycoprotein 1
+ISAVUCONAZOLE	ATP-binding cassette sub-family G member 2
+ISAVUCONAZOLE	Solute carrier family 22 member 2
+TOCOFERSOLAN	Alpha-tocopherol transfer protein
+TOCOFERSOLAN	Scavenger receptor class B member 1
+TOCOFERSOLAN	Niemann-Pick C1-like protein 1
+TOCOFERSOLAN	ATP-binding cassette sub-family G member 5
+TOCOFERSOLAN	ATP-binding cassette sub-family G member 8
+TOCOFERSOLAN	ATP-binding cassette sub-family A member 1
+TOCOFERSOLAN	SEC14-like protein 4
+TOCOFERSOLAN	SEC14-like protein 2
+TOCOFERSOLAN	SEC14-like protein 3
+TOCOFERSOLAN	Apolipoprotein B receptor
+AMIFAMPRIDINE	Solute carrier family 22 member 2
+VINFLUNINE	ATP-binding cassette sub-family B member 5
+VINFLUNINE	P-glycoprotein 1
+PITOLISANT	Solute carrier family 22 member 1
+TAFAMIDIS	ATP-binding cassette sub-family G member 2
+TAFAMIDIS	Solute carrier family 22 member 6
+TAFAMIDIS	Solute carrier family 22 member 8
+TUCATINIB	ATP-binding cassette sub-family G member 2
+TUCATINIB	P-glycoprotein 1
+TUCATINIB	Solute carrier family 22 member 2
+TUCATINIB	Multidrug and toxin extrusion protein 1
+TUCATINIB	Multidrug and toxin extrusion protein 2
+LATANOPROSTENE BUNOD	Solute carrier organic anion transporter family member 2B1
+CURCUMIN	P-glycoprotein 1
+DAPRODUSTAT	Solute carrier organic anion transporter family member 1B1
+DAPRODUSTAT	Solute carrier organic anion transporter family member 1B3
+DAPRODUSTAT	Solute carrier family 22 member 6
+DAPRODUSTAT	Solute carrier family 22 member 8
+DAPRODUSTAT	ATP-binding cassette sub-family G member 2
+SELUMETINIB	P-glycoprotein 1
+SELUMETINIB	ATP-binding cassette sub-family G member 2
+NALDEMEDINE	ATP-binding cassette sub-family B member 5
+VOCLOSPORIN	P-glycoprotein 1
+PACRITINIB	P-glycoprotein 1
+PACRITINIB	ATP-binding cassette sub-family G member 2
+PACRITINIB	Solute carrier family 22 member 1
+PACRITINIB	Solute carrier family 22 member 2
+TEZACAFTOR	P-glycoprotein 1
+TEZACAFTOR	ATP-binding cassette sub-family G member 2
+TEZACAFTOR	Solute carrier family 22 member 2
+TEZACAFTOR	Solute carrier family 22 member 6
+TEZACAFTOR	Solute carrier family 22 member 8
+TEZACAFTOR	Solute carrier organic anion transporter family member 1B1
+TEZACAFTOR	Solute carrier organic anion transporter family member 1B3
+ENCORAFENIB	P-glycoprotein 1
+ENCORAFENIB	Solute carrier family 22 member 2
+ENCORAFENIB	ATP-binding cassette sub-family G member 2
+ENCORAFENIB	Solute carrier family 22 member 6
+ENCORAFENIB	Solute carrier family 22 member 8
+ENCORAFENIB	Solute carrier organic anion transporter family member 1B1
+ENCORAFENIB	Solute carrier organic anion transporter family member 1B3
+LASMIDITAN	P-glycoprotein 1
+LASMIDITAN	ATP-binding cassette sub-family G member 2
+LASMIDITAN	Solute carrier family 22 member 1
+LASMIDITAN	Multidrug and toxin extrusion protein 1
+LASMIDITAN	Multidrug and toxin extrusion protein 2
+VONOPRAZAN	P-glycoprotein 1
+CABOTEGRAVIR	Solute carrier family 22 member 6
+CABOTEGRAVIR	Solute carrier family 22 member 8
+CABOTEGRAVIR	P-glycoprotein 1
+CABOTEGRAVIR	ATP-binding cassette sub-family G member 2
+RIFAMYCIN	Solute carrier organic anion transporter family member 1A2
+RIFAMYCIN	Solute carrier organic anion transporter family member 1B1
+RIFAMYCIN	Solute carrier organic anion transporter family member 1B3
+RIFAMYCIN	Solute carrier organic anion transporter family member 2A1
+RIFAMYCIN	Solute carrier organic anion transporter family member 2B1
+RIFAMYCIN	Multidrug and toxin extrusion protein 1
+RIFAMYCIN	P-glycoprotein 1
+ISTRADEFYLLINE	P-glycoprotein 1
+ISTRADEFYLLINE	ATP-binding cassette sub-family G member 2
+ISTRADEFYLLINE	Solute carrier organic anion transporter family member 1B1
+ISTRADEFYLLINE	Solute carrier organic anion transporter family member 1B3
+ISTRADEFYLLINE	Solute carrier family 22 member 6
+ISTRADEFYLLINE	POU domain, class 2, transcription factor 2
+ISTRADEFYLLINE	Multidrug and toxin extrusion protein 1
+ISTRADEFYLLINE	Multidrug and toxin extrusion protein 2
+TALAZOPARIB	P-glycoprotein 1
+TALAZOPARIB	ATP-binding cassette sub-family G member 2
+TENAPANOR	Solute carrier organic anion transporter family member 2B1
+MOMELOTINIB	P-glycoprotein 1
+MOMELOTINIB	ATP-binding cassette sub-family G member 2
+MOMELOTINIB	Solute carrier organic anion transporter family member 1B1
+MOMELOTINIB	Solute carrier organic anion transporter family member 1B3
+TALINOLOL	P-glycoprotein 1
+TALINOLOL	Canalicular multispecific organic anion transporter 1
+CAPMATINIB	P-glycoprotein 1
+CAPMATINIB	Multidrug and toxin extrusion protein 1
+CAPMATINIB	Multidrug and toxin extrusion protein 2
+CAPMATINIB	ATP-binding cassette sub-family G member 2
+NIRAPARIB	ATP-binding cassette sub-family G member 2
+NIRAPARIB	Multidrug and toxin extrusion protein 1
+NIRAPARIB	Multidrug and toxin extrusion protein 2
+NIRAPARIB	P-glycoprotein 1
+FOSTEMSAVIR	P-glycoprotein 1
+FOSTEMSAVIR	ATP-binding cassette sub-family G member 2
+FOSTEMSAVIR	Solute carrier organic anion transporter family member 1B1
+FOSTEMSAVIR	Solute carrier organic anion transporter family member 1B3
+TIVOZANIB	P-glycoprotein 1
+TIVOZANIB	ATP-binding cassette sub-family G member 2
+BARICITINIB	Solute carrier family 22 member 8
+BARICITINIB	ATP-binding cassette sub-family G member 2
+BARICITINIB	Multidrug and toxin extrusion protein 2
+BARICITINIB	Solute carrier family 22 member 6
+BARICITINIB	Solute carrier family 22 member 2
+BARICITINIB	Solute carrier organic anion transporter family member 1B3
+BARICITINIB	P-glycoprotein 1
+NIFURTIMOX	ATP-binding cassette sub-family G member 2
+ERTUGLIFLOZIN	P-glycoprotein 1
+ERTUGLIFLOZIN	ATP-binding cassette sub-family G member 2
+NERATINIB	P-glycoprotein 1
+OSILODROSTAT	Solute carrier organic anion transporter family member 1B1
+OSILODROSTAT	Solute carrier family 22 member 1
+OSILODROSTAT	Solute carrier family 22 member 2
+OSILODROSTAT	Solute carrier family 22 member 6
+OSILODROSTAT	Solute carrier family 22 member 8
+OSILODROSTAT	Multidrug and toxin extrusion protein 1
+RELUGOLIX	P-glycoprotein 1
+RELUGOLIX	ATP-binding cassette sub-family G member 2
+REVEFENACIN	Solute carrier organic anion transporter family member 1B1
+REVEFENACIN	Solute carrier organic anion transporter family member 1B3
+REVEFENACIN	P-glycoprotein 1
+REVEFENACIN	ATP-binding cassette sub-family G member 2
+VALSPODAR	Solute carrier organic anion transporter family member 1B1
+VALSPODAR	Solute carrier organic anion transporter family member 1B3
+VALSPODAR	P-glycoprotein 1
+INFIGRATINIB	P-glycoprotein 1
+INFIGRATINIB	ATP-binding cassette sub-family G member 2
+INFIGRATINIB	Multidrug and toxin extrusion protein 1
+INFIGRATINIB	Bile salt export pump
+INFIGRATINIB	Solute carrier family 22 member 1
+INFIGRATINIB	Solute carrier family 22 member 2
+INFIGRATINIB	Multidrug and toxin extrusion protein 2
+INFIGRATINIB	Solute carrier organic anion transporter family member 1B1
+INFIGRATINIB	Solute carrier organic anion transporter family member 1B3
+APALUTAMIDE	P-glycoprotein 1
+APALUTAMIDE	ATP-binding cassette sub-family G member 2
+APALUTAMIDE	Solute carrier organic anion transporter family member 1B1
+APALUTAMIDE	Solute carrier family 22 member 2
+APALUTAMIDE	Solute carrier family 22 member 8
+APALUTAMIDE	Multidrug and toxin extrusion protein 2
+APALUTAMIDE	Multidrug and toxin extrusion protein 1
+BEMPEDOIC ACID	Solute carrier organic anion transporter family member 1B1
+BEMPEDOIC ACID	Canalicular multispecific organic anion transporter 2
+BEMPEDOIC ACID	Solute carrier organic anion transporter family member 1B3
+SELINEXOR	Solute carrier organic anion transporter family member 1B3
+DELAFLOXACIN	ATP-binding cassette sub-family B member 5
+DELAFLOXACIN	ATP-binding cassette sub-family G member 2
+LEMBOREXANT	P-glycoprotein 1
+DUVELISIB	P-glycoprotein 1
+DUVELISIB	ATP-binding cassette sub-family G member 2
+DACOMITINIB	P-glycoprotein 1
+DACOMITINIB	ATP-binding cassette sub-family G member 2
+DACOMITINIB	Solute carrier family 22 member 1
+BINIMETINIB	ATP-binding cassette sub-family G member 2
+BINIMETINIB	P-glycoprotein 1
+GLASDEGIB	P-glycoprotein 1
+GLASDEGIB	ATP-binding cassette sub-family G member 2
+GLASDEGIB	Multidrug and toxin extrusion protein 1
+GLASDEGIB	Multidrug and toxin extrusion protein 2
+ELAGOLIX	P-glycoprotein 1
+ELAGOLIX	Solute carrier organic anion transporter family member 1B1
+ENTRECTINIB	P-glycoprotein 1
+AVATROMBOPAG	P-glycoprotein 1
+AVATROMBOPAG	ATP-binding cassette sub-family G member 2
+AVATROMBOPAG	Solute carrier family 22 member 8
+ABEMACICLIB	Multidrug and toxin extrusion protein 1
+ABEMACICLIB	Multidrug and toxin extrusion protein 2
+ABEMACICLIB	Solute carrier family 22 member 2
+ABEMACICLIB	ATP-binding cassette sub-family G member 2
+ABEMACICLIB	P-glycoprotein 1
+NIROGACESTAT	P-glycoprotein 1
+FOSTAMATINIB	ATP-binding cassette sub-family G member 2
+FOSTAMATINIB	ATP-binding cassette sub-family B member 5
+ALPELISIB	ATP-binding cassette sub-family G member 2
+ALPELISIB	P-glycoprotein 1
+TECOVIRIMAT	ATP-binding cassette sub-family G member 2
+VOXILAPREVIR	P-glycoprotein 1
+VOXILAPREVIR	ATP-binding cassette sub-family G member 2
+VOXILAPREVIR	Solute carrier organic anion transporter family member 1B1
+VOXILAPREVIR	Solute carrier organic anion transporter family member 1B3
+SARECYCLINE	P-glycoprotein 1
+LETERMOVIR	Solute carrier organic anion transporter family member 1B1
+LETERMOVIR	Solute carrier organic anion transporter family member 1B3
+LETERMOVIR	P-glycoprotein 1
+LETERMOVIR	ATP-binding cassette sub-family G member 2
+LETERMOVIR	Bile salt export pump
+LETERMOVIR	Solute carrier family 22 member 8
+LETERMOVIR	Canalicular multispecific organic anion transporter 1
+TELOTRISTAT ETHYL	P-glycoprotein 1
+GILTERITINIB	P-glycoprotein 1
+GILTERITINIB	Multidrug and toxin extrusion protein 1
+GILTERITINIB	ATP-binding cassette sub-family G member 2
+GILTERITINIB	Solute carrier family 22 member 1
+ERDAFITINIB	P-glycoprotein 1
+ERDAFITINIB	Solute carrier family 22 member 2
+BRINCIDOFOVIR	Solute carrier organic anion transporter family member 1B1
+BRINCIDOFOVIR	Solute carrier organic anion transporter family member 1B3
+BRINCIDOFOVIR	ATP-binding cassette sub-family G member 2
+BRINCIDOFOVIR	Canalicular multispecific organic anion transporter 1
+BRINCIDOFOVIR	Solute carrier family 22 member 6
+BRINCIDOFOVIR	Solute carrier family 22 member 8
+BRINCIDOFOVIR	Bile salt export pump
+CAPIVASERTIB	ATP-binding cassette sub-family G member 2
+CAPIVASERTIB	Solute carrier organic anion transporter family member 1B1
+CAPIVASERTIB	Solute carrier organic anion transporter family member 1B3
+CAPIVASERTIB	Solute carrier family 22 member 8
+CAPIVASERTIB	Multidrug and toxin extrusion protein 1
+CAPIVASERTIB	Multidrug and toxin extrusion protein 2
+CAPIVASERTIB	Solute carrier family 22 member 2
+BEXAGLIFLOZIN	P-glycoprotein 1
+POLATUZUMAB VEDOTIN	P-glycoprotein 1
+EDARAVONE	Solute carrier family 22 member 6
+EDARAVONE	Solute carrier family 22 member 8
+VADADUSTAT	ATP-binding cassette sub-family G member 2
+VADADUSTAT	Solute carrier family 22 member 8
+VADADUSTAT	Solute carrier family 22 member 6
+FEXINIDAZOLE	Solute carrier organic anion transporter family member 1B1
+FEXINIDAZOLE	Solute carrier organic anion transporter family member 1B3
+FEXINIDAZOLE	Solute carrier family 22 member 2
+FEXINIDAZOLE	Solute carrier family 22 member 6
+FEXINIDAZOLE	Solute carrier family 22 member 8
+FEXINIDAZOLE	Multidrug and toxin extrusion protein 1
+FEXINIDAZOLE	Multidrug and toxin extrusion protein 2
+BRIGATINIB	ATP-binding cassette sub-family B member 5
+BRIGATINIB	ATP-binding cassette sub-family G member 2
+BRIGATINIB	Solute carrier family 22 member 1
+BRIGATINIB	Multidrug and toxin extrusion protein 1
+BRIGATINIB	Multidrug and toxin extrusion protein 2
+BENZBROMARONE	Solute carrier organic anion transporter family member 1B1
+BENZBROMARONE	Solute carrier organic anion transporter family member 2B1
+BENZBROMARONE	Bile salt export pump
+RUCAPARIB	P-glycoprotein 1
+RUCAPARIB	ATP-binding cassette sub-family G member 2
+RUCAPARIB	Multidrug and toxin extrusion protein 1
+RUCAPARIB	Multidrug and toxin extrusion protein 2
+RUCAPARIB	Solute carrier family 22 member 1
+RUCAPARIB	Solute carrier organic anion transporter family member 1B1
+RUCAPARIB	Solute carrier organic anion transporter family member 1B3
+RUCAPARIB	Solute carrier family 22 member 6
+RUCAPARIB	Solute carrier family 22 member 8
+RUCAPARIB	Multidrug resistance-associated protein 4
+BETRIXABAN	P-glycoprotein 1
+BETRIXABAN	Potassium voltage-gated channel subfamily H member 2
+RELEBACTAM	Solute carrier family 22 member 8
+RELEBACTAM	Solute carrier family 22 member 11
+RELEBACTAM	Multidrug and toxin extrusion protein 1
+RELEBACTAM	Multidrug and toxin extrusion protein 2
+OMADACYCLINE	P-glycoprotein 1
+RIMEGEPANT	P-glycoprotein 1
+RIMEGEPANT	ATP-binding cassette sub-family G member 2
+RIMEGEPANT	Solute carrier organic anion transporter family member 1B1
+RIMEGEPANT	Solute carrier family 22 member 8
+RIMEGEPANT	Solute carrier organic anion transporter family member 1B3
+RIMEGEPANT	Solute carrier family 22 member 2
+RIMEGEPANT	Multidrug and toxin extrusion protein 1
+FAVIPIRAVIR	P-glycoprotein 1
+FAVIPIRAVIR	Solute carrier family 22 member 6
+FAVIPIRAVIR	Solute carrier family 22 member 8
+FAVIPIRAVIR	Solute carrier family 22 member 12
+IBREXAFUNGERP	P-glycoprotein 1
+IBREXAFUNGERP	Solute carrier organic anion transporter family member 1B3
+COPANLISIB	P-glycoprotein 1
+COPANLISIB	ATP-binding cassette sub-family G member 2
+COPANLISIB	Multidrug and toxin extrusion protein 2
+MIRVETUXIMAB SORAVTANSINE	P-glycoprotein 1
+FEDRATINIB	P-glycoprotein 1
+FEDRATINIB	ATP-binding cassette sub-family G member 2
+FEDRATINIB	Solute carrier organic anion transporter family member 1B1
+FEDRATINIB	Solute carrier organic anion transporter family member 1B3
+FEDRATINIB	POU domain, class 2, transcription factor 2
+FEDRATINIB	Multidrug and toxin extrusion protein 1
+FEDRATINIB	Multidrug and toxin extrusion protein 2
+OMAVELOXOLONE	Solute carrier family 22 member 6
+SAR-405838	P-glycoprotein 1
+SPARSENTAN	P-glycoprotein 1
+SPARSENTAN	ATP-binding cassette sub-family G member 2
+SPARSENTAN	Solute carrier organic anion transporter family member 1B3
+SPARSENTAN	Solute carrier family 22 member 8
+PIPERINE	P-glycoprotein 1
+ASCIMINIB	ATP-binding cassette sub-family G member 2
+ASCIMINIB	P-glycoprotein 1
+ASCIMINIB	Solute carrier organic anion transporter family member 1B1
+ASCIMINIB	Solute carrier organic anion transporter family member 1B3
+ASCIMINIB	Solute carrier family 22 member 1
+NAFAMOSTAT	Solute carrier family 22 member 1
+NAFAMOSTAT	Solute carrier family 22 member 2
+OZANIMOD	Amine oxidase [flavin-containing] B
+OZANIMOD	ATP-binding cassette sub-family G member 2
+OZANIMOD	P-glycoprotein 1
+PLAZOMICIN	Multidrug and toxin extrusion protein 1
+PLAZOMICIN	Multidrug and toxin extrusion protein 2
+LURBINECTEDIN	P-glycoprotein 1
+LURBINECTEDIN	Solute carrier organic anion transporter family member 1B1
+LURBINECTEDIN	Solute carrier organic anion transporter family member 1B3
+LURBINECTEDIN	Solute carrier family 22 member 1
+PILSICAINIDE	Bile salt export pump
+SOTAGLIFLOZIN	P-glycoprotein 1
+SOTAGLIFLOZIN	ATP-binding cassette sub-family G member 2
+SOTAGLIFLOZIN	Solute carrier organic anion transporter family member 1B1
+SOTAGLIFLOZIN	Solute carrier organic anion transporter family member 1B3
+SOTAGLIFLOZIN	Canalicular multispecific organic anion transporter 1
+LANIQUIDAR	P-glycoprotein 1
+LEFAMULIN	P-glycoprotein 1
+GRAPIPRANT	P-glycoprotein 1
+PRADIGASTAT	Solute carrier family 22 member 8
+QUIZARTINIB	P-glycoprotein 1
+QUIZARTINIB	ATP-binding cassette sub-family G member 2
+TAZEMETOSTAT	P-glycoprotein 1
+TAZEMETOSTAT	Multidrug and toxin extrusion protein 1
+TAZEMETOSTAT	Multidrug and toxin extrusion protein 2
+TAZEMETOSTAT	ATP-binding cassette sub-family G member 2
+GALLOPAMIL	P-glycoprotein 1
+DAROLUTAMIDE	ATP-binding cassette sub-family G member 2
+DAROLUTAMIDE	P-glycoprotein 1
+DAROLUTAMIDE	Solute carrier organic anion transporter family member 1B1
+DAROLUTAMIDE	Solute carrier organic anion transporter family member 1B3
+PEXIDARTINIB	Multidrug and toxin extrusion protein 1
+PEXIDARTINIB	Multidrug and toxin extrusion protein 2
+PEXIDARTINIB	Solute carrier organic anion transporter family member 1B1
+PEXIDARTINIB	Solute carrier organic anion transporter family member 1B3
+PEXIDARTINIB	Solute carrier organic anion transporter family member 2B1
+ENFORTUMAB VEDOTIN	P-glycoprotein 1
+OTESECONAZOLE	ATP-binding cassette sub-family G member 2
+MECLOCYCLINE	Outer membrane protein F
+MECLOCYCLINE	Outer membrane porin C
+LUSUTROMBOPAG	P-glycoprotein 1
+LUSUTROMBOPAG	ATP-binding cassette sub-family G member 2
+LEVOSALBUTAMOL	Solute carrier organic anion transporter family member 1B1
+LEVOSALBUTAMOL	Solute carrier organic anion transporter family member 1B3
+FLUCICLOVINE (18F)	Multidrug resistance-associated protein 4
+LEVOMENOL	Solute carrier organic anion transporter family member 1B1
+LEVOMENOL	Solute carrier organic anion transporter family member 1B3
+PARACHLOROPHENOL	Solute carrier organic anion transporter family member 1B3
+INOSITOL	Sodium/myo-inositol cotransporter
+TROLEANDOMYCIN	P-glycoprotein 1
+SULFOBROMOPHTHALEIN	Sodium/bile acid cotransporter
+FERROUS SULFATE ANHYDROUS	Natural resistance-associated macrophage protein 2
+FERROUS SULFATE ANHYDROUS	Solute carrier family 40 member 1
+DIHYDROERGOCRISTINE	Bile salt export pump
+POTASSIUM GLUCONATE	Sodium/potassium-transporting ATPase subunit alpha-1
+POTASSIUM GLUCONATE	Solute carrier family 12 member 1
+POTASSIUM GLUCONATE	Hydrogen potassium ATPase
+GLYCYRRHIZIC ACID	Bile salt export pump
+ACEMETACIN	Multidrug resistance-associated protein 1
+FLUTICASONE	P-glycoprotein 1
+FLUTICASONE	Solute carrier organic anion transporter family member 1B1
+ENASIDENIB	P-glycoprotein 1
+ENASIDENIB	ATP-binding cassette sub-family G member 2
+ENASIDENIB	Solute carrier family 22 member 6
+ENASIDENIB	Solute carrier organic anion transporter family member 1B1
+ENASIDENIB	Solute carrier family 22 member 2
+ENASIDENIB	Solute carrier organic anion transporter family member 1B3
+ENASIDENIB	Solute carrier family 22 member 8
+PIBRENTASVIR	P-glycoprotein 1
+PIBRENTASVIR	ATP-binding cassette sub-family G member 2
+PIBRENTASVIR	Solute carrier organic anion transporter family member 1B1
+PIBRENTASVIR	Solute carrier organic anion transporter family member 1B3
+GLECAPREVIR	P-glycoprotein 1
+GLECAPREVIR	ATP-binding cassette sub-family G member 2
+GLECAPREVIR	Solute carrier organic anion transporter family member 1B1
+GLECAPREVIR	Solute carrier organic anion transporter family member 1B3
+CANDESARTAN	P-glycoprotein 1
+CANDESARTAN	Solute carrier organic anion transporter family member 1B1
+TESTOSTERONE CYPIONATE	Solute carrier organic anion transporter family member 1A2
+TESTOSTERONE CYPIONATE	Solute carrier family 22 member 8
+TESTOSTERONE CYPIONATE	Solute carrier family 22 member 7
+TESTOSTERONE CYPIONATE	P-glycoprotein 1
+TESTOSTERONE CYPIONATE	Sodium/bile acid cotransporter
+TESTOSTERONE CYPIONATE	Solute carrier family 22 member 3
+TESTOSTERONE CYPIONATE	Solute carrier family 22 member 4
+TESTOSTERONE CYPIONATE	ATP-binding cassette sub-family G member 2
+TESTOSTERONE ENANTHATE	Solute carrier organic anion transporter family member 1A2
+TESTOSTERONE ENANTHATE	Solute carrier family 22 member 8
+TESTOSTERONE ENANTHATE	Solute carrier family 22 member 7
+TESTOSTERONE ENANTHATE	P-glycoprotein 1
+TESTOSTERONE ENANTHATE	Sodium/bile acid cotransporter
+TESTOSTERONE ENANTHATE	Solute carrier family 22 member 3
+TESTOSTERONE ENANTHATE	Solute carrier family 22 member 4
+TESTOSTERONE ENANTHATE	ATP-binding cassette sub-family G member 2
+TESTOSTERONE UNDECANOATE	Solute carrier organic anion transporter family member 1A2
+TESTOSTERONE UNDECANOATE	Solute carrier family 22 member 8
+TESTOSTERONE UNDECANOATE	Solute carrier family 22 member 7
+TESTOSTERONE UNDECANOATE	P-glycoprotein 1
+TESTOSTERONE UNDECANOATE	Sodium/bile acid cotransporter
+TESTOSTERONE UNDECANOATE	Solute carrier family 22 member 4
+TESTOSTERONE UNDECANOATE	ATP-binding cassette sub-family G member 2
+TESTOSTERONE UNDECANOATE	Solute carrier family 22 member 2
+TESTOSTERONE UNDECANOATE	Multidrug and toxin extrusion protein 1
+TESTOSTERONE UNDECANOATE	Solute carrier organic anion transporter family member 1B3
+STANOLONE ACETATE	P-glycoprotein 1
+ESTRADIOL ACETATE	Solute carrier family 22 member 2
+ESTRADIOL ACETATE	Solute carrier family 22 member 1
+ESTRADIOL ACETATE	Solute carrier family 22 member 3
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 2B1
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 1A2
+ESTRADIOL ACETATE	Multidrug resistance-associated protein 7
+ESTRADIOL ACETATE	Solute carrier family 22 member 11
+ESTRADIOL ACETATE	ATP-binding cassette sub-family G member 2
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL ACETATE	P-glycoprotein 1
+ESTRADIOL ACETATE	Solute carrier family 22 member 8
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 1C1
+ESTRADIOL ACETATE	Solute carrier organic anion transporter family member 4A1
+ESTRADIOL BENZOATE	Solute carrier family 22 member 2
+ESTRADIOL BENZOATE	Solute carrier family 22 member 1
+ESTRADIOL BENZOATE	Solute carrier family 22 member 3
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 2B1
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 1A2
+ESTRADIOL BENZOATE	Multidrug resistance-associated protein 7
+ESTRADIOL BENZOATE	Solute carrier family 22 member 11
+ESTRADIOL BENZOATE	ATP-binding cassette sub-family G member 2
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL BENZOATE	P-glycoprotein 1
+ESTRADIOL BENZOATE	Solute carrier family 22 member 8
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 1C1
+ESTRADIOL BENZOATE	Solute carrier organic anion transporter family member 4A1
+ESTRADIOL CYPIONATE	Solute carrier family 22 member 2
+ESTRADIOL CYPIONATE	Solute carrier family 22 member 1
+ESTRADIOL CYPIONATE	Solute carrier family 22 member 3
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 2B1
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 1A2
+ESTRADIOL CYPIONATE	Multidrug resistance-associated protein 7
+ESTRADIOL CYPIONATE	Solute carrier family 22 member 11
+ESTRADIOL CYPIONATE	ATP-binding cassette sub-family G member 2
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL CYPIONATE	P-glycoprotein 1
+ESTRADIOL CYPIONATE	Solute carrier family 22 member 8
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 1C1
+ESTRADIOL CYPIONATE	Solute carrier organic anion transporter family member 4A1
+ESTRADIOL DIENANTHATE	Solute carrier family 22 member 2
+ESTRADIOL DIENANTHATE	Solute carrier family 22 member 1
+ESTRADIOL DIENANTHATE	Solute carrier family 22 member 3
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 2B1
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 1A2
+ESTRADIOL DIENANTHATE	Multidrug resistance-associated protein 7
+ESTRADIOL DIENANTHATE	Solute carrier family 22 member 11
+ESTRADIOL DIENANTHATE	ATP-binding cassette sub-family G member 2
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL DIENANTHATE	P-glycoprotein 1
+ESTRADIOL DIENANTHATE	Solute carrier family 22 member 8
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 1C1
+ESTRADIOL DIENANTHATE	Solute carrier organic anion transporter family member 4A1
+ESTRADIOL VALERATE	Solute carrier family 22 member 2
+ESTRADIOL VALERATE	Solute carrier family 22 member 1
+ESTRADIOL VALERATE	Solute carrier family 22 member 3
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 2B1
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 1A2
+ESTRADIOL VALERATE	Multidrug resistance-associated protein 7
+ESTRADIOL VALERATE	Solute carrier family 22 member 11
+ESTRADIOL VALERATE	ATP-binding cassette sub-family G member 2
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 1B1
+ESTRADIOL VALERATE	P-glycoprotein 1
+ESTRADIOL VALERATE	Solute carrier family 22 member 8
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 1B3
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 1C1
+ESTRADIOL VALERATE	Solute carrier organic anion transporter family member 4A1
+BALOXAVIR MARBOXIL	P-glycoprotein 1
+BALOXAVIR MARBOXIL	ATP-binding cassette sub-family G member 2
+ALPHA-TOCOPHEROL ACETATE	Alpha-tocopherol transfer protein
+ALPHA-TOCOPHEROL ACETATE	SEC14-like protein 4
+ALPHA-TOCOPHEROL ACETATE	SEC14-like protein 2
+ALPHA-TOCOPHEROL ACETATE	SEC14-like protein 3
+ALPHA-TOCOPHEROL ACETATE	Apolipoprotein B receptor
+ALPHA-TOCOPHEROL ACETATE	Scavenger receptor class B member 1
+ALPHA-TOCOPHEROL ACETATE	P-glycoprotein 1
+CHOLINE SALICYLATE	Solute carrier family 22 member 2
+CHOLINE SALICYLATE	Solute carrier family 22 member 1
+CHOLINE SALICYLATE	Solute carrier family 22 member 3
+CHOLINE SALICYLATE	Solute carrier family 22 member 5
+CHOLINE SALICYLATE	Solute carrier family 22 member 4
+CHOLINE SALICYLATE	Choline transporter-like protein 1
+CHOLINE SALICYLATE	Choline transporter-like protein 4
+CHOLINE SALICYLATE	Choline transporter-like protein 3
+CHOLINE SALICYLATE	High affinity choline transporter 1
+MEDICAL CANNABIS	Multidrug resistance-associated protein 1
+MEDICAL CANNABIS	ATP-binding cassette sub-family G member 2
+MEDICAL CANNABIS	Equilibrative nucleoside transporter 1
+MEDICAL CANNABIS	P-glycoprotein 1
+NABIXIMOLS	Multidrug resistance-associated protein 1
+NABIXIMOLS	ATP-binding cassette sub-family G member 2
+NABIXIMOLS	Equilibrative nucleoside transporter 1
+VALINOMYCIN	Bile salt export pump
+VALINOMYCIN	P-glycoprotein 1
+HYCANTHONE	P-glycoprotein 1
+CONCANAMYCIN A	P-glycoprotein 1
+DEXVERAPAMIL	P-glycoprotein 1
+EMOPAMIL	P-glycoprotein 1
+LOMERIZINE	P-glycoprotein 1
+TETRANDRINE	P-glycoprotein 1
+DOFEQUIDAR	P-glycoprotein 1
+ONT-093	P-glycoprotein 1
+TENOFOVIR	P-glycoprotein 1
+TENOFOVIR	Solute carrier family 22 member 6
+TENOFOVIR	Solute carrier family 22 member 8
+TENOFOVIR	Multidrug resistance-associated protein 4
+LOXICODEGOL	P-glycoprotein 1
+CALCIUM PHOSPHATE DIHYDRATE	Sodium-dependent phosphate transporter 1
+CALCIUM PHOSPHATE DIHYDRATE	Sodium-dependent phosphate transporter 2
+CALCIUM PHOSPHATE DIHYDRATE	Sodium-dependent phosphate transport protein 2A
+CALCIUM PHOSPHATE DIHYDRATE	Sodium-dependent phosphate transport protein 2B
+CALCIUM PHOSPHATE DIHYDRATE	Sodium-dependent phosphate transport protein 2C
+CALCIUM PHOSPHATE DIHYDRATE	Transient receptor potential cation channel subfamily V member 6
+CALCIUM PHOSPHATE DIHYDRATE	Sodium/calcium exchanger 1
+CALCIUM PHOSPHATE DIHYDRATE	Transient receptor potential cation channel subfamily V member 5
+CALCIUM PHOSPHATE DIHYDRATE	Ryanodine receptor 1
+CALCIUM PHOSPHATE DIHYDRATE	Ryanodine receptor 2
+CALCIUM PHOSPHATE DIHYDRATE	Polycystic kidney disease 2-like 1 protein
+CALCIUM PHOSPHATE DIHYDRATE	Ryanodine receptor 3
+CALCIUM PHOSPHATE DIHYDRATE	Polycystic kidney disease protein 1-like 3
+CALCIUM PHOSPHATE DIHYDRATE	Cation channel sperm-associated protein 1
+CALCIUM PHOSPHATE DIHYDRATE	Voltage-dependent L-type calcium channel
+CALCIUM PHOSPHATE DIHYDRATE	Voltage-dependent P/Q-type calcium channel
+CALCIUM PHOSPHATE DIHYDRATE	Voltage-dependent T-type calcium channel
+CALCIUM PHOSPHATE DIHYDRATE	Voltage-dependent R-type calcium channel
+POTASSIUM	Sodium/potassium-transporting ATPase subunit alpha-1
+POTASSIUM	Solute carrier family 12 member 1
+SODIUM PHOSPHATE, DIBASIC	Sodium-dependent phosphate transporter 1
+SODIUM PHOSPHATE, DIBASIC	Sodium-dependent phosphate transporter 2
+SODIUM PHOSPHATE, DIBASIC	Sodium-dependent phosphate transport protein 2A
+SODIUM PHOSPHATE, DIBASIC	Sodium-dependent phosphate transport protein 2B
+SODIUM PHOSPHATE, DIBASIC	Sodium-dependent phosphate transport protein 2C
+SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM	Sodium-dependent phosphate transporter 1
+SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM	Sodium-dependent phosphate transporter 2
+SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM	Sodium-dependent phosphate transport protein 2A
+SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM	Sodium-dependent phosphate transport protein 2B
+SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM	Sodium-dependent phosphate transport protein 2C
+LITHIUM CARBONATE	Amiloride-sensitive sodium channel subunit alpha
+LITHIUM CARBONATE	Amiloride-sensitive sodium channel subunit beta
+LITHIUM CARBONATE	Amiloride-sensitive sodium channel subunit gamma
+MAGNESIUM	Claudin-16
+MAGNESIUM	Transient receptor potential cation channel subfamily M member 6
+MAGNESIUM	Transient receptor potential cation channel subfamily M member 7
+MAGNESIUM	Solute carrier family 41 member 1
+MAGNESIUM	Solute carrier family 41 member 3
+MAGNESIUM	Magnesium transporter MRS2 homolog, mitochondrial
+TETRAFERRIC TRICITRATE DECAHYDRATE	Natural resistance-associated macrophage protein 2
+TETRAFERRIC TRICITRATE DECAHYDRATE	Solute carrier family 40 member 1
+ZINC CHLORIDE	Zinc transporter 1
+ZINC CHLORIDE	Zinc transporter 2
+ZINC CHLORIDE	Zinc transporter 3
+ZINC CHLORIDE	Zinc transporter 4
+ZINC CHLORIDE	Zinc transporter 6
+ZINC CHLORIDE	Zinc transporter 5
+ZINC CHLORIDE	Zinc transporter 7
+ZINC CHLORIDE	Zinc transporter 8
+ZINC CHLORIDE	Zinc transporter 9
+ZINC CHLORIDE	Zinc transporter 10
+ZINC CHLORIDE	Zinc transporter ZIP1
+ZINC CHLORIDE	Zinc transporter ZIP2
+ZINC CHLORIDE	Zinc transporter ZIP3
+ZINC CHLORIDE	Zinc transporter ZIP4
+ZINC CHLORIDE	Zinc transporter ZIP5
+ZINC CHLORIDE	Zinc transporter ZIP6
+ZINC CHLORIDE	Zinc transporter SLC39A7
+ZINC CHLORIDE	Zinc transporter ZIP8
+ZINC CHLORIDE	Zinc transporter ZIP9
+ZINC CHLORIDE	Zinc transporter ZIP10
+ZINC CHLORIDE	Zinc transporter ZIP11
+ZINC CHLORIDE	Zinc transporter ZIP12
+ZINC CHLORIDE	Zinc transporter ZIP13
+ZINC CHLORIDE	Zinc transporter ZIP14
+HYDROCORTISONE ACEPONATE	P-glycoprotein 1
+HYDROCORTISONE ACEPONATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE ACEPONATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE ACEPONATE	Solute carrier family 22 member 8
+HYDROCORTISONE ACETATE	P-glycoprotein 1
+HYDROCORTISONE ACETATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE ACETATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE ACETATE	Solute carrier family 22 member 8
+HYDROCORTISONE BUTYRATE	P-glycoprotein 1
+HYDROCORTISONE BUTYRATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE BUTYRATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE BUTYRATE	Solute carrier family 22 member 8
+HYDROCORTISONE CYPIONATE	P-glycoprotein 1
+HYDROCORTISONE CYPIONATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE CYPIONATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE CYPIONATE	Solute carrier family 22 member 8
+HYDROCORTISONE PHOSPHATE	P-glycoprotein 1
+HYDROCORTISONE PHOSPHATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE PHOSPHATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE PHOSPHATE	Solute carrier family 22 member 8
+HYDROCORTISONE PROBUTATE	P-glycoprotein 1
+HYDROCORTISONE PROBUTATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE PROBUTATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE PROBUTATE	Solute carrier family 22 member 8
+HYDROCORTISONE VALERATE	P-glycoprotein 1
+HYDROCORTISONE VALERATE	Solute carrier organic anion transporter family member 1A2
+HYDROCORTISONE VALERATE	ATP-binding cassette sub-family G member 2
+HYDROCORTISONE VALERATE	Solute carrier family 22 member 8
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP10
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 7
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 4
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP6
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP5
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP2
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 9
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 1
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 2
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter SLC39A7
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP4
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 3
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 8
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP12
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 5
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 10
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP13
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP8
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP1
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP14
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP3
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP9
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter ZIP11
+ZINC SULFATE, UNSPECIFIED FORM	Zinc transporter 6
+IVOSIDENIB	P-glycoprotein 1
+IVOSIDENIB	Solute carrier family 22 member 8
+PREDNISOLONE PHOSPHATE	Solute carrier organic anion transporter family member 1A2
+PREDNISOLONE PHOSPHATE	P-glycoprotein 1
+PREDNISOLONE PHOSPHATE	Solute carrier family 22 member 8
+CURCUMIN SULFATE	P-glycoprotein 1
+ESTRIOL TRIPROPIONATE	Solute carrier organic anion transporter family member 1A2
+ESTRIOL TRIPROPIONATE	P-glycoprotein 1
+LYPRESSIN	Canalicular multispecific organic anion transporter 1
+DEXAMETHASONE ACETATE	Bile salt export pump
+DEXAMETHASONE ACETATE	P-glycoprotein 1
+DEXAMETHASONE ACETATE	Canalicular multispecific organic anion transporter 1
+DEXAMETHASONE ACETATE	Solute carrier organic anion transporter family member 1A2
+DEXAMETHASONE ACETATE	ATP-binding cassette sub-family G member 2
+DEXAMETHASONE ACETATE	Solute carrier family 22 member 8
+BETAMETHASONE PHOSPHATE	Solute carrier organic anion transporter family member 1A2
+BETAMETHASONE PHOSPHATE	P-glycoprotein 1
+BETAMETHASONE PHOSPHATE	Solute carrier family 22 member 8
+LAROTRECTINIB	P-glycoprotein 1
+LAROTRECTINIB	ATP-binding cassette sub-family G member 2
+CANNABINOL	P-glycoprotein 1
+CANNABINOL	ATP-binding cassette sub-family G member 2
+CANNABINOL	Multidrug resistance-associated protein 1
+POLYMYXIN B	Solute carrier family 15 member 2
+SOLRIAMFETOL	Solute carrier family 22 member 2
+SOLRIAMFETOL	Solute carrier family 22 member 4
+SOLRIAMFETOL	Solute carrier family 22 member 5
+REMDESIVIR	Solute carrier organic anion transporter family member 1B1
+REMDESIVIR	P-glycoprotein 1
+REMDESIVIR	Solute carrier organic anion transporter family member 1B3
+REMDESIVIR	Multidrug and toxin extrusion protein 1
+REMDESIVIR	Bile salt export pump
+REMDESIVIR	Multidrug resistance-associated protein 4
+REMDESIVIR	Sodium/bile acid cotransporter
+RIPRETINIB	P-glycoprotein 1
+RIPRETINIB	ATP-binding cassette sub-family G member 2
+RIPRETINIB	Multidrug and toxin extrusion protein 1
+FILGOTINIB	P-glycoprotein 1
+CEFIDEROCOL	MexAB-OprM efflux system
+CEFIDEROCOL	Catecholate siderophore receptor Fiu
+CEFIDEROCOL	Colicin I receptor
+CEFIDEROCOL	Putative outer membrane ferric siderophore receptor
+VIBEGRON	P-glycoprotein 1
+TRASTUZUMAB DERUXTECAN	P-glycoprotein 1
+TRASTUZUMAB DERUXTECAN	Solute carrier organic anion transporter family member 1B1
+TRASTUZUMAB DERUXTECAN	Solute carrier organic anion transporter family member 1B3
+TRASTUZUMAB DERUXTECAN	Multidrug and toxin extrusion protein 2
+TRASTUZUMAB DERUXTECAN	Multidrug resistance-associated protein 1
+TRASTUZUMAB DERUXTECAN	ATP-binding cassette sub-family G member 2
+ABROCITINIB	P-glycoprotein 1
+ABROCITINIB	Solute carrier family 22 member 1
+ABROCITINIB	Solute carrier family 22 member 8
+UMBRALISIB	P-glycoprotein 1
+AVACOPAN	P-glycoprotein 1
+ZANUBRUTINIB	P-glycoprotein 1
+UPADACITINIB	P-glycoprotein 1
+UPADACITINIB	ATP-binding cassette sub-family G member 2
+UPADACITINIB	Solute carrier organic anion transporter family member 1B1
+GEFAPIXANT	P-glycoprotein 1
+GEFAPIXANT	Multidrug and toxin extrusion protein 1
+GEFAPIXANT	Multidrug and toxin extrusion protein 2
+GEFAPIXANT	ATP-binding cassette sub-family G member 2
+PEMIGATINIB	P-glycoprotein 1
+PEMIGATINIB	ATP-binding cassette sub-family G member 2
+PEMIGATINIB	Solute carrier family 22 member 2
+PEMIGATINIB	Multidrug and toxin extrusion protein 1
+TEPOTINIB	P-glycoprotein 1
+TEPOTINIB	ATP-binding cassette sub-family G member 2
+TEPOTINIB	Solute carrier family 22 member 1
+TEPOTINIB	Solute carrier family 22 member 2
+TEPOTINIB	Multidrug and toxin extrusion protein 1
+TEPOTINIB	Multidrug and toxin extrusion protein 2
+TEPOTINIB	Bile salt export pump
+FUTIBATINIB	P-glycoprotein 1
+FUTIBATINIB	ATP-binding cassette sub-family G member 2
+AVAPRITINIB	P-glycoprotein 1
+AVAPRITINIB	ATP-binding cassette sub-family G member 2
+AVAPRITINIB	Bile salt export pump
+AVAPRITINIB	Multidrug and toxin extrusion protein 1
+AVAPRITINIB	Multidrug and toxin extrusion protein 2
+RISDIPLAM	Multidrug and toxin extrusion protein 1
+RISDIPLAM	Multidrug and toxin extrusion protein 2
+RISDIPLAM	P-glycoprotein 1
+RISDIPLAM	ATP-binding cassette sub-family G member 2
+UBROGEPANT	P-glycoprotein 1
+UBROGEPANT	ATP-binding cassette sub-family G member 2
+UBROGEPANT	Solute carrier organic anion transporter family member 1B1
+UBROGEPANT	Solute carrier organic anion transporter family member 1B3
+UBROGEPANT	Solute carrier family 22 member 6
+UBROGEPANT	Solute carrier family 22 member 2
+PAFOLACIANINE	Solute carrier organic anion transporter family member 1B1
+PAFOLACIANINE	Solute carrier organic anion transporter family member 1B3
+PAFOLACIANINE	Solute carrier family 22 member 6
+TRILACICLIB	Solute carrier family 22 member 2
+TRILACICLIB	Multidrug and toxin extrusion protein 1
+TRILACICLIB	Multidrug and toxin extrusion protein 2
+TRILACICLIB	ATP-binding cassette sub-family G member 2
+TRILACICLIB	P-glycoprotein 1
+ELEXACAFTOR	Solute carrier organic anion transporter family member 1B1
+ELEXACAFTOR	Solute carrier organic anion transporter family member 1B3
+ELEXACAFTOR	P-glycoprotein 1
+VERICIGUAT	P-glycoprotein 1
+VERICIGUAT	ATP-binding cassette sub-family G member 2
+BELZUTIFAN	P-glycoprotein 1
+BELZUTIFAN	Solute carrier organic anion transporter family member 1B1
+BELZUTIFAN	Solute carrier organic anion transporter family member 1B3
+BELZUTIFAN	Multidrug and toxin extrusion protein 2
+PREDNISOLONE ACETATE	Solute carrier organic anion transporter family member 1A2
+PREDNISOLONE ACETATE	P-glycoprotein 1
+ADAGRASIB	P-glycoprotein 1
+SOTORASIB	ATP-binding cassette sub-family G member 2
+SOTORASIB	P-glycoprotein 1
+PADELIPORFIN	Solute carrier organic anion transporter family member 1B1
+PADELIPORFIN	Solute carrier organic anion transporter family member 1B3
+FERRIC MALTOL	Integrin beta-3
+FERRIC MALTOL	Natural resistance-associated macrophage protein 2
+FERRIC DERISOMALTOSE	Transferrin receptor
+LENACAPAVIR	P-glycoprotein 1
+SELPERCATINIB	P-glycoprotein 1
+SELPERCATINIB	ATP-binding cassette sub-family G member 2
+SELPERCATINIB	Multidrug and toxin extrusion protein 1
+ZAVEGEPANT	Solute carrier organic anion transporter family member 1B3
+ZAVEGEPANT	Sodium/bile acid cotransporter
+ZAVEGEPANT	P-glycoprotein 1
+ZAVEGEPANT	Multidrug and toxin extrusion protein 1
+ZAVEGEPANT	Multidrug and toxin extrusion protein 2
+BELANTAMAB MAFODOTIN	Solute carrier organic anion transporter family member 1B1
+BELANTAMAB MAFODOTIN	Solute carrier organic anion transporter family member 1B3
+BELANTAMAB MAFODOTIN	Multidrug resistance-associated protein 1
+BELANTAMAB MAFODOTIN	Canalicular multispecific organic anion transporter 1
+BELANTAMAB MAFODOTIN	Canalicular multispecific organic anion transporter 2
+BELANTAMAB MAFODOTIN	Bile salt export pump
+BELANTAMAB MAFODOTIN	P-glycoprotein 1
+PRALSETINIB	P-glycoprotein 1
+PRALSETINIB	ATP-binding cassette sub-family G member 2
+PRALSETINIB	Solute carrier organic anion transporter family member 1B1
+PRALSETINIB	Solute carrier organic anion transporter family member 1B3
+PRALSETINIB	Solute carrier family 22 member 6
+PRALSETINIB	Multidrug and toxin extrusion protein 1
+PRALSETINIB	Multidrug and toxin extrusion protein 2
+PRALSETINIB	Bile salt export pump
+AGALSIDASE ALFA	Cation-dependent mannose-6-phosphate receptor
+BEROTRALSTAT	P-glycoprotein 1
+BEROTRALSTAT	ATP-binding cassette sub-family G member 2
+ATOGEPANT	Solute carrier organic anion transporter family member 1B1
+ATOGEPANT	Solute carrier organic anion transporter family member 1B3
+ATOGEPANT	Solute carrier family 22 member 6
+ATOGEPANT	ATP-binding cassette sub-family G member 2
+ATOGEPANT	P-glycoprotein 1
+ATOGEPANT	Solute carrier family 22 member 1
+ATOGEPANT	Multidrug and toxin extrusion protein 1
+LENIOLISIB	ATP-binding cassette sub-family G member 2
+LENIOLISIB	Solute carrier organic anion transporter family member 1B1
+LENIOLISIB	Solute carrier organic anion transporter family member 1B3
+LENIOLISIB	P-glycoprotein 1
+LONAPEGSOMATROPIN	P-glycoprotein 1
+LONCASTUXIMAB TESIRINE	P-glycoprotein 1
+MARALIXIBAT	Solute carrier organic anion transporter family member 2B1
+MITAPIVAT	P-glycoprotein 1
+ODEVIXIBAT	P-glycoprotein 1
+OLUTASIDENIB	P-glycoprotein 1
+OLUTASIDENIB	ATP-binding cassette sub-family G member 2
+OLUTASIDENIB	Solute carrier organic anion transporter family member 1B1
+OLUTASIDENIB	Solute carrier organic anion transporter family member 1B3
+OLUTASIDENIB	Solute carrier family 22 member 8
+OLUTASIDENIB	Solute carrier family 22 member 2
+OLUTASIDENIB	Multidrug and toxin extrusion protein 1
+OLUTASIDENIB	Multidrug and toxin extrusion protein 2
+MOBOCERTINIB	P-glycoprotein 1
+MOBOCERTINIB	ATP-binding cassette sub-family G member 2
+FOSDENOPTERIN	Multidrug and toxin extrusion protein 2
+FOSDENOPTERIN	Solute carrier family 22 member 6
+FOSDENOPTERIN	Multidrug and toxin extrusion protein 1
+DEUCRAVACITINIB	P-glycoprotein 1
+DEUCRAVACITINIB	ATP-binding cassette sub-family G member 2
+DEUCRAVACITINIB	Solute carrier family 22 member 1
+DEUCRAVACITINIB	Solute carrier organic anion transporter family member 1B3
+NIRMATRELVIR	P-glycoprotein 1
+BELUMOSUDIL	P-glycoprotein 1
+BELUMOSUDIL	ATP-binding cassette sub-family G member 2
+BELUMOSUDIL	Solute carrier organic anion transporter family member 1B1
+DURLOBACTAM	Solute carrier family 22 member 6
+TISOTUMAB VEDOTIN	P-glycoprotein 1
+REPOTRECTINIB	ATP-binding cassette sub-family G member 2
+REPOTRECTINIB	Multidrug and toxin extrusion protein 2
+REPOTRECTINIB	P-glycoprotein 1
+REPOTRECTINIB	Solute carrier organic anion transporter family member 1B1
+LINZAGOLIX	Solute carrier organic anion transporter family member 1B1
+LINZAGOLIX	Solute carrier organic anion transporter family member 1B3
+LINZAGOLIX	Solute carrier family 22 member 8
+LINZAGOLIX	ATP-binding cassette sub-family G member 2
+LINZAGOLIX	Solute carrier family 22 member 6
+PIRTOBRUTINIB	P-glycoprotein 1
+PIRTOBRUTINIB	ATP-binding cassette sub-family G member 2
