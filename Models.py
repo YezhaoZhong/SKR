@@ -198,16 +198,6 @@ def loadHyperpar(*hyperpars, method_option):
         print(f"The {method_option} requires hyperparameter c, gamma")
         if len(hyperpars) != n_par:
             raise ValueError(f"The number of hyperparameter is {n_par} when using {method_option}. Please reload the hyperparameter list.")
-    elif method_option == "OCCA":
-        n_par = 0
-        print(f"The {method_option} requires no hyperparameter")
-        if len(hyperpars) != n_par:
-            raise ValueError(f"The number of hyperparameter is {n_par} when using {method_option}. You do not need to load a hyperparameter list")
-    elif method_option == "SCCA":
-        n_par = 2
-        print(f"The {method_option} requires hyperparameter alpha")
-        if len(hyperpars) != n_par:
-            raise ValueError(f"The number of hyperparameter is {n_par} when using {method_option}. Please reload the hyperparameter list.")
     elif method_option == "RF":
         n_par = 1
         print(f"The {method_option} requires hyperparameter k")
