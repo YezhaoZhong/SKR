@@ -1,33 +1,41 @@
 #!/usr/bin/env python
 
+# import modules
+
 import pandas as pd
 import networkx as nx
 from networkx.algorithms.bipartite.matrix import biadjacency_matrix
 import numpy as np
-from sklearn.metrics import precision_recall_curve, auc, average_precision_score, roc_auc_score
+from sklearn.metrics import precision_recall_curve, auc
 import random
 from sklearn import metrics
-import time
-from scipy.linalg import inv
 from joblib import Parallel, delayed
 from sklearn.utils import parallel_backend
-from itertools import product
 import warnings
 from Models import runModels, setDist
 from collections import defaultdict
-
 from scipy.spatial.distance import cdist
-
-import matplotlib.pyplot as plt
-# import seaborn as sns
-import numpy as np
-
 
 random.seed(1949)
 np.random.seed(1949)
 
-
 def option(str1, str2, str3):
+    """
+    Define the options as global variables.
+
+    Parameters
+    ----------
+    str1: string
+        String for choosing a prediction method.
+    str2: string
+        String for choosing a tuning metric.
+    str3: string
+        String for choosing CV or Nested CV.
+
+    Returns
+    -------
+    None
+    """
     global methodOption
     global tuningMetrice
     global validationOption
@@ -38,7 +46,23 @@ def option(str1, str2, str3):
 
 
 def Pairs2Mat(path,colname1,colname2,sep = "\t"):
-    
+    """
+    Transfer pairs into matrix form.
+
+    Parameters
+    ----------
+    path: string
+        Path of the data.
+    colname1: string
+        Column name of the first value of the pairs.
+    colname2: string
+        Column name of the second value of the pairs.
+
+    Returns
+    -------
+    matrix_all:
+        Drug*feature or drug*ADR dataframe
+    """
     warnings.filterwarnings("ignore", category=FutureWarning)
     df = pd.read_csv(path,sep=sep,low_memory=False)
     df_nadroped = df[[colname1,colname2]].dropna()
@@ -48,7 +72,7 @@ def Pairs2Mat(path,colname1,colname2,sep = "\t"):
     features_upper = [feature.upper() for feature in features]
 
     edgelist = zip(features_upper, drug_names_upper)
-    ##making Biparite Graph##
+    ###making Biparite Graph###
     B = nx.DiGraph()
     B.add_nodes_from(features_upper,bipartite = 0)
     B.add_nodes_from(drug_names_upper,bipartite = 1)
@@ -59,15 +83,28 @@ def Pairs2Mat(path,colname1,colname2,sep = "\t"):
     drug_nodes.sort()
     feature_nodes = list(feature_nodes)
     feature_nodes.sort()
-    ###Getting the Bi-Adjacency matrix between side effects and drugs ###################
-    matrix_all = biadjacency_matrix(B, row_order = feature_nodes, column_order = drug_nodes) # create biadjacency matrix for drug side effect graph
-    # drug_nodes_upper = [drug_node.upper() for drug_node in drug_nodes]
+    ###Getting the Bi-Adjacency matrix between adr and drugs ###
+    matrix_all = biadjacency_matrix(B, row_order = feature_nodes, column_order = drug_nodes) # create biadjacency matrix for drug adr graph
     matrix_all = pd.DataFrame(matrix_all.A.T, columns=feature_nodes, index=drug_nodes)
     
-    return matrix_all # drug*feature
+    return matrix_all # drug*feature or drug*adr
 
 def FeaturePreprocess(df_all, drug):
-    
+    """
+    Find the intersection drugs of ADR data and feature data.
+
+    Parameters
+    ----------
+    df_all: dataframe
+        Feature data matrix
+    drug: list
+        drug list in the 
+
+    Returns
+    -------
+    featrueMat
+        Array of drug*feature or drug*ADR 
+    """
     drug_nodes_df = np.intersect1d(df_all.index, drug)
     df = df_all.loc[drug_nodes_df]
     _, q = df.shape
@@ -81,91 +118,28 @@ def FeaturePreprocess(df_all, drug):
     return np.array(featureMat)
 
 
-
-def adjFmax(y, y_pred, ic):
-    
-    _, n = y.shape
-    thresholdList = np.arange(0, 1.001, 0.001).tolist()
-    N_thresholdList = len(thresholdList)
-    n_e = np.zeros(N_thresholdList)
-    icI_FN = np.zeros(N_thresholdList)
-    icI_FP = np.zeros(N_thresholdList)
-    icI_TP = np.zeros(N_thresholdList)
-
-    TP = np.zeros(N_thresholdList)
-    TN = np.zeros(N_thresholdList)
-    FP = np.zeros(N_thresholdList)
-    FN = np.zeros(N_thresholdList)
-
-    Obs = y.copy()
-    for i in range(N_thresholdList):
-        Pred = (y_pred >= thresholdList[i])
-        n_e[i] = sum((Pred.sum(axis = 0)) > 0)
-        Result = Pred - Obs
-        Result2 = Pred + Obs
-        FP_col = (Result == 1)
-        FN_col = (Result == -1)
-        TP_col = (Result2 == 2)
-        TN_col = (Result2 == 0)
-
-        icI_FN[i] = sum(ic*(FN_col.sum(axis = 0)))
-        icI_FP[i] = sum(ic*(FP_col.sum(axis = 0)))
-        icI_TP[i] = sum(ic*(TP_col.sum(axis = 0)))
-
-        FP[i] = FP_col.sum()
-        FN[i] = FN_col.sum()
-        TP[i] = TP_col.sum()
-        TN[i] = TN_col.sum()
-
-    pr = np.zeros(N_thresholdList)
-    rc = np.zeros(N_thresholdList)
-
-    for i in range(N_thresholdList):
-        if icI_TP[i] + icI_FP[i] == 0 :
-            pr[i] = 0
-        else:
-            pr[i] = icI_TP[i] / (icI_TP[i] + icI_FP[i])
-
-    rc = icI_TP / (icI_TP + icI_FN)
-
-    F = 2 * pr * rc / (pr + rc + 10e-12)
-    Fmax = max(F[np.where(n_e > 0)])
-
-    accuracy = max((TP+TN)/(TP+TN+FP+FN))
-    return Fmax, accuracy
-
-def accuracy(y, y_pred):
-    thresholdList = np.arange(0, 1.001, 0.001).tolist()
-    N_thresholdList = len(thresholdList)
-
-    TP = np.zeros(N_thresholdList)
-    TN = np.zeros(N_thresholdList)
-    FP = np.zeros(N_thresholdList)
-    FN = np.zeros(N_thresholdList)
-
-    Obs = y.copy()
-    for i in range(N_thresholdList):
-        Pred = (y_pred >= thresholdList[i])
-        Result = Pred - Obs
-        Result2 = Pred + Obs
-        FP_col = (Result == 1)
-        FN_col = (Result == -1)
-        TP_col = (Result2 == 2)
-        TN_col = (Result2 == 0)
-
-        FP[i] = FP_col.sum()
-        FN[i] = FN_col.sum()
-        TP[i] = TP_col.sum()
-        TN[i] = TN_col.sum()
-
-
-
-    accuracy = max((TP+TN)/(TP+TN+FP+FN))
-    return accuracy
-
-
 def fold(idx_train,idx_test,feature_matrix,matrix,par):
+    """
+    Make prediction for the validation set in a fold of CV or in the test set.
 
+    Parameters
+    ----------
+    idx_train: array
+        Rows idx chosen as training set.
+    idx_test: array
+        Rows idx chosen as test set.
+    feature_matrix: array
+        Feature matrix.
+    matrix: array
+        ADR matrix
+    par: list
+        List of hyperparameters.
+
+    Returns
+    -------
+    results: dict
+        Dictionary includes the evaluation metrics
+    """
     print(methodOption + ' starts:')
     X = np.array(feature_matrix[idx_train, :].copy())
     X_new = np.array(feature_matrix[idx_test, :].copy())
@@ -174,12 +148,6 @@ def fold(idx_train,idx_test,feature_matrix,matrix,par):
     y_new = runModels(Y=Y,X=X,X_new=X_new,method_option=methodOption,par=par)
     print(methodOption + ' ends:')
 
-    # warnings.filterwarnings("ignore", category=UserWarning)
-    # warnings.filterwarnings("ignore", category=RuntimeWarning)
-
-    # keys = ["AUPRperdrug", "AUROCperdrug", "F1perdrug", "accuracy", "AUPR", "AUROC", "F1", "accuracy","adj F1 score"]
-    # keys = metrices.keys()
-    # results = {key: 0 for key in keys}
     results = {}
 
     # -----perdrug -----"
@@ -187,33 +155,22 @@ def fold(idx_train,idx_test,feature_matrix,matrix,par):
     ALL_aupr = np.zeros(len(idx_test))
     ALL_auroc = np.zeros(len(idx_test))
     ALL_F1score = np.zeros(len(idx_test))
-    # ALL_accuracy = np.zeros(len(idx_test))
-    # ALL_adj_aupr = np.zeros(len(idx_test))
     for i in range(len(idx_test)):
         if y_gt[i, :].sum() == 0:
             ALL_auroc[i] = np.nan
             ALL_aupr[i] = np.nan
-            # ALL_F1score[i] = np.nan
         elif y_new[i, :].sum() == 0:
             ALL_auroc[i] = 0
             ALL_aupr[i] = np.nan
-            # ALL_F1score[i] = np.nan
         else:
             fpr, tpr, threshold = metrics.roc_curve(y_gt[i, :], y_new[i, :])
             ALL_auroc[i] = auc(fpr, tpr)
             prec, recall, threshold = precision_recall_curve(y_gt[i, :], y_new[i, :])
-            # ALL_F1score[i] = max(2*prec*recall/(prec + recall + 10e-8))
             ALL_aupr[i] = auc(recall, prec)
-        # ALL_adj_aupr[i] = (auc(recall, prec) - Random_AUPR_mean[Ground_Truth[:, idx_test[i]].sum().astype(int)]) # / Random_AUPR_mean[Ground_Truth[:, idx_test[i]].sum().astype(int)]
 
-        # ALL_accuracy[i] = accuracy(Ground_Truth[idx_test[i], :], score[idx_test[i], :])
     results["AUPRperdrug"] = np.nanmean(ALL_aupr)
     results["AUROCperdrug"] = np.nanmean(ALL_auroc)
-    # results["F1perdrug"]= np.nanmean(ALL_F1score)
-    # results["accuracy"] = np.nanmean(ALL_accuracy)
     results["AUPR+AUROCperdrug"] = results["AUPRperdrug"] + results["AUROCperdrug"]
-
-   # ----- overall -----
 
     prec, recall, prthreshold = precision_recall_curve(y_gt.ravel(), y_new.ravel())
     results["AUPR"] = auc(recall, prec)
@@ -223,54 +180,36 @@ def fold(idx_train,idx_test,feature_matrix,matrix,par):
 
     results["AUPR+AUROC"] = results["AUPR"] + results["AUROC"]
 
-
-    # results["F1"] = max(2*prec*recall/(prec + recall + 10e-8))
-
-    # likelihood_obs = y_gt.copy()
-    # ic = - np.log2((likelihood_obs.sum(axis=0) + 1)/(likelihood_obs.shape[0] + 2))
-
-    # results["adj F1 score"], results["accuracy all"] = adjFmax(y=Ground_Truth[idx_test, :], y_pred=score[idx_test, :], ic=ic)
-    # results["adjF1"], _ = adjFmax(y=y_gt, y_pred=y_new, ic=ic)
-
     print("-----------")
     keys = results.keys()
     for key in keys:
         print(f"{key}: {results[key]}")
     print("-----------")
-    
-    # ap = average_precision_score(Ground_Truth[target_idx, :].ravel(), score[target_idx, :].ravel())
-    # print("Average precision:", ap)
-    # print(Ground_Truth[idx_test, :], score[idx_test, :])
-    # Plot the heat map
-    # sns.heatmap(y_gt, cmap='viridis')
-    
-    # # Add labels and title
-    # plt.xlabel('ADRs')
-    # plt.ylabel('drugs')
-    
-    # # Display the plot
-    # row_min = y_new.min(axis=1, keepdims=True)
-    # row_max = y_new.max(axis=1, keepdims=True)
-    
-    # # Normalize each row
-    # normalized_matrix = (y_new - row_min) / (row_max - row_min)
-    # prec, recall, prthreshold = precision_recall_curve(y_gt.ravel(), normalized_matrix.ravel())
-    # print(auc(recall, prec))
-    # plt.show()
-    # sns.heatmap(normalized_matrix, cmap='viridis')
-    
-    # # Add labels and title
-    # plt.xlabel('ADRs')
-    # plt.ylabel('drugs')
-    
-    # # Display the plot
-    # plt.show()
-
 
     return results
 
 def innerfold(idx_train,idx_test,feature_matrix,matrix,par):
+    """
+    Make prediction to tune hyperparameters for the validation set in Nested CV innerfolds or in CV folds.
 
+    Parameters
+    ----------
+    idx_train: array
+        Rows idx chosen as training set.
+    idx_test: array
+        Rows idx chosen as test set.
+    feature_matrix: array
+        Feature matrix.
+    matrix: array
+        ADR matrix.
+    par: list
+        List of hyperparameters.
+
+    Returns
+    -------
+    result: dict
+        Dictionary includes the evaluation metrics
+    """
     X = np.array(feature_matrix[idx_train, :].copy())
     X_new = np.array(feature_matrix[idx_test, :].copy())
     Y = np.array(matrix[idx_train, :].copy())
@@ -306,45 +245,11 @@ def innerfold(idx_train,idx_test,feature_matrix,matrix,par):
         fpr, tpr, rocthreshold = metrics.roc_curve(y_gt.ravel(), y_new.ravel())
         result = auc(fpr, tpr)
     elif tuningMetrice == "AUPR": 
-        # if :
-        #     aupr = 0
-        # if (Ground_Truth[idx_test, :].ravel().sum() + y_new.ravel().sum() == 0):
-        #     result = 0
         if y_new.ravel().sum() == 0:
             result = 0
         else: 
-            # prec, recall, threshold = precision_recall_curve(Ground_Truth[idx_test, :].ravel(), score[idx_test, :].ravel())
             prec, recall, threshold = precision_recall_curve(y_gt.ravel(), y_new.ravel())
             result = auc(recall, prec)
-    # elif tuningMetrice == "adj AUPRperdrug": 
-    #     ALL_aupr = np.zeros(len(idx_test))
-    #     ALL_auroc = np.zeros(len(idx_test))
-    #     for i in range(len(idx_test)):
-    #         if Ground_Truth[idx_test[i], :].sum() + score[idx_test[i], :].sum() == 0:
-    #             ALL_aupr[i] = np.nan
-    #             ALL_auroc[i] = np.nan
-    #             fpr, tpr, threshold = metrics.roc_curve(Ground_Truth[idx_test[i], :], score[idx_test[i], :])
-    #             # a = roc_auc_score(Ground_Truth[idx_test[i], :], score[idx_test[i], :])
-    #             # print("dc auroc", fpr,tpr)
-    #         else:
-    #         # print("----")
-    #         # print(Ground_Truth[:, idx_test[i]].sum())
-    #         # print(score[:, idx_test[i]].sum())
-    #             prec, recall, threshold = precision_recall_curve(Ground_Truth[:, idx_test[i]], score[:, idx_test[i]])
-    #             ALL_aupr[i] = auc(recall, prec)
-    #             # ALL_aupr[i] = (auc(recall, prec) - Random_AUPR_mean[Ground_Truth[:, idx_test[i]].sum().astype(int)]) # / Random_AUPR_mean[Ground_Truth[:, idx_test[i]].sum().astype(int)]
-    #             fpr, tpr, threshold = metrics.roc_curve(Ground_Truth[idx_test[i], :], score[idx_test[i], :])
-    #             ALL_auroc[i] = roc_auc_score(Ground_Truth[idx_test[i], :], score[idx_test[i], :])
-    #             # if (ALL_aupr[i] == 1):
-    #             #     print("auroc", auc(fpr, tpr), a, "aupr" , ALL_aupr[i], "GT", Ground_Truth[:, idx_test[i]], "pred", score[:, idx_test[i]], fpr, tpr, prec, recall)
-
-    #     # if (par[0] == 0.01) & ((par[1] == 0.01)|(par[1] == 0.1)):
-    #     #     print("auroc", np.nanmean(ALL_auroc), "aupr" , np.nanmean(ALL_aupr), par, "\n")
-    #     #     pd.DataFrame(Ground_Truth[idx_test, :]).to_csv(f'GT{par[1]}.tsv', sep='\t')
-    #     #     pd.DataFrame(score[idx_test, :]).to_csv(f'pred{par[1]}.tsv', sep='\t')
-
-
-        # result = np.nanmean(ALL_aupr)
     else:
     
         raise ValueError("Please select a metrice for tuning. Choose AUPRperdrug, AUROCperdrug, AUPR or AUROC.")
@@ -352,16 +257,59 @@ def innerfold(idx_train,idx_test,feature_matrix,matrix,par):
 
 
 def setvar_tune(size, f):
-    # set metric hyper pars and the size is the total number of hyperpar combinations
+    """
+    Set a global variable to store the results of folds (CV) or innerfolds (Nested CV) for the hyperparameter set.
+
+    Parameters
+    ----------
+    size: int
+        The number of hyperparameter combinations.
+    f: int
+        The number of fold.
+
+    Returns
+    -------
+    result: dict
+        Dictionary includes the evaluation metrics for each hyperparameter combination.
+    """
     global ALL_tuning_metrices
     ALL_tuning_metrices = np.zeros((size, f))
 
 def asgvar_tune(idx, f, results):
-    # assign var for nested cv from results
+    """
+    Assign the results of folds (CV) or innerfolds (Nested CV) for the hyperparameter set.
+
+    Parameters
+    ----------
+    idx: int
+        the index of a hyperparameter combination.
+    f: int
+        The index of innerfold of Nested CV.
+    results: dict
+        Dictionary includes the evaluation metrics for each hyperparameter combination.
+
+    Returns
+    -------
+    None
+    """
     ALL_tuning_metrices[idx, f] = results
 
 def tuning_results(tuneVar):
-    # find the best hyperpar combination and its metric value
+    """
+    Find the best combination of hyperparameters within the results of folds (CV) or innerfolds (Nested CV).
+
+    Parameters
+    ----------
+    tuneVar: list
+        List of hyperparameter combinations.
+
+    Returns
+    -------
+    Var: float
+       The best combination of hyperparameters.
+    Value: float
+       The metric of tuned hyperparameters.
+    """
     mean = ALL_tuning_metrices.mean(axis=1)
     idx = np.argmax(mean)
     Var = tuneVar[idx]
@@ -373,144 +321,126 @@ def tuning_results(tuneVar):
     return Var, Value
 
 
-# def setvar_besttune(innerfolds):
-#     # set var for the cv or nested cv to assign the value for each fold or innerfold
-#     global besttunevalue
-#     global besttunevar
-#     besttunevalue = np.zeros(innerfolds) # best metric value
-#     besttunevar = np.zeros(innerfolds) # the value of best var
-#     besttunevar = besttunevar.tolist()
+def setvar_cv():
+    """
+    Define a global variable to store validation results of Nested CV outerfold. 
 
-# def asg_besttune(f, value, var):
-#     # assign var for the cv or nested cv to assign the value for each fold or innerfold
-#     besttunevalue[f] = value
-#     besttunevar[f] = var
+    Parameters
+    ----------
+    None
 
-# def besttune():
-#     # return be best hyperpar
-#     idx = np.argmax(besttunevalue)
-#     value = besttunevalue[idx]
-#     var = besttunevar[idx]
-#     return value, var
-
-def setvar_cv(FOLDS):
-# set var for cv 
+    Returns
+    -------
+    None
+    """
     global metrices
-    # Define the keys for your dictionary
-    # metrice_names = ["AUPR", "AUROC", "F1 score", "accuracy", "AUPR all", "AUROC all", "F1 score all", "accuracy all","adj F1 score"]
-    # Initialize the dictionary with zero vectors for each key
-    # metrices = {metrice_name: np.zeros(FOLDS) for metrice_name in metrice_names}
     metrices = defaultdict(list)
 
-def asgvar_cv(f, results):
-    # assign var for cv from results
-    # f: size of hyper pars
+def asgvar_cv(results):
+    """
+    Assgin validation results of Nested CV outerfold. 
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    None
+    """
     keys = results.keys()
     for key in keys:
         metrices[key].append(results[key])
 
 
 def cv_results():
+    """
+    Print and return validation results of Nested CV. 
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    metrices: dict
+        Dictionary that includes results of all metrics for each fold.
+    """
     keys = metrices.keys()
     for key in keys:
         print(f"Mean {key}: {(np.array(metrices[key])).mean()}, std: {(np.array(metrices[key])).std()}")
     print("-----------")
     return dict(metrices)
 
-# import itertools
 
-# def generate_mean_rd_auprs(y_true):
-#     mean_rd_auprs = []
-#     m, n = y_true.shape
-#     length = n
-#     num_ones = y_true.sum(axis=1).astype(int)
-#     print(m)
-#     for i in range(m):
-#         print(i)
-#         mean_rd_aupr_i = []
-#         # for num_one in range(num_ones[i] + 1):
-#         for length_i in range(length + 1, length + 2):
-#             # indices_combinations = itertools.combinations(range(length), num_one)
-#             indices_combinations = itertools.combinations(range(length), length_i)
-#             aupr = []
-#             for indices in indices_combinations:
-#                 vector = np.zeros(length)
-#                 for index in indices:
-#                     vector[index] = 1
-#                 # print(y_true[i, :])
-#                 # print(vector.astype(int))
-#                 prec, recall, threshold = precision_recall_curve(y_true[i, :], vector)
-                
-#                 aupr.append(auc(recall, prec))
-#                 # fpr, tpr, rocthreshold = metrics.roc_curve(y_true[i, :], vector)
-#                 # auroc = auc(fpr, tpr)
-#                 # print(auc(recall, prec))
-#                 # aupr = auc(recall, prec)
-#             mean_rd_aupr = np.nanmean(aupr)
-#             print(mean_rd_aupr)
-#             mean_rd_aupr_i.append(mean_rd_aupr)
-#         mean_rd_auprs.append(mean_rd_aupr_i)
-#     return mean_rd_auprs
+def tuning_loop(innermatrix, idx_train_inner, idx_test_inner, feature_matrix_inner, hyperparList, i, f):
+    """
+    Define a tuning loop function for parallel computation.
 
-# def generate_mean_rd_auprs(y_true):
-#     mean_rd_auprs = []
-#     m, n = y_true.shape
-#     num_ones = y_true.sum(axis=1).astype(int)
-#     print(len(num_ones))
-#     length = n
-#     for i in range(m):
-#         print(i)
-#         # for num_one in range(num_ones[i] + 1):
-#         indices_combinations = itertools.combinations(range(length), num_ones[i])
-#         aupr = []
-#         for indices in indices_combinations:
-#             vector = np.zeros(length)
-#             for index in indices:
-#                 vector[index] = 1
-#             prec, recall, threshold = precision_recall_curve(y_true[i, :], vector)
-#             aupr.append(auc(recall, prec))
-#             # print(aupr)
-#         mean_rd_aupr = np.nanmean(aupr)
-#         mean_rd_auprs.append(mean_rd_aupr)
-#     return mean_rd_auprs
+    Parameters
+    ----------
+    innermatrix: array
+        ADR matrix.
+    idx_train_inner: array
+        Index of training set.
+    idx_test_inner: array
+        Index of validation set.
+    feature_matrix_inner: array
+        Drug-feature matrix.
+    hyperparList: list
+        List of hyperparameter combinations.
+    i: int
+        the index of a hyperparameter combination.
+    f: int
+        The index of innerfold of Nested CV.
 
-# def generate_mean_rd_auprs(n, num_ones):
-#     warnings.filterwarnings("ignore", category=UserWarning)
-#     warnings.filterwarnings("ignore", category=RuntimeWarning)
-#     np.random.seed(1949)
-#     mean_rd_auprs = []
-#     num_rand = 100
-#     length = n
-#     pred_random = np.random.random((num_rand, n))
-#     mean_rd_auprs = []
-#     # print(num_ones)
-#     for num_one in range(0, num_ones + 1):
-#         # print(num_one)
-#         vector = [1] * num_one + [0] * (length - num_one)
-#         # print(vector)
-#         aupr = []
-#         for i in range(num_rand):
-#             prec, recall, threshold = precision_recall_curve(vector, pred_random[i])
-#             aupr.append(auc(recall, prec))
-#         mean_rd_auprs.append(np.nanmean(aupr))
-
-#     return mean_rd_auprs
-
-
-def tuning_loop(innermatrix, idx_train_inner, idx_test_inner, feature_matrix_inner,  hyperparList, i, f):
-    
+    Returns
+    -------
+    None
+    """
     # print('test set size:', len(idx_test_inner))
     results = innerfold(idx_train_inner,idx_test_inner,feature_matrix=feature_matrix_inner,matrix=innermatrix,par=hyperparList[i])
     asgvar_tune(i, f, results=results)
     # print("------ lmd1: ", l1, "lmd1: ", l2, "sigma: ", s, "------")
 
-def normalization(K):
-    d1 = K.sum(axis=0) + 10e-8
-    d2 = K.sum(axis=1) + 10e-8
-    K_normalized = (K.T / np.sqrt(d2)).T / np.sqrt(d1)
-    return K_normalized
 
 def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfixed=False, Validation=False,  n_jobs=10):
+    """
+    Main function. This function allows two evaluation process, Cross Validation (CV) and Nested CV. Y was first split into training set and test set. Then training set was used for CV or Nested CV. As Nested CV already includes the hyperparameter tuning process, the results would be reliable and no need to use test set; while CV requires to use test set to validate the methods with tuned hyperparameters in training set. 
+
+    Parameters
+    ----------
+    Y: array
+        ADR matrix.
+    X: array
+        Feature matrix.
+    method_option: str
+        Prediction method. (VKR, SKR, KRR, Naive, LNSM_RLN", LNSM_jaccard, RF, BRF, SVM...)
+    tuning_metrice: str
+        Tune metric for CV or Nested CV. (AUPR, AUROC, AUPRperdrug, AUROCperdrug)
+    hyperparList: list
+        List of hyperparameter combinations.
+    hyperparfixed: bool
+        Skip the tuning step or not. If the input of hyperparList is a set of hyperparameters that needs to be tuned then hyperparfixed=False, otherwise, the input of hyperparList is tuned hyperparafixed=True.
+    Validation: str
+        Choose CV or Nested CV (cv, nested_cv).
+    n_jobs: int
+        Number of parallel jobs.
+
+    Returns
+    -------
+    If Validation = 'nested cv'
+        out: dict
+            The results of all metrics for each outer fold.
+        bestHyperParsOut:
+            The tuned hyperparameters for each outer fold.
+
+    If Validation = 'cv'
+        results: dict
+            The results of test set.
+        bestHyperPars: 
+            The tuned hyperparameters for test set.
+    """
     random.seed(1949)
     np.random.seed(1949)
     option(method_option, tuning_metrice, Validation)
@@ -558,17 +488,6 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
     distance_X_all = cdist(featureMat_all, featureMat_all)**2
     distance_Y_all = cdist(matrix_all, matrix_all)**2
 
-    # xsc = normalization(distance_X_all)
-    # # xsc[xsc < 0.001] = 0
-    # ysc = normalization(distance_Y_all)
-    # # ysc[ysc < 0.001] = 0
-
-    # plt.scatter(xsc.ravel(), ysc.ravel(), alpha=0.01)
-    # plt.title('Sample Scatter Plot')
-    # plt.xlabel('K_X')
-    # plt.ylabel('K_Y')
-    # plt.show()
-
 
     drug_nodes_intersect_all = np.array(drug)[non_zero_idx_intersect_all]
     drug_nodes_intersect_validate_diff = np.array(drug)[IDX_validate_diff]
@@ -584,7 +503,7 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
     FOLDS = 5
     innerFOLDS = 4
     ####for test sets####
-    setvar_cv(FOLDS)
+    setvar_cv()
 
     sz = m
     IDX = list(range(sz))
@@ -599,15 +518,7 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
     innerIDX = np.array(innerIDX)
     innerfsz = int(innersz / innerFOLDS)
     inneroffset = 0
-    # setvar_cv(FOLDS=FOLDS)
-    # column_sums_all = np.sum(matrix_all, axis=0)
-    # matrix_all = matrix_all[:, (column_sums_all >= 15)&(column_sums_all < 10000)].copy()
 
-    # column_sums = np.sum(matrix, axis=0)
-    # matrix = matrix[:, (column_sums >= 15)&(column_sums < 10000)].copy()
-
-    # global Random_AUPR_mean
-    # Random_AUPR_mean = generate_mean_rd_auprs(n=n, num_ones=max(matrix_all.sum(axis=1)).astype(int))
     if Validation == "nested_cv":
         bestHyperParsOut=[]
         print("---------- nested cv start ----------")
@@ -634,10 +545,6 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
                     inneroffset = 0 + innerf*innerfsz
                     idx_test_inner = innerIDX[inneroffset:inneroffset + innerfsz]
                     idx_train_inner = innerIDX[np.array(np.setdiff1d(np.arange(len(idx_train)), np.arange(inneroffset,  inneroffset + innerfsz)))]
-                    # print("first few training idx: ", np.sort(idx_train_inner[0:10]))
-                    # print("first few testing idx: ", np.sort(idx_test_inner[0:10]))
-
-
 
                     setDist(dist_X=innerdistance_X[np.ix_(idx_train_inner, idx_train_inner)], dist_Y=innerdistance_Y[np.ix_(idx_train_inner, idx_train_inner)], dist_X_new=innerdistance_X[np.ix_(idx_test_inner, idx_train_inner)])
                     # setDist()
@@ -663,14 +570,13 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
             print('target size:', len(idx_test))
             print("------ best hyper pars: ", bestHyperPars, "------")
             results = fold(idx_train,idx_test,featureMat,matrix,par=bestHyperPars)
-            asgvar_cv(f=f, results=results)
+            asgvar_cv(results=results)
 
         out = cv_results()
         return out, bestHyperParsOut
 
     elif Validation == "cv":
         print("---------- cv start ----------")
-        # setvar_besttune(FOLDS)
 
         setvar_tune(len(hyperparList), f = FOLDS)
         if hyperparfixed == False:
@@ -693,13 +599,8 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
             setDist()
             bestHyperPars = hyperparfixed
 
-        # asg_besttune(f, value=evalValue, var=hyperpars)
-
     
         print("--- tuning end ---")
-        # cv_results()
-        # _, bestHyperPars = besttune()
-        # validation
         idx_test = IDX_validate
         idx_train = IDX_validate_diff
         print('target size:', len(idx_test))
@@ -708,80 +609,3 @@ def evaluation(Y, X, method_option, tuning_metrice, hyperparList=[0], hyperparfi
         return results, bestHyperPars
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
-# def adjFmax(Ground_Truth_mat, score_mat, target_idx):
-    
-#     m, n = Ground_Truth_mat.shape
-
-#     Ground_Truth = (Ground_Truth_mat[target_idx, :].copy()).ravel()
-#     score = (score_mat[target_idx, :].copy()).ravel()
-#     existing_drug_idx = np.setdiff1d(np.arange(m), target_idx)
-#     likelihood_obs = Ground_Truth_mat[existing_drug_idx, :].copy()
-#     ic = - np.log2((likelihood_obs.sum(axis=0) + 1)/(likelihood_obs.shape[0] + 2))
-
-#     sort_idx = np.argsort(-score)
-#     Pre = score[sort_idx].copy()
-#     Gro = Ground_Truth[sort_idx].copy()
-#     ind = np.hstack(np.where(Gro > 0))
-#     thresholdList = np.unique(Pre[ind].copy())
-#     thresholdList = np.hstack(thresholdList.copy())
-#     thresholdList = np.unique(thresholdList)
-#     thresholdList = -np.sort(-thresholdList)
-#     AC_P = len(ind)
-#     AC_N = len(Gro) - AC_P
-#     N_thresholdList = len(thresholdList)
-#     n_e = np.zeros(N_thresholdList)
-#     icI_FN = np.zeros(N_thresholdList)
-#     icI_FP = np.zeros(N_thresholdList)
-#     icI_TP = np.zeros(N_thresholdList)
-
-#     Obs = Ground_Truth_mat[target_idx, :]
-#     for i in range(N_thresholdList):
-#         Pred = (score_mat[target_idx, :] > thresholdList[i])
-#         n_e[i] = sum((Pred.sum(axis = 0)) > 0)
-#         Result = Pred - Obs
-#         Result2 = Pred + Obs
-#         FP_col = (Result == 1)
-#         FN_col = (Result == -1)
-#         TP_col = (Result2 == 2)
-
-#         icI_FN[i] = sum(ic*(FN_col.sum(axis = 0)))
-#         icI_FP[i] = sum(ic*(FP_col.sum(axis = 0)))
-#         icI_TP[i] = sum(ic*(TP_col.sum(axis = 0)))
-
-#     n_e = np.hstack([0, n_e, n])
-
-#     AllN_icI_FN = sum(ic*(Obs.sum(axis = 0)))
-#     AllP_icI_FP = sum(ic*((1 - Obs).sum(axis = 0)))
-#     AllP_icI_TP = AllN_icI_FN
-
-
-#     icI_FN = np.hstack([AllN_icI_FN, icI_FN, 0])
-#     icI_FP = np.hstack([0, icI_FP, AllP_icI_FP])
-#     icI_TP = np.hstack([0, icI_TP, AllP_icI_TP])
-
-#     pr = np.zeros(N_thresholdList + 2)
-#     rc = np.zeros(N_thresholdList + 2)
-#     for i in range(N_thresholdList + 2):
-#         if icI_TP[i] + icI_FP[i] == 0 :
-#             pr[i] = 0
-#         else:
-#             pr[i] = icI_TP[i] / (icI_TP[i] + icI_FP[i])
-
-#     rc = icI_TP / (icI_TP + icI_FN)
-
-#     F = 2 * pr * rc / (pr + rc + 10e-12)
-#     Fmax = max(F[n_e > 0])
-
-#     return Fmax
