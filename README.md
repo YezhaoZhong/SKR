@@ -54,9 +54,8 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 * [time.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/time.ipynb): This file compares the time comsumption of SKR, VKR, KRR, SVM, RF, and BRF making prediction for the hold-out set. 
 
-## Figures
 
-### Toy Data
+## Toy Data (.ipynb files)
 
 #### Input: 
 - None
@@ -70,7 +69,8 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 - [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once.
 - [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice.
 
-### Visualize Effect of Drug Frequencies.
+## Visualize Effect of Drug Frequencies (.ipynb files)
+
 
 #### Input:
 [/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
