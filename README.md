@@ -101,6 +101,6 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 
 ### Code
-
+* We visualized nested CV results with boxplots using SIDER. Methods compared: SKR, VKR, and KRR. ADR frequency groups: <50 ([boxplot_0_50.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_50.ipynb)), <100([boxplot_0_100.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_100.ipynb)), <150 ([boxplot_0_150.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_150.ipynb)), and >50 ([boxplot_50_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_50_all.ipynb)).
 
 ## Visualize Effect of Smoother
