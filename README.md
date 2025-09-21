@@ -94,7 +94,7 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
     * [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV (hold-out set), using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
  
 ### Code:
-[define_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/define_rare.ipynb): We drawed the density plot of the ADR data. Then KRR was used to test how the noise ADRs, the rare ADRs and common ADRs affect the perdiction performance on SIDER.
+[define_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/define_rare.ipynb): We drew the density plot of the ADR data. Then KRR was used to test how the noise ADRs, the rare ADRs and common ADRs affect the perdiction performance on SIDER.
 
 ### Output:
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
@@ -156,7 +156,7 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg.
 
 Metrics - smooth level (c) curves: 
 * [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), [AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUROC_C.jpg), [AUPR+AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR+AUROC_C.jpg).
-* In this case the curve of metric and per drug metric were drawed in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
+* In this case the curve of metric and per drug metric were drew in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
 
 
 
