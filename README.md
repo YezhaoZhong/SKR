@@ -55,8 +55,9 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
     * B: all, rare.
     * C: pathway, Chem, DGI, indication, target, transporter, enzyme.
     * D: AUPR, AUROC, AUPRperdrug, AUROCperdrug, AUPR+AUROC, AUPR+AUROCperdrug.
+    * For example, the p-value of method comparison in rare ADRs of SIDER, using the pathway feature, and under the metric AUPR: [pvalue_SIDER_rare_pathway_AUPR.xlsx](https://github.com/YezhaoZhong/SKR/blob/main/results/pvalue_SIDER_rare_pathway_AUPR.xlsx)
 
-* [SVM_RF.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/SVM_RF.ipynb): SVM, RF and BRF is not competitive as the others and time consuming. Therefore, we run them seperately to reduce the tuning time of [mainSIDER_all.ipynb] and [mainOFFSIDES_all.ipynb].
+* [SVM_RF.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/SVM_RF.ipynb): SVM, RF and BRF is not competitive as the others and time consuming. Therefore, we run them seperately to reduce the tuning time of [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb) and [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb).
     * Output 1. [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features.
 
 * [time.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/time.ipynb):This file compares the runtime of SKR, VKR, KRR, SVM, RF, and BRF on the hold-out set.
@@ -102,5 +103,10 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 ### Code
 * We visualized nested CV results with boxplots using SIDER. Methods compared: SKR, VKR, and KRR. ADR frequency groups: <50 ([boxplot_0_50.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_50.ipynb)), <100([boxplot_0_100.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_100.ipynb)), <150 ([boxplot_0_150.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_150.ipynb)), and >50 ([boxplot_50_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_50_all.ipynb)).
+
+
+### Output:
+[/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
+
 
 ## Visualize Effect of Smoother
