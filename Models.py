@@ -5,19 +5,11 @@ from scipy.spatial.distance import cdist
 from itertools import product
 from sklearn.neighbors import NearestNeighbors
 from sklearn.linear_model import Ridge
-import numpy.linalg as LA
 from sklearn.svm import SVR
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import make_pipeline
 from sklearn.decomposition import NMF
-from scipy.linalg import svd
 from sklearn.ensemble import RandomForestRegressor
 from joblib import Parallel, delayed
 from sklearn.utils import parallel_backend
-from sklearn.linear_model import LinearRegression
-import time
-import functools
 
 def setDist(dist_X=None, dist_Y=None, dist_X_new=None):
     """
@@ -80,13 +72,6 @@ def runModels(Y,X,X_new,method_option,par=None):
         model.fit(X=X,Y=Y)
         y_new = model.predict(X_new=X_new)
         return y_new
-    elif method_option == "KR":
-        lmd = par[0]
-        sigma_X = par[1]
-        model = KR(lmd=lmd,sigma_X=sigma_X)
-        model.fit(X=X,Y=Y)
-        y_new = model.predict(X_new=X_new)
-        return y_new
     elif method_option == "KRR":
         lmd = par[0]
         sigma_X = par[1]
@@ -135,8 +120,8 @@ def runModels(Y,X,X_new,method_option,par=None):
         model.fit(X, Y)
         y_new = model.predict(X_new)
         return y_new
-    elif method_option == "TNMF":
-        return TNMF(Y=Y,X=X,X_new=X_new,par=par)
+    # elif method_option == "TNMF":
+    #     return TNMF(Y=Y,X=X,X_new=X_new,par=par)
     else:
         raise ValueError(f"{method_option} is not one of the models.")
     
