@@ -60,7 +60,7 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 * [SVM_RF.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/SVM_RF.ipynb): SVM, RF and BRF is not competitive as the others and time consuming. Therefore, we run them seperately to reduce the tuning time of [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb) and [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb).
     * Output 1. [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features.
 
-* [time.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/time.ipynb):This file compares the runtime of SKR, VKR, KRR, SVM, RF, and BRF on the hold-out set.
+* [time.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/time.ipynb): This file compares the runtime of SKR, VKR, KRR, SVM, RF, and BRF on the hold-out set.
 
 
 
@@ -107,6 +107,10 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 ### Output:
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
+Boxplots of the results of Nested CV with different metrics used: A_B.jpg.
+* A: AUPR, AUROC, AUPRperdrug, AUROCperdrug, AUPR+AUROC, AUPR+AUROCperdrug.
+* B: 0_50, 0_100, 0_150, 50_all.
+* For example, the boxplots of AUPR, evaluating the ADRs that has frequencies < 50: [AUPR_0_50.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_0_50.jpg)
 
 
 ## Visualize Effect of Smoother
