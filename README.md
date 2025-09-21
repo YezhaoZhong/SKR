@@ -100,7 +100,7 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
 * [SIDER_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/SIDER_rare.jpg): The distribution of ADRs on SIDER, with frequencies < 50 highlighted.
 * [OFFSIDES_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/OFFSIDES_rare.jpg): The distribution of ADRs on OFFSIDES, with frequencies < 50 highlighted.
-* [define_tau.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/define_tau.jpg): AUROC - tau curve of the na\"ive method and KRR, where tau is the threshold of noise ADRs.
+* [define_tau.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/define_tau.jpg): AUROC - tau curve of the naive method and KRR, where tau is the threshold of noise ADRs.
 
 
 ## Visualize Effect of Drug Frequencies (.ipynb files)
