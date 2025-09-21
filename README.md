@@ -5,9 +5,21 @@ Code for Smoothed Kernel Regression (SKR)
 
 
 ## .ipynb files and .py files
-The .ipynb files are generating the results for Adverse Drug Reaction (ADR) profile predictions. We developed SKR and compared it with series of advanced methods. .py files contain functions for Nested Cross-Validation (CV) and CV. A toy data was designed to justify and clarify how SKR functions on the ADR data. We also learn how SKR affects the prediction of common ADRs and rare ADRs and how the strength of smoother in SKR affects the performance. 
+The .ipynb files are generating the results for Adverse Drug Reaction (ADR) profile predictions. We developed SKR and compared it with series of advanced methods. .py files contain functions for Nested Cross-Validation (CV) and CV. CV was used to tuned the hyperparameter for hold-out set. A toy data was designed to justify and clarify how SKR functions on the ADR data. We also learn how SKR affects the prediction of common ADRs and rare ADRs and how the strength of smoother in SKR affects the performance. 
 
-
+Required modules:
+- pandas
+- networkx
+- numpy
+- sklearn
+- joblib
+- warnings
+- collections
+- scipy
+- seaborn
+- matplotlib
+- json
+- itertools
 
 
 ## Functions (.py files)
@@ -56,18 +68,18 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 
 ### Code:
-* Running Nested CV and CV (hold-out set) on SIDER (or OFFSIDES) with all (or rare) ADR data used: [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb), [mainSIDER_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_rare.ipynb), [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb), [mainOFFSIDES_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_rare.ipynb).
+* Running Nested CV and CV on SIDER (or OFFSIDES) with all (or rare) ADR data used: [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb), [mainSIDER_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_rare.ipynb), [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb), [mainOFFSIDES_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_rare.ipynb).
     * Output 1. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) Formated results: A_results_B_C.xlsx.
-        * A: cv, nested_cv.
+        * A: cv, nested_cv (cv is the results of hold-out set using hyperparameter tuned in CV).
         * B: SIDER, OFFSIDES.
         * C: all, rare.
-        * For example, the results of Nested CV on predicting rare ADRs of SIDER: [nested_cv_results_SIDER_rare.xlsx](https://github.com/YezhaoZhong/SKR/blob/main/results/nested_cv_results_SIDER_rare.xlsx)
+        * For example, the results of Nested CV on predicting rare ADRs of SIDER: [nested_cv_results_SIDER_rare.xlsx](https://github.com/YezhaoZhong/SKR/blob/main/results/nested_cv_results_SIDER_rare.xlsx).
     * Output 2. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) Raw results in dictionary: results_A_B.xml.
         * A: SIDER, OFFSIDES.
         * B: all, rare.
         * For example, the results of Nested CV on predicting rare ADRs of SIDER for all methods: [results_SIDER_rare.xml](https://github.com/YezhaoZhong/SKR/blob/main/results/results_SIDER_rare.xml)
     * Output 3. [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
-    * Output 4. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) P-values of method comparison: pvalue_A_B_C_D.xlsx.
+    * Output 4. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) P-values of pairwise paired t-test for method comparison: pvalue_A_B_C_D.xlsx.
         * A: SIDER, OFFSIDES.
         * B: all, rare.
         * C: pathway, Chem, DGI, indication, target, transporter, enzyme.
