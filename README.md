@@ -133,7 +133,7 @@ Required modules:
     * [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features. 
 
 
-### Code
+### Code:
 We visualized nested CV results with boxplots using SIDER. Methods compared: SKR, VKR, and KRR. ADR frequency groups: <50 ([boxplot_0_50.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_50.ipynb)), <100([boxplot_0_100.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_100.ipynb)), <150 ([boxplot_0_150.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_0_150.ipynb)), and >50 ([boxplot_50_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/boxplot_50_all.ipynb)).
 
 
@@ -160,7 +160,7 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg.
     * [drug_indication.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_indication.tsv): Drug-indication pairs from SIDER.
 
 
-### Code
+### Code:
 [smoother_function.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/smoother_function.ipynb): We studied how the strength the smoother affects the prediction performance, using the DGI feature and SIDER as ADR data.
 
 ### Output: 
@@ -171,4 +171,13 @@ Metrics - smooth level (c) curves:
 * In this case the curve of metric and per drug metric were drew in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
 
 
+
+## Author
+Yezhao Zhong, 
+Cathal Seoighe, 
+Haixuan Yang
+
+## License
+
+This project is licensed. See [LICENSE](https://github.com/YezhaoZhong/SKR/blob/main/LICENSE) file for details.
 
