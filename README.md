@@ -18,6 +18,24 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 
 
+## Toy Data (.ipynb files)
+
+
+### Input: 
+- None
+
+#### Code:
+[toydata.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/toydata.ipynb): The smoother of SKR was adopted to a toy ADR data with common and rare ADR defined. The smoothed ADR data was visualized to show how the smoother works by heatmap.
+
+#### Output: 
+[/figs/](https://github.com/YezhaoZhong/SKR/tree/main/figs)
+- [heatmapY.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapY.jpg): Heatmap of origin ADR toy data.
+- [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once.
+- [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice.
+
+
+
+
 ## ADR Profile Prediction for All ADRs and Rare ADRs (.ipynb files)
 
 
@@ -37,7 +55,7 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
     * [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV (hold-out set), using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
 
 
-### Code
+### Code:
 * Running Nested CV and CV (hold-out set) on SIDER (or OFFSIDES) with all (or rare) ADR data used: [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb), [mainSIDER_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_rare.ipynb), [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb), [mainOFFSIDES_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_rare.ipynb).
     * Output 1. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) Formated results: A_results_B_C.xlsx.
         * A: cv, nested_cv.
@@ -64,22 +82,25 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
 
 
 
-## Toy Data (.ipynb files)
+## Define Rare ADRs (.ipynb files)
 
+### Input:
+[/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
+* ADR data
+    * [drug_se.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_se.tsv): Drug-ADR pairs from SIDER.
+    * [OFFSIDES.csv](https://github.com/YezhaoZhong/SKR/blob/main/data/OFFSIDES.csv): Drug-ADR pairs from OFFSIDES.
+* Feature data
+    * [interactions.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/interactions.tsv): Drug-gene interactions from DGIdb.
+    * [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV (hold-out set), using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
+ 
+### Code:
+[define_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/define_rare.ipynb): We drawed the density plot of the ADR data. Then KRR was used to test how the noise ADRs, the rare ADRs and common ADRs affect the perdiction performance on SIDER.
 
-### Input: 
-- None
-
-#### Code
-[toydata.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/toydata.ipynb): The smoother of SKR was adopted to a toy ADR data with common and rare ADR defined. The smoothed ADR data was visualized to show how the smoother works by heatmap.
-
-#### Output: 
-[/figs/](https://github.com/YezhaoZhong/SKR/tree/main/figs)
-- [heatmapY.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapY.jpg): Heatmap of origin ADR toy data.
-- [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once.
-- [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice.
-
-
+### Output:
+[/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
+* [SIDER_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/SIDER_rare.jpg): The distribution of ADRs on SIDER, with frequencies < 50 highlighted.
+* [OFFSIDES_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/OFFSIDES_rare.jpg): The distribution of ADRs on OFFSIDES, with frequencies < 50 highlighted.
+* [define_tau.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/define_tau.jpg): AUROC - tau curve of the na\"ive method and KRR, where tau is the threshold of noise ADRs.
 
 
 ## Visualize Effect of Drug Frequencies (.ipynb files)
@@ -136,7 +157,6 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg.
 Metrics - smooth level (c) curves: 
 * [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), [AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUROC_C.jpg), [AUPR+AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR+AUROC_C.jpg).
 * In this case the curve of metric and per drug metric were drawed in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
-
 
 
 
