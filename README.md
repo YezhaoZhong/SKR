@@ -133,7 +133,7 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg.
 ### Output: 
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
 
-metrics - smooth level (c) curves: 
+Metrics - smooth level (c) curves: 
 * [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), [AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUROC_C.jpg), [AUPR+AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR+AUROC_C.jpg).
 * In this case the curve of metric and per drug metric were drawed in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
 
