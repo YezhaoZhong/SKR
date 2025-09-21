@@ -51,11 +51,11 @@ The .ipynb files are generating the results for Adverse Drug Reaction (ADR) prof
         * For example, the results of Nested CV on predicting rare ADRs of SIDER for all methods: [results_SIDER_rare.xml](https://github.com/YezhaoZhong/SKR/blob/main/results/results_SIDER_rare.xml)
     * Output 3. [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
     * Output 4. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) P-values of method comparison: pvalue_A_B_C_D.xlsx.
-    * A: SIDER, OFFSIDES.
-    * B: all, rare.
-    * C: pathway, Chem, DGI, indication, target, transporter, enzyme.
-    * D: AUPR, AUROC, AUPRperdrug, AUROCperdrug, AUPR+AUROC, AUPR+AUROCperdrug.
-    * For example, the p-value of method comparison in rare ADRs of SIDER, using the pathway feature, and under the metric AUPR: [pvalue_SIDER_rare_pathway_AUPR.xlsx](https://github.com/YezhaoZhong/SKR/blob/main/results/pvalue_SIDER_rare_pathway_AUPR.xlsx)
+        * A: SIDER, OFFSIDES.
+        * B: all, rare.
+        * C: pathway, Chem, DGI, indication, target, transporter, enzyme.
+        * D: AUPR, AUROC, AUPRperdrug, AUROCperdrug, AUPR+AUROC, AUPR+AUROCperdrug.
+        * For example, the p-value of method comparison in rare ADRs of SIDER, using the pathway feature, and under the metric AUPR: [pvalue_SIDER_rare_pathway_AUPR.xlsx](https://github.com/YezhaoZhong/SKR/blob/main/results/pvalue_SIDER_rare_pathway_AUPR.xlsx)
 
 * [SVM_RF.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/SVM_RF.ipynb): SVM, RF and BRF is not competitive as the others and time consuming. Therefore, we run them seperately to reduce the tuning time of [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb) and [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb).
     * Output 1. [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV, using different features.
