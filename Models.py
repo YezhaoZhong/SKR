@@ -68,14 +68,14 @@ def runModels(Y,X,X_new,method_option,par=None):
         c = par[1]
         sigma_X = par[2]
         sigma_Y = par[3]
-        model = SmoothedKR(lmd=lmd,c=c,sigma_X=sigma_X,sigma_Y=sigma_Y)
+        model = SmoothedKR(lmd=lmd,c=c,sigma_X=sigma_X,sigma_Y=sigma_Y,loaddist=loaddist)
         model.fit(X=X,Y=Y)
         y_new = model.predict(X_new=X_new)
         return y_new
     elif method_option == "KRR":
         lmd = par[0]
         sigma_X = par[1]
-        model = KRR(lmd=lmd,sigma_X=sigma_X)
+        model = KRR(lmd=lmd,sigma_X=sigma_X,loaddist=loaddist)
         model.fit(X=X,Y=Y)
         y_new = model.predict(X_new=X_new)
         return y_new
@@ -209,7 +209,7 @@ class SmoothedKR:
     """
     Smoothed Kernel Regression (SKR).
     """
-    def __init__(self, lmd, c, sigma_X, sigma_Y):
+    def __init__(self, lmd, c, sigma_X, sigma_Y, loaddist=False):
         """
         Initialize the hyperparmeters
 
@@ -228,6 +228,7 @@ class SmoothedKR:
         self.c = c
         self.sigma_X = sigma_X
         self.sigma_Y = sigma_Y
+        self.loaddist = loaddist
 
     def normalization(self, K):
         """
@@ -289,7 +290,7 @@ class SmoothedKR:
         self.X = X
         n,_ = X.shape # size of known drug
         Lmd = np.diag(np.ones(n)*self.lmd)
-        if loaddist == True:
+        if self.loaddist == True:
             K_X = (np.exp(-distance_X/self.sigma_X**2))
             K_Y = (np.exp(-distance_Y/self.sigma_Y**2))
         else:
@@ -313,7 +314,7 @@ class SmoothedKR:
         y_new: array
             Predicted values.
         """
-        if loaddist == True:
+        if self.loaddist == True:
             K_new = (np.exp(-distance_X_new/self.sigma_X**2))
         else:
             K_new = (np.exp(-cdist(X_new, self.X)**2/self.sigma_X**2))
@@ -349,7 +350,7 @@ class KRR:
     """
     Kernel Ridge Regression (KRR)
     """
-    def __init__(self, lmd, sigma_X):
+    def __init__(self, lmd, sigma_X, loaddist=False):
         """
         Initialize the hyperparmeters
 
@@ -362,6 +363,7 @@ class KRR:
         """
         self.lmd = lmd
         self.sigma_X = sigma_X
+        self.loaddist = loaddist
     
     def fit(self, X, Y):
         """
@@ -382,7 +384,7 @@ class KRR:
         self.X = X
         n,_ = X.shape # size of known drug
         Lmd = np.diag(np.ones(n)*self.lmd)
-        if loaddist == True:
+        if self.loaddist == True:
             K_X = (np.exp(-distance_X/self.sigma_X**2))
         else:
             K_X = (np.exp(-cdist(X, X)**2/self.sigma_X**2))
@@ -403,7 +405,7 @@ class KRR:
         y_new: array
             Predicted values.
         """
-        if loaddist == True:
+        if self.loaddist == True:
             K_new = (np.exp(-distance_X_new/self.sigma_X**2))
         else:
             K_new = (np.exp(-cdist(X_new, self.X)**2/self.sigma_X**2))
