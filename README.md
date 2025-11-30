@@ -45,6 +45,7 @@ Required modules:
 - [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once.
 - [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice.
 - [heatmapVKR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapVKR.jpg): Heatmap of example prediction using VKR.
+- [heatmapKRR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapKRR.jpg): Heatmap of example prediction using KR.
 
 
 
