@@ -5,7 +5,7 @@ Code for Smoothed Kernel Regression (SKR)
 
 
 ## .ipynb files and .py files
-The .ipynb files are generating the results for Adverse Drug Reaction (ADR) profile predictions. We developed SKR and compared it with series of advanced methods. .py files contain functions for Nested Cross-Validation (CV) and CV. CV was used to tuned the hyperparameter for hold-out set. A toy data was designed to justify and clarify how SKR functions on the ADR data. We also learn how SKR affects the prediction of common ADRs and rare ADRs and how the strength of smoother in SKR affects the performance. 
+The .ipynb files are generating the results for Adverse Drug Reaction (ADR) profile predictions. We developed SKR and compared it with series of advanced methods. .py files contain functions for Nested Cross-Validation (CV) and CV. CV was used to tuned the hyperparameter for hold-out set. A toy data was designed to justify and clarify how SKR functions on the ADR data. We also learn how SKR affects the prediction of common ADRs and rare ADRs and how the strength of smoother in SKR affects the performance. We also used this toy data to show the limitation of VKR, our previous study.
 
 Required modules:
 - pandas
@@ -44,6 +44,7 @@ Required modules:
 - [heatmapY.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapY.jpg): Heatmap of origin ADR toy data.
 - [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once.
 - [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice.
+- [heatmapVKR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapVKR.jpg): Heatmap of example prediction using VKR.
 
 
 
