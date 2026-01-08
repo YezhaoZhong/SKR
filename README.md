@@ -20,6 +20,9 @@ Required modules:
 - matplotlib
 - json
 - itertools
+- xml
+- request
+- rdkit
 
 
 ## Functions (.py files)
@@ -96,7 +99,7 @@ Required modules:
 
 
 
-## Define Rare ADRs (.ipynb files)
+## Define Rare ADRs (.ipynb file)
 
 ### Input:
 [/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
@@ -151,7 +154,7 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg (Figur
 
 
 
-## Visualize Effect of Smoother
+## Visualize Effect of Smoother (.ipynb files)
 
 
 ### Input:
@@ -173,6 +176,41 @@ Metrics - smooth level (c) curves (Figure 5):
 * In this case the curve of metric and per drug metric were drew in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
 
 
+
+## \*\Data Preprocess and Update (.ipynb files)
+
+This section only for updating data and generating data from raw data. If there is not requirement of using the latest data, please skip this section and use data in [/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/).
+
+The following data were downloaded directly from the website:
+- SIDER 4.1 (including ADRs and indications) can be downloaded from: http://sideeffects.embl.de/. 
+- OFFSIDES is provided at: https://tatonettilab.org/offsides/.
+- DGIdb is available at: https://www.dgidb.org/. 
+
+And the following data need the provided code to generate:
+Data from DrugBank including drug-related transporters, enzymes, and targets are extract from the DrugBank xml file downloaded from: [https://go.drugbank.com/releases/latest](https://go.drugbank.com/releases/5-1-12). 
+The Chemical structure fingerprints were downloaded via API: https://pubchem.ncbi.nlm.nih.gov/.  
+Drug-related pathways can be accessed via API from: https://www.genome.jp/kegg/. 
+
+### Input: 
+[/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
+
+* ADR data (Drug-ADR data was only used to generate the drug list used for API)
+    * [drug_se.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_se.tsv): Drug-ADR pairs from SIDER.
+    * [OFFSIDES.csv](https://github.com/YezhaoZhong/SKR/blob/main/data/OFFSIDES.csv): Drug-ADR pairs from OFFSIDES.
+
+* DrugBank raw data
+    * [full database.xml]([https://go.drugbank.com/releases/latest](https://go.drugbank.com/releases/5-1-12)): xml file for DrugBank. This file contains all the information from DrugBank. Because of the size of the data, this file was not uploaded to github.
+
+### Code:
+[newData.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/newData.ipynb): Code for generating drug-tranporter pairs, drug-enzyme pairs, drug-target pairs and chemical structure fingerprint.
+
+### Output:
+[/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
+    * [drug_target.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_target.tsv): Drug-target pairs fetched from DrugBank.
+    * [drug_transporter.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_transporter.tsv): Drug-transporter pairs loaded from DrugBank.
+    * [drug_enzyme.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_enzyme.tsv): Drug-enzyme pairs fetched from DrugBank.
+    * [drug_chemsfp.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_chemsfp.tsv): Chemical structure fingerprint downloaded from PubChem.
+    * [drug_pathway.tsv](https://github.com/YezhaoZhong/SKR/blob/main/data/drug_pathway.tsv): Drug-pathway pairs from KEGG.
 
 ## Author
 Yezhao Zhong, 
