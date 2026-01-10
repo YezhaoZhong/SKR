@@ -111,7 +111,7 @@ Required modules:
     * [hyperpars.xml](https://github.com/YezhaoZhong/SKR/blob/main/data/hyperpars.xml): Tuned hyperparameters for each method in Nested CV and CV (hold-out set), using different features. This file works as input when you want to skip the tuning step and used the tuned hyperparameters.
  
 ### Code:
-[define_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/define_rare.ipynb): We drew the density plot of the ADR data. Then KRR was used to test how the noise ADRs, the rare ADRs and common ADRs affect the perdiction performance on SIDER.
+[define_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/define_rare.ipynb): We drew the density plot of the ADR data. We compared the severity levels of the rarest and most common ADRs in SIDER (Table S 9). Then KRR was used to test how the noise ADRs, the rare ADRs and common ADRs affect the perdiction performance on SIDER.
 
 ### Output:
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
