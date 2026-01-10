@@ -44,11 +44,11 @@ Required modules:
 
 #### Output: 
 [/figs/](https://github.com/YezhaoZhong/SKR/tree/main/figs)
-- [heatmapY.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapY.jpg): Heatmap of origin ADR toy data (Figure 2 A and Supplementary I Figure S 3 A).
+- [heatmapY.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapY.jpg): Heatmap of origin ADR toy data (Figure 2 A and Figure S 3 A).
 - [heatmapYS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYS.jpg): Heatmap of the ADR toy data smoothed once (Figure 2 B).
 - [heatmapYSS.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapYSS.jpg): Heatmap of the ADR toy data smoothed twice (Figure 2 C).
-- [heatmapVKR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapVKR.jpg): Heatmap of example prediction using VKR (Supplementary I Figure S 3 C).
-- [heatmapKRR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapKRR.jpg): Heatmap of example prediction using KR (Supplementary I Figure S 3 D).
+- [heatmapVKR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapVKR.jpg): Heatmap of example prediction using VKR (Figure S 3 C).
+- [heatmapKRR.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/heatmapKRR.jpg): Heatmap of example prediction using KR (Figure S 3 D).
 
 
 
@@ -74,7 +74,7 @@ Required modules:
 
 ### Code:
 * Running Nested CV and CV on SIDER (or OFFSIDES) with all (or rare) ADR data used: [mainSIDER_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_all.ipynb), [mainSIDER_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainSIDER_rare.ipynb), [mainOFFSIDES_all.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_all.ipynb), [mainOFFSIDES_rare.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/mainOFFSIDES_rare.ipynb).
-    * Output 1. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) Formated results: A_results_B_C.xlsx (Table 1, Table 2, Table 3, Table 4, Supplementary D Table S 1, Table S 2, Table S 3 and Table S 4 and Supplementary E Table S 5, Table S 6, Table S 7 and Table S 8).
+    * Output 1. [/results/](https://github.com/YezhaoZhong/SKR/tree/main/results) Formated results: A_results_B_C.xlsx (Table 1, Table 2, Table 3, Table 4, Table S 1, Table S 2, Table S 3, Table S 4, Table S 5, Table S 6, Table S 7 and Table S 8).
         * A: cv, nested_cv (cv is the results of hold-out set using hyperparameter tuned in CV).
         * B: SIDER, OFFSIDES.
         * C: all, rare.
@@ -115,9 +115,9 @@ Required modules:
 
 ### Output:
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
-* [SIDER_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/SIDER_rare.jpg): The distribution of ADRs on SIDER, with frequencies < 50 highlighted (Figure 6 A).
-* [OFFSIDES_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/OFFSIDES_rare.jpg): The distribution of ADRs on OFFSIDES, with frequencies < 50 highlighted (Figure 6 B).
-* [define_tau.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/define_tau.jpg): AUROC - tau curve of the naive method and KRR, where tau is the threshold of noise ADRs (Figure 3).
+* [SIDER_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/SIDER_rare.jpg): The distribution of ADRs on SIDER, with frequencies < 50 highlighted (Figure S 6 A).
+* [OFFSIDES_rare.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/OFFSIDES_rare.jpg): The distribution of ADRs on OFFSIDES, with frequencies < 50 highlighted (Figure S 6 B).
+* [define_tau.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/define_tau.jpg): AUROC - tau curve of the naive method and KRR, where tau is the threshold of noise ADRs (Figure S 4).
 
 
 ## Visualize Effect of Drug Frequencies (.ipynb files)
@@ -145,7 +145,7 @@ We visualized nested CV results with boxplots using SIDER. Methods compared: SKR
 ### Output:
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
 
-Boxplots of the results of Nested CV with different metrics used: A_B.jpg (Figure 4, Supplementary A Figure S 1 and Supplementary B Figure S 2).
+Boxplots of the results of Nested CV with different metrics used: A_B.jpg (Figure 3, Figure S 1 and Figure S 2).
 * A: AUPR, AUROC, AUPRperdrug, AUROCperdrug, AUPR+AUROC, AUPR+AUROCperdrug.
 * B: 0_50, 0_100, 0_150, 50_all.
 * For example, the boxplots of AUPR, evaluating the ADRs that has frequencies < 50: [AUPR_0_50.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_0_50.jpg).
@@ -171,7 +171,7 @@ Boxplots of the results of Nested CV with different metrics used: A_B.jpg (Figur
 ### Output: 
 [/figs/](https://github.com/YezhaoZhong/SKR/blob/main/figs/)
 
-Metrics - smooth level (c) curves (Figure 5): 
+Metrics - smooth level (c) curves (Figure S 5): 
 * [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), [AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUROC_C.jpg), [AUPR+AUROC-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR+AUROC_C.jpg).
 * In this case the curve of metric and per drug metric were drew in the same plot. For example, in [AUPR-C.jpg](https://github.com/YezhaoZhong/SKR/blob/main/figs/AUPR_C.jpg), curve of AUPR-c and AUPRperdrug are included.
 
