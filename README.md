@@ -202,7 +202,7 @@ Drug-related pathways can be accessed via API from: https://www.genome.jp/kegg/.
     * [full database.xml](https://go.drugbank.com/releases/5-1-12): xml file for DrugBank. This file contains all the information from DrugBank. Because of the size of the data, this file was not uploaded to github.
 
 ### Code:
-[newData.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/newData.ipynb): Code for generating drug-tranporter pairs, drug-enzyme pairs, drug-target pairs and chemical structure fingerprint.
+[newData.ipynb](https://github.com/YezhaoZhong/SKR/blob/main/newData.ipynb): Code for generating drug-tranporter pairs, drug-enzyme pairs, drug-target pairs and chemical structure fingerprints.
 
 ### Output:
 [/data/](https://github.com/YezhaoZhong/SKR/blob/main/data/)
